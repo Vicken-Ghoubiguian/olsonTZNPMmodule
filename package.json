@@ -1,0 +1,22 @@
+{
+  "name": "olsontznpmmodule",
+  "version": "1.0.0",
+  "description": "NPM module written in JavaScript to get, treat and return datetime for all timezones",
+  "main": "olsonTZNPMmodule.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vicken-Ghoubiguian/olsonTZNPMmodule.git"
+  },
+  "author": "wicken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vicken-Ghoubiguian/olsonTZNPMmodule/issues"
+  },
+  "homepage": "https://github.com/Vicken-Ghoubiguian/olsonTZNPMmodule#readme",
+  "dependencies": {
+    "moment-timezone": "^0.5.32"
+  }
+}
