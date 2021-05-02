@@ -479,9 +479,16 @@ function getCountryCodeFromTimezone(wishedTimezone) {
 	return wishedCountryCode;
 }
 
+// Definition of the 'getDatTimeFromTimezone' function to return date and time from a specified timezone called 'wishedTimezone' as an argument...
+function getDatTimeFromTimezone(wishedTimezone) {
+
+
+}
+
 // Export the 'timezones' array and the 'moment' object...
 module.exports = {
 	'timezones': timezones,
 	'getCountryCodeFromTimezone': getCountryCodeFromTimezone,
+	'getDatTimeFromTimezone': getDatTimeFromTimezone,
 	'moment': moment
 }
