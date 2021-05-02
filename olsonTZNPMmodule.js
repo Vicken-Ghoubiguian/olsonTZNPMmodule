@@ -479,10 +479,31 @@ function getCountryCodeFromTimezone(wishedTimezone) {
 	return wishedCountryCode;
 }
 
-// Definition of the 'getDatTimeFromTimezone' function to return date and time from a specified timezone called 'wishedTimezone' as an argument...
-function getDatTimeFromTimezone(wishedTimezone) {
+// Definition of the 'getDatTimeFromTimezone' function to return date and time from  passed as an argument...
+function getDatTimeFromTimezone(wishedTimezones) {
 
+	//
+	var wishedTimezonesMoments = {};
 
+	//
+	for(var i = 0; i < wishedTimezones.length; i++)
+	{
+		//
+		for(var j = 0; j < timezones.length; j++)
+		{
+			if(wishedTimezones[i] === timezones[j].timezone)
+			{
+
+				//
+				wishedTimezonesMoments[timezones[j].timezone] = timezones[j].moment;
+
+				// Leaving the second loop...
+				break;
+			}
+		}
+	}
+
+	return wishedTimezonesMoments;
 }
 
 // Export the 'timezones' array and the 'moment' object...
