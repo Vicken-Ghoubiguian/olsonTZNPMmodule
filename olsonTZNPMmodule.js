@@ -480,7 +480,7 @@ function getCountryCodeFromTimezone(wishedTimezone) {
 }
 
 // Definition of the 'getDatTimeFromTimezones' function to return date and time from an array containing all wished timezones named 'wishedTimezonesArray' passed as an argument...
-function getDatTimeFromTimezones(wishedTimezonesArray) {
+function getDatTimeFromListOfTimezones(wishedTimezonesArray) {
 
 	// Definition of the 'wishedTimezonesMomentsAssociativeArray' variable which will contain all moments for every wished timezones...
 	var wishedTimezonesMomentsAssociativeArray = {};
@@ -509,6 +509,6 @@ function getDatTimeFromTimezones(wishedTimezonesArray) {
 // Export the 'timezones' array and the 'moment' object...
 module.exports = {
 	'getCountryCodeFromTimezone': getCountryCodeFromTimezone,
-	'getDatTimeFromTimezones': getDatTimeFromTimezones,
+	'getDatTimeFromListOfTimezones': getDatTimeFromListOfTimezones,
 	'moment': moment
 }
