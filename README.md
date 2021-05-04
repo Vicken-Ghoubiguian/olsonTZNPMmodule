@@ -8,7 +8,7 @@ This is an NPM module written in JavaScript to get, treat and return datetime fo
 
 2. [How to use it ?](#how_to_use_it)
 
-3. [A little example](#a_little_example)
+3. [Little examples](#little_examples)
 
 4. [A few usefull links](#a_few_links)
 
@@ -20,8 +20,8 @@ This is an NPM module written in JavaScript to get, treat and return datetime fo
 <a name="how_to_use_it"></a>
 ## How to use it ?
 
-<a name="a_little_example"></a>
-## A little example
+<a name="little_examples"></a>
+## Little examples
 
 For several timezones:
 
