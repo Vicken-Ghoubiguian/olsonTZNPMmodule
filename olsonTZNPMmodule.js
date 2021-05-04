@@ -476,11 +476,12 @@ function getCountryCodeFromTimezone(wishedTimezone) {
 		}
 	}
 
+	//
 	return wishedCountryCode;
 }
 
-// Definition of the 'getDatTimeFromTimezones' function to return date and time from an array containing all wished timezones named 'wishedTimezonesArray' passed as an argument...
-function getDatTimeFromListOfTimezones(wishedTimezonesArray) {
+// Definition of the 'getDatTimeFromTimezones' function to return date and time (in a format specified by the 'dateAndTimeFormat' variable) from an array containing all wished timezones named 'wishedTimezonesArray' passed as an argument...
+function getDatTimeFromListOfTimezones(wishedTimezonesArray, dateAndTimeFormat = "X") {
 
 	// Definition of the 'wishedTimezonesMomentsAssociativeArray' variable which will contain all moments for every wished timezones...
 	var wishedTimezonesMomentsAssociativeArray = {};
@@ -495,7 +496,7 @@ function getDatTimeFromListOfTimezones(wishedTimezonesArray) {
 			if(wishedTimezonesArray[i] === timezones[j].timezone) {
 
 				//
-				wishedTimezonesMomentsAssociativeArray[timezones[j].timezone] = timezones[j].moment;
+				wishedTimezonesMomentsAssociativeArray[timezones[j].timezone] = timezones[j].moment.format(dateAndTimeFormat);
 
 				// Leaving the second loop...
 				break;
@@ -503,6 +504,7 @@ function getDatTimeFromListOfTimezones(wishedTimezonesArray) {
 		}
 	}
 
+	//
 	return wishedTimezonesMomentsAssociativeArray;
 }
 
