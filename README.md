@@ -23,6 +23,22 @@ This is an NPM module written in JavaScript to get, treat and return datetime fo
 <a name="little_examples"></a>
 ## Little examples
 
+For one timezone:
+
+```js
+// import the 'olsonTZNPMmodule' module...
+var olsonTZNPMmodule = require('olsonTZNPMmodule');
+
+// defining the 'wishedTimezonesArray' array which contains all wished timezones we want their current datetime...
+var wishedTimezonesArray = ['Europe/Paris'];
+
+// getting datetime from all wished timezones stocked in the 'wishedTimezonesArray' array...
+var olsonArray = olsonTZNPMmodule.getDatTimeFromListOfTimezones(wishedTimezonesArray);
+
+// display the 'olsonArray' associative array which contains all returning timezones as key and they current datetime as values...
+console.log(olsonArray);
+```
+
 For several timezones:
 
 ```js
