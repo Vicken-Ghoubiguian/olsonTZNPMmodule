@@ -29,11 +29,8 @@ For one timezone:
 // import the 'olsonTZNPMmodule' module...
 var olsonTZNPMmodule = require('olsonTZNPMmodule');
 
-// defining the 'wishedTimezonesArray' array which contains all wished timezones we want their current datetime...
-var wishedTimezonesArray = ['Europe/Paris'];
-
-// getting datetime from all wished timezones stocked in the 'wishedTimezonesArray' array...
-var olsonArray = olsonTZNPMmodule.getDatTimeForMultipleTimezones(wishedTimezonesArray);
+//
+var olsonArray = olsonTZNPMmodule.getDateTimeForOneTimezone('Europe/Paris');
 
 // display the 'olsonArray' associative array which contains all returning timezones as key and they current datetime as values...
 console.log(olsonArray);
