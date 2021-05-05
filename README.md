@@ -33,7 +33,7 @@ var olsonTZNPMmodule = require('olsonTZNPMmodule');
 var wishedTimezonesArray = ['Europe/Paris'];
 
 // getting datetime from all wished timezones stocked in the 'wishedTimezonesArray' array...
-var olsonArray = olsonTZNPMmodule.getDatTimeFromListOfTimezones(wishedTimezonesArray);
+var olsonArray = olsonTZNPMmodule.getDatTimeForMultipleTimezones(wishedTimezonesArray);
 
 // display the 'olsonArray' associative array which contains all returning timezones as key and they current datetime as values...
 console.log(olsonArray);
@@ -49,7 +49,7 @@ var olsonTZNPMmodule = require('olsonTZNPMmodule');
 var wishedTimezonesArray = ['Europe/Paris', 'Europe/Moscow'];
 
 // getting datetime from all wished timezones stocked in the 'wishedTimezonesArray' array...
-var olsonArray = olsonTZNPMmodule.getDatTimeFromListOfTimezones(wishedTimezonesArray);
+var olsonArray = olsonTZNPMmodule.getDatTimeForMultipleTimezones(wishedTimezonesArray);
 
 // display the 'olsonArray' associative array which contains all returning timezones as key and they current datetime as values...
 console.log(olsonArray);

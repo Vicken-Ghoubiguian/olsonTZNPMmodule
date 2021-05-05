@@ -456,8 +456,8 @@ var timezones = [
 	{timezone: "Pacific/Wallis", country_code: "WF", moment: moment.tz("Pacific/Wallis")}
 ];
 
-// Definition of the 'getCountryCodeFromTimezone' function to identify and return the country code of the 'wishedTimezone' timezone...
-function getCountryCodeFromTimezone(wishedTimezone) {
+// Definition of the 'getCountryCodeFromOneTimezone' function to identify and return the country code of the 'wishedTimezone' timezone...
+function getCountryCodeFromOneTimezone(wishedTimezone) {
 
 	// Definition of the 'wishedCountryCode' variable which will contain the found country code...
 	var wishedCountryCode = "";
@@ -480,8 +480,8 @@ function getCountryCodeFromTimezone(wishedTimezone) {
 	return wishedCountryCode;
 }
 
-// Definition of the 'getDatTimeFromTimezones' function to return date and time (in a format specified by the 'dateAndTimeFormat' variable) from an array containing all wished timezones named 'wishedTimezonesArray' passed as an argument...
-function getDatTimeFromListOfTimezones(wishedTimezonesArray, dateAndTimeFormat = "X") {
+// Definition of the 'getDatTimeForMultipleTimezones' function to return date and time (in a format specified by the 'dateAndTimeFormat' variable) from an array containing all wished timezones named 'wishedTimezonesArray' passed as an argument...
+function getDatTimeForMultipleTimezones(wishedTimezonesArray, dateAndTimeFormat = "X") {
 
 	// Definition of the 'wishedTimezonesMomentsAssociativeArray' variable which will contain all moments for every wished timezones...
 	var wishedTimezonesMomentsAssociativeArray = {};
@@ -510,7 +510,7 @@ function getDatTimeFromListOfTimezones(wishedTimezonesArray, dateAndTimeFormat =
 
 // Export the 'timezones' array and the 'moment' object...
 module.exports = {
-	'getCountryCodeFromTimezone': getCountryCodeFromTimezone,
-	'getDatTimeFromListOfTimezones': getDatTimeFromListOfTimezones,
+	'getCountryCodeFromOneTimezone': getCountryCodeFromOneTimezone,
+	'getDatTimeForMultipleTimezones': getDatTimeForMultipleTimezones,
 	'moment': moment
 }
