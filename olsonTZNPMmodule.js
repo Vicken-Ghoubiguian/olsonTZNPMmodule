@@ -510,7 +510,7 @@ function getDatTimeForMultipleTimezones(wishedTimezonesArray, dateAndTimeFormat 
 
 // Export the 'timezones' array and the 'moment' object...
 module.exports = {
+	
 	'getCountryCodeFromOneTimezone': getCountryCodeFromOneTimezone,
-	'getDatTimeForMultipleTimezones': getDatTimeForMultipleTimezones,
-	'moment': moment
+	'getDatTimeForMultipleTimezones': getDatTimeForMultipleTimezones
 }
