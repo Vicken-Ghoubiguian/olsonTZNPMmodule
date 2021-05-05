@@ -508,9 +508,16 @@ function getDatTimeForMultipleTimezones(wishedTimezonesArray, dateAndTimeFormat 
 	return wishedTimezonesMomentsAssociativeArray;
 }
 
+// 
+function getDateTimeForOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
+
+
+}
+
 // Export all defined functions to extract datas from timezones...
 module.exports = {
 
 	'getCountryCodeFromOneTimezone': getCountryCodeFromOneTimezone,
-	'getDatTimeForMultipleTimezones': getDatTimeForMultipleTimezones
+	'getDatTimeForMultipleTimezones': getDatTimeForMultipleTimezones,
+	'getDateTimeForOneTimezone': getDateTimeForOneTimezone
 }
