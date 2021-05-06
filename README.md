@@ -6,6 +6,20 @@ This is an NPM module written in JavaScript to get, treat and return datetime fo
 
 1. [What is this project ?](#what_is_this_project)
 
+This project consists to develop an NPM module written in JavaScript to get, treat and return datetime for all timezones.
+
+This NPM module is composed of 1 array and 4 functions in total. They are presented right here:
+
+*
+
+*
+
+*
+
+*
+
+*
+
 2. [How to use it ?](#how_to_use_it)
 
 3. [Little examples](#little_examples)
