@@ -511,7 +511,25 @@ function getDatTimeForMultipleTimezones(wishedTimezonesArray, dateAndTimeFormat 
 // 
 function getDateTimeForOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 
+	//
+	var wishedTimezoneMomentAssociativeArray = {};
 
+	//
+	for(var i = 0; i < wishedTimezonesArray.length; i++)
+	{
+		//
+		if(wishedTimezonesArray[i] === wishedTimezone) {
+
+				//
+				wishedTimezoneMomentAssociativeArray[wishedTimezonesArray[i].timezone] = wishedTimezonesArray[i].moment.format(dateAndTimeFormat);
+
+				// Leaving the loop...
+				break;
+		}
+	}
+
+	//
+	return wishedTimezoneMomentAssociativeArray;
 }
 
 // Export all defined functions to extract datas from timezones...
