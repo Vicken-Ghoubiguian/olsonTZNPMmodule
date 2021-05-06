@@ -508,10 +508,10 @@ function getDatTimeForMultipleTimezones(wishedTimezonesArray, dateAndTimeFormat 
 	return wishedTimezonesMomentsAssociativeArray;
 }
 
-// 
+// Definition of the 'getDateTimeForOneTimezone' function to return date and time (in a format specified by the 'dateAndTimeFormat' variable) from string containing the wished timezone named 'wishedTimezone' passed as an argument...
 function getDateTimeForOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 
-	//
+	// Definition of the 'wishedTimezonesMomentsAssociativeArray' variable which will contain all moments for every wished timezones...
 	var wishedTimezoneMomentAssociativeArray = {};
 
 	//
