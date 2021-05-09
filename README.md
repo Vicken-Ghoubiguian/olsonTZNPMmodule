@@ -8,6 +8,12 @@ This is an NPM module written in JavaScript to get, treat and return datetime fo
 
 2. [How to use it ?](#how_to_use_it)
 
+  * [From locally...]()
+  
+  * [From GitHub...]()
+  
+  * [From NPM...]()
+
 3. [Little examples](#little_examples)
 
 4. [A few usefull links](#a_few_links)
