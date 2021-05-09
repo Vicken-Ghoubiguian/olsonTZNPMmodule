@@ -40,6 +40,15 @@ This NPM module is composed of 1 array and 4 functions in total. They are presen
 <a name="how_to_use_it"></a>
 ## How to use it ?
 
+<a name=""></a>
+### From locally...
+
+<a name=""></a>
+### From GitHub...
+
+<a name=""></a>
+### From NPM...
+
 <a name="little_examples"></a>
 ## Little examples
 
