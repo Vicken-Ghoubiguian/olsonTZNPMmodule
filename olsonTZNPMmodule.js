@@ -5,8 +5,8 @@ var moment = require('moment-timezone');
 var timezones = [
 
 	//Universal and conventional timezones...
-	{timezone: "Etc/UTC", country_code: "NaNC", moment: moment.tz("Etc/UTC")},
-	{timezone: "Etc/GMT", country_code: "NaNC", moment: moment.tz("Etc/GMT")},
+	{timezone: "Etc/UTC", country_code: "No country", moment: moment.tz("Etc/UTC")},
+	{timezone: "Etc/GMT", country_code: "No country", moment: moment.tz("Etc/GMT")},
 
 	//African timezones...
 	{timezone: "Africa/Abidjan", country_code: "CI", moment: moment.tz("Africa/Abidjan")},
