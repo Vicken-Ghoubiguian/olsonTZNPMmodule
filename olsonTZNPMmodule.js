@@ -456,6 +456,11 @@ var timezones = [
 	{timezone: "Pacific/Wallis", country_code: "WF", moment: moment.tz("Pacific/Wallis")}
 ];
 
+// Definition of the 'getCountryCodeForMultipleTimezones' function to identify and return the country code of all wished timezones in the 'wishedTimezonesArray' array...
+function getCountryCodeForMultipleTimezones(wishedTimezonesArray) {
+
+}
+
 // Definition of the 'getCountryCodeFromOneTimezone' function to identify and return the country code of the 'wishedTimezone' timezone...
 function getCountryCodeFromOneTimezone(wishedTimezone) {
 
@@ -535,6 +540,7 @@ function getDateTimeForOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 // Export all defined functions to extract datas from timezones...
 module.exports = {
 
+	'getCountryCodeForMultipleTimezones': getCountryCodeForMultipleTimezones, 
 	'getCountryCodeFromOneTimezone': getCountryCodeFromOneTimezone,
 	'getDatTimeForMultipleTimezones': getDatTimeForMultipleTimezones,
 	'getDateTimeForOneTimezone': getDateTimeForOneTimezone
