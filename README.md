@@ -8,11 +8,11 @@ This is an NPM module written in JavaScript to get, treat and return datetime fo
 
 2. [How to use it ?](#how_to_use_it)
 
-  * [From locally...]()
+  * [From locally...](#from_locally)
   
-  * [From GitHub...]()
+  * [From GitHub...](#from_github)
   
-  * [From NPM...]()
+  * [From NPM...](#from_npm)
 
 3. [Little examples](#little_examples)
 
@@ -40,13 +40,13 @@ This NPM module is composed of 1 array and 4 functions in total. They are presen
 <a name="how_to_use_it"></a>
 ## How to use it ?
 
-<a name=""></a>
+<a name="from_locally"></a>
 ### From locally...
 
-<a name=""></a>
+<a name="from_github"></a>
 ### From GitHub...
 
-<a name=""></a>
+<a name="from_npm"></a>
 ### From NPM...
 
 <a name="little_examples"></a>
