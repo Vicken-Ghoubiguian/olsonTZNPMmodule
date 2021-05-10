@@ -8,11 +8,11 @@ This is an NPM module written in JavaScript to get, treat and return datetime fo
 
 2. [How to use it ?](#how_to_use_it)
 
-  * [From locally...](#from_locally)
+    * [From locally...](#from_locally)
   
-  * [From GitHub...](#from_github)
+    * [From GitHub...](#from_github)
   
-  * [From NPM...](#from_npm)
+    * [From NPM...](#from_npm)
 
 3. [Little examples](#little_examples)
 
