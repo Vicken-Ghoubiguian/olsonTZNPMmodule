@@ -40,6 +40,8 @@ This NPM module is composed of 1 array and 4 functions in total. They are presen
 <a name="how_to_use_it"></a>
 ## How to use it ?
 
+There are 3 ways to use this NPM module. Here they are:
+
 <a name="from_locally"></a>
 ### From locally...
 
