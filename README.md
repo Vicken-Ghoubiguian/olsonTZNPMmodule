@@ -45,9 +45,34 @@ There are 3 ways to use this NPM module. Here they are:
 <a name="from_locally"></a>
 ### From locally...
 
+```bash
+mkdir test
+```
+```bash
+cd test
+```
+```bash
+git clone https://github.com/Vicken-Ghoubiguian/olsonTZNPMmodule
+```
+```bash
+var openWeather = require('./olsonTZNPMmodule');
+```
 <a name="from_github"></a>
 ### From GitHub...
 
+```bash
+mkdir test
+```
+```bash
+cd test
+```
+```bash
+npm install https://github.com/Vicken-Ghoubiguian/olsonTZNPMmodule
+```
+
+```bash
+var openWeather = require('@wicken/olsonTZNPMmodule');
+```
 <a name="from_npm"></a>
 ### From NPM...
 
