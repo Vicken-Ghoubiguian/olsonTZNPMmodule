@@ -79,6 +79,8 @@ var openWeather = require('@wicken/olsonTZNPMmodule');
 <a name="little_examples"></a>
 ## Little examples
 
+Below, there are 2 examples, one for each case (for a single location or many of them), to illustrate how to use this module in any NodeJS project.
+
 For one timezone:
 
 ```js
