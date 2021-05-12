@@ -55,6 +55,11 @@ cd test
 git clone https://github.com/Vicken-Ghoubiguian/olsonTZNPMmodule
 ```
 ```bash
+touch index.js
+
+nano index.js
+```
+```bash
 var openWeather = require('./olsonTZNPMmodule');
 ```
 <a name="from_github"></a>
@@ -69,7 +74,11 @@ cd test
 ```bash
 npm install https://github.com/Vicken-Ghoubiguian/olsonTZNPMmodule
 ```
+```bash
+touch index.js
 
+nano index.js
+```
 ```bash
 var openWeather = require('@wicken/olsonTZNPMmodule');
 ```
