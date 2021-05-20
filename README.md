@@ -72,12 +72,17 @@ Now it's your turn to have fun. So...Get ready, get set and code.
 <a name="from_github"></a>
 ### From GitHub...
 
+First of all, create an empty folder whatever your location in the file system of your computer:
 ```bash
 mkdir test
 ```
+__Clarification:__ the empty folder created is named ```test``` and will be the case for the rest of the demonstration, however you can name it whatever you like.
+
+Now, go to the newly created directory:
 ```bash
 cd test
 ```
+You have to install the NPM module ```olsonTZNPMmodule``` from GitHub via NPM:
 ```bash
 npm install https://github.com/Vicken-Ghoubiguian/olsonTZNPMmodule
 ```
@@ -89,6 +94,8 @@ nano index.js
 ```bash
 var openWeather = require('@wicken/olsonTZNPMmodule');
 ```
+Now it's your turn to have fun. So...Get ready, get set and code.
+
 <a name="from_npm"></a>
 ### From NPM...
 
