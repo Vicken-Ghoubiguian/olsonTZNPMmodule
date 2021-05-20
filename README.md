@@ -59,6 +59,10 @@ You have to clone the ```olsonTZNPMmodule``` git repos on GitHub:
 ```bash
 git clone https://github.com/Vicken-Ghoubiguian/olsonTZNPMmodule
 ```
+It's time to install the NPM module ```moment-timezone```:
+```bash
+npm install moment-timezone
+```
 ```bash
 touch index.js
 
