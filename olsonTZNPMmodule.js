@@ -483,7 +483,7 @@ function getCountryCodeFromOneTimezone(wishedTimezone) {
 		}
 	}
 
-	//
+	// Return the country code contained in the completed 'wishedCountryCode' variable... 
 	return wishedCountryCode;
 }
 
@@ -511,7 +511,7 @@ function getDatTimeForMultipleTimezones(wishedTimezonesArray, dateAndTimeFormat 
 		}
 	}
 
-	//
+	// Return all current dates and times for all wished timezones in the completed 'wishedTimezonesMomentsAssociativeArray' array... 
 	return wishedTimezonesMomentsAssociativeArray;
 }
 
@@ -535,7 +535,7 @@ function getDateTimeForOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 		}
 	}
 
-	//
+	// Return current date and time for the wished timezone in the completed 'wishedTimezonesMomentsAssociativeArray' array... 
 	return wishedTimezoneMomentAssociativeArray;
 }
 
