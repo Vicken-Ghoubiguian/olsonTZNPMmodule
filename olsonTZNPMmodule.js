@@ -461,6 +461,27 @@ function getCountryCodeForMultipleTimezones(wishedTimezonesArray) {
 
 	// Definition of the 'wishedCountryCodesJSON' variable which will contain all the found country codes...
 	var wishedCountryCodesJSON = {};
+
+	// Browse for each element contained in the 'wishedTimezonesArray' array...
+	for(var i = 0; i < wishedTimezonesArray.length; i++)
+	{
+		// Browse for each element contained in the 'timezones' array...
+		for(var i = 0; i < timezones.length; i++)
+		{
+			// If the current element of the 'timezones' array corresponds to one of the desired timezones (current element of the 'wishedTimezonesArray' array)...
+			if(wishedTimezonesArray[i] === timezones[j].timezone) {
+
+				//
+				wishedCountryCodesJSON[timezones[i].timezone] = timezones[i].country_code;
+
+				// Leaving the loop...
+				break;
+			}
+		}
+	}
+
+	// Return all country code contained in the completed 'wishedCountryCodesJSON' JSON variable... 
+	return wishedCountryCodesJSON;
 }
 
 // Definition of the 'getCountryCodeFromOneTimezone' function to identify and return the country code of the 'wishedTimezone' timezone...
