@@ -459,15 +459,15 @@ var timezones = [
 // Definition of the 'getCountryCodeForMultipleTimezones' function to identify and return the country code of all wished timezones in the 'wishedTimezonesArray' array...
 function getCountryCodeForMultipleTimezones(wishedTimezonesArray) {
 
-	// Definition of the 'wishedCountryCodesAssociativeArray' variable which will contain all the found country codes...
-	var wishedCountryCodesAssociativeArray = {};
+	// Definition of the 'wishedCountryCodesJSON' variable which will contain all the found country codes...
+	var wishedCountryCodesJSON = {};
 }
 
 // Definition of the 'getCountryCodeFromOneTimezone' function to identify and return the country code of the 'wishedTimezone' timezone...
 function getCountryCodeFromOneTimezone(wishedTimezone) {
 
-	// Definition of the 'wishedCountryCode' variable which will contain the found country code...
-	var wishedCountryCode = "";
+	// Definition of the 'wishedCountryCodeJSON' variable which will contain the found country code...
+	var wishedCountryCodeJSON = {};
 
 	// Browse for each element contained in the 'timezones' array...
 	for(var i = 0; i < timezones.length; i++)
@@ -475,23 +475,23 @@ function getCountryCodeFromOneTimezone(wishedTimezone) {
 		// If the current element of the 'timezones' array corresponds to the desired timezone...
 		if(timezones[i].timezone === wishedTimezone) {
 
-			// Affectation of the found country code to the 'wishedCountryCode' variable...
-			wishedCountryCode = timezones[i].country_code;
+			//
+			wishedCountryCode[timezones[i].timezone] = timezones[i].country_code;
 
 			// Leaving the loop...
 			break;
 		}
 	}
 
-	// Return the country code contained in the completed 'wishedCountryCode' variable... 
-	return wishedCountryCode;
+	// Return the country code contained in the completed 'wishedCountryCodeJSON' JSON variable... 
+	return wishedCountryCodeJSON;
 }
 
 // Definition of the 'getDatTimeForMultipleTimezones' function to return date and time (in a format specified by the 'dateAndTimeFormat' variable) from an array containing all wished timezones named 'wishedTimezonesArray' passed as an argument...
 function getDatTimeForMultipleTimezones(wishedTimezonesArray, dateAndTimeFormat = "X") {
 
-	// Definition of the 'wishedTimezonesMomentsAssociativeArray' variable which will contain all moments for every wished timezones...
-	var wishedTimezonesMomentsAssociativeArray = {};
+	// Definition of the 'wishedTimezonesMomentsJSON' variable which will contain all moments for every wished timezones...
+	var wishedTimezonesMomentsJSON = {};
 
 	// Browse for each element contained in the 'wishedTimezonesArray' array...
 	for(var i = 0; i < wishedTimezonesArray.length; i++)
@@ -503,7 +503,7 @@ function getDatTimeForMultipleTimezones(wishedTimezonesArray, dateAndTimeFormat 
 			if(wishedTimezonesArray[i] === timezones[j].timezone) {
 
 				//
-				wishedTimezonesMomentsAssociativeArray[timezones[j].timezone] = timezones[j].moment.format(dateAndTimeFormat);
+				wishedTimezonesMomentsJSON[timezones[j].timezone] = timezones[j].moment.format(dateAndTimeFormat);
 
 				// Leaving the second loop...
 				break;
@@ -511,15 +511,15 @@ function getDatTimeForMultipleTimezones(wishedTimezonesArray, dateAndTimeFormat 
 		}
 	}
 
-	// Return all current dates and times for all wished timezones in the completed 'wishedTimezonesMomentsAssociativeArray' array... 
-	return wishedTimezonesMomentsAssociativeArray;
+	// Return all current dates and times for all wished timezones in the completed 'wishedTimezonesMomentsJSON' JSON variable... 
+	return wishedTimezonesMomentsJSON;
 }
 
 // Definition of the 'getDateTimeForOneTimezone' function to return date and time (in a format specified by the 'dateAndTimeFormat' variable) from string containing the wished timezone named 'wishedTimezone' passed as an argument...
 function getDateTimeForOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 
-	// Definition of the 'wishedTimezonesMomentsAssociativeArray' variable which will contain all moments for every wished timezones...
-	var wishedTimezoneMomentAssociativeArray = {};
+	// Definition of the 'wishedTimezoneMomentJSON' variable which will contain all moments for every wished timezones...
+	var wishedTimezoneMomentJSON = {};
 
 	// Browse for each element contained in the 'timezones' array...
 	for(var i = 0; i < timezones.length; i++)
@@ -528,15 +528,15 @@ function getDateTimeForOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 		if(timezones[i].timezone === wishedTimezone) {
 
 				//
-				wishedTimezoneMomentAssociativeArray[timezones[i].timezone] = timezones[i].moment.format(dateAndTimeFormat);
+				wishedTimezoneMomentJSON[timezones[i].timezone] = timezones[i].moment.format(dateAndTimeFormat);
 
 				// Leaving the loop...
 				break;
 		}
 	}
 
-	// Return current date and time for the wished timezone in the completed 'wishedTimezonesMomentsAssociativeArray' array... 
-	return wishedTimezoneMomentAssociativeArray;
+	// Return current date and time for the wished timezone in the completed 'wishedTimezoneMomentJSON' JSON variable... 
+	return wishedTimezoneMomentJSON;
 }
 
 // Export all defined functions to extract datas from timezones...
