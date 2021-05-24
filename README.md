@@ -69,7 +69,7 @@ touch index.js
 nano index.js
 ```
 ```bash
-var openWeather = require('./olsonTZNPMmodule');
+var olsonTZNPMmodule = require('./olsonTZNPMmodule');
 ```
 Now it's your turn to have fun. So...Get ready, get set and code.
 
@@ -96,7 +96,7 @@ touch index.js
 nano index.js
 ```
 ```bash
-var openWeather = require('@wicken/olsonTZNPMmodule');
+var olsonTZNPMmodule = require('@wicken/olsonTZNPMmodule');
 ```
 Now it's your turn to have fun. So...Get ready, get set and code.
 
