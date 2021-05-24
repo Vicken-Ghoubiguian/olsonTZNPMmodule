@@ -521,14 +521,14 @@ function getDateTimeForOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 	// Definition of the 'wishedTimezonesMomentsAssociativeArray' variable which will contain all moments for every wished timezones...
 	var wishedTimezoneMomentAssociativeArray = {};
 
-	// Browse for each element contained in the 'wishedTimezonesArray' array...
-	for(var i = 0; i < wishedTimezonesArray.length; i++)
+	// Browse for each element contained in the 'timezones' array...
+	for(var i = 0; i < timezones.length; i++)
 	{
 		// If the desired timezone (named 'wishedTimezone') corresponds to the current element (timezone) in the 'wishedTimezonesArray' array...
-		if(wishedTimezonesArray[i] === wishedTimezone) {
+		if(timezones[i].timezone === wishedTimezone) {
 
 				//
-				wishedTimezoneMomentAssociativeArray[wishedTimezonesArray[i].timezone] = wishedTimezonesArray[i].moment.format(dateAndTimeFormat);
+				wishedTimezoneMomentAssociativeArray[timezones[i].timezone] = timezones[i].moment.format(dateAndTimeFormat);
 
 				// Leaving the loop...
 				break;
