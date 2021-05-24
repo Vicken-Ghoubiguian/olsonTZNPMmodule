@@ -1,5 +1,5 @@
 {
-  "name": "olsontznpmmodule",
+  "name": "@wicken/olsonTZNPMmodule",
   "version": "1.0.0",
   "description": "NPM module written in JavaScript to get, treat and return datetime for all timezones",
   "main": "olsonTZNPMmodule.js",
