@@ -587,6 +587,10 @@ function getDateTimeForOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 // Export all defined functions to extract datas from timezones...
 module.exports = {
 
+	'getAllDatasFromMultipleTimezones': getAllDatasFromMultipleTimezones,
+	'getAllDatasFromTimezone': getAllDatasFromTimezone,
+	'getFlagsFromMultipleTimezones': getFlagsFromMultipleTimezones,
+	'getFlagsFromTimezone': getFlagsFromTimezone,
 	'getCountryCodeForMultipleTimezones': getCountryCodeForMultipleTimezones, 
 	'getCountryCodeFromOneTimezone': getCountryCodeFromOneTimezone,
 	'getDatTimeForMultipleTimezones': getDatTimeForMultipleTimezones,
