@@ -63,11 +63,15 @@ It's time to install the NPM module ```moment-timezone```:
 ```bash
 npm install moment-timezone
 ```
+Now it's time to create your JavaScript file and open it to then use the module ```olsonTZNPMmodule```. To do so, create a file named ```index.js``` and open it:
 ```bash
 touch index.js
 
 nano index.js
 ```
+__Clarification__: the empty file created is named index.js and will be the case for the rest of the demonstration, however you can name it whatever you like.
+
+In the newly created file ```index.js```, it is now time to import the module ```olsonTZNPMmodule```. To do this, copy then paste the following line into the file ```index.js```:
 ```bash
 var olsonTZNPMmodule = require('./olsonTZNPMmodule');
 ```
@@ -90,11 +94,15 @@ You have to install the NPM module ```olsonTZNPMmodule``` from GitHub via NPM:
 ```bash
 npm install https://github.com/Vicken-Ghoubiguian/olsonTZNPMmodule
 ```
+Now it's time to create your JavaScript file and open it to then use the module ```olsonTZNPMmodule```. To do so, create a file named ```index.js``` and open it:
 ```bash
 touch index.js
 
 nano index.js
 ```
+__Clarification__: the empty file created is named index.js and will be the case for the rest of the demonstration, however you can name it whatever you like.
+
+In the newly created file ```index.js```, it is now time to import the module ```olsonTZNPMmodule```. To do this, copy then paste the following line into the file ```index.js```:
 ```bash
 var olsonTZNPMmodule = require('@wicken/olsonTZNPMmodule');
 ```
