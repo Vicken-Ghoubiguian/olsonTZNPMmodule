@@ -226,7 +226,7 @@ var timezones = [
 	{timezone: "Antarctica/Vostok", country_code: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Vostok")},
 
 	//Arctic ocean's timezones...
-	{timezone: "Arctic/Longyearbyen", country_code: "SJ", moment: moment.tz("Arctic/Longyearbyen")},
+	{timezone: "Arctic/Longyearbyen", country_code: "SJ", country: "Svalbard and Jan Mayen", flag: "https://flagcdn.com/h40/sj.png", moment: moment.tz("Arctic/Longyearbyen")},
 
 	//Asian timezones...
 	{timezone: "Asia/Almaty", country_code: "KZ", moment: moment.tz("Asia/Almaty")},
