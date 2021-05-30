@@ -5,12 +5,12 @@ var moment = require('moment-timezone');
 var timezones = [
 
 	//Universal and conventional timezones...
-	{timezone: "Etc/UTC", country_code: "No country", moment: moment.tz("Etc/UTC")},
-	{timezone: "Etc/GMT", country_code: "No country", moment: moment.tz("Etc/GMT")},
+	{timezone: "Etc/UTC", country_code: null, country: null, flag: null, moment: moment.tz("Etc/UTC")},
+	{timezone: "Etc/GMT", country_code: null, country: null, flag: null, moment: moment.tz("Etc/GMT")},
 
 	//African timezones...
-	{timezone: "Africa/Abidjan", country_code: "CI", moment: moment.tz("Africa/Abidjan")},
-	{timezone: "Africa/Accra", country_code: "GH", moment: moment.tz("Africa/Accra")},
+	{timezone: "Africa/Abidjan", country_code: "CI", country: "Ivory Coast", flag: "https://flagcdn.com/h40/ci.png", moment: moment.tz("Africa/Abidjan")},
+	{timezone: "Africa/Accra", country_code: "GH", country: "Ghana", flag: "https://flagcdn.com/h40/gh.png", moment: moment.tz("Africa/Accra")},
 	{timezone: "Africa/Addis_Ababa", country_code: "ET", moment: moment.tz("Africa/Addis_Ababa")},
 	{timezone: "Africa/Algiers", country_code: "DZ", moment: moment.tz("Africa/Algiers")},
 	{timezone: "Africa/Asmara", country_code: "ER", moment: moment.tz("Africa/Asmara")},
