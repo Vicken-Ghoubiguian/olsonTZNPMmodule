@@ -111,6 +111,8 @@ Now it's your turn to have fun. So...Get ready, get set and code.
 <a name="from_npm"></a>
 ### From NPM...
 
+Coming soon...
+
 <a name="little_examples"></a>
 ## Little examples
 
