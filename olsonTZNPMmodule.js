@@ -213,17 +213,17 @@ var timezones = [
 	{timezone: "America/Yellowknife", country_code: "CA", moment: moment.tz("America/Yellowknife")},
 
 	//Antarctican timezones...
-	{timezone: "Antarctica/Casey", country_code: "AQ", moment: moment.tz("Antarctica/Casey")},
-	{timezone: "Antarctica/Davis", country_code: "AQ", moment: moment.tz("Antarctica/Davis")},
-	{timezone: "Antarctica/DumontDUrville", country_code: "AQ", moment: moment.tz("Antarctica/DumontDUrville")},
-	{timezone: "Antarctica/Macquarie", country_code: "AU", moment: moment.tz("Antarctica/Macquarie")},
-	{timezone: "Antarctica/Mawson", country_code: "AQ", moment: moment.tz("Antarctica/Mawson")},
-	{timezone: "Antarctica/McMurdo", country_code: "AQ", moment: moment.tz("Antarctica/McMurdo")},
-	{timezone: "Antarctica/Palmer", country_code: "AQ", moment: moment.tz("Antarctica/Palmer")},
-	{timezone: "Antarctica/Rothera", country_code: "AQ", moment: moment.tz("Antarctica/Rothera")},
-	{timezone: "Antarctica/Syowa", country_code: "AQ", moment: moment.tz("Antarctica/Syowa")},
-	{timezone: "Antarctica/Troll", country_code: "AQ", moment: moment.tz("Antarctica/Troll")},
-	{timezone: "Antarctica/Vostok", country_code: "AQ", moment: moment.tz("Antarctica/Vostok")},
+	{timezone: "Antarctica/Casey", country_code: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Casey")},
+	{timezone: "Antarctica/Davis", country_code: "AQ", moment: country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment.tz("Antarctica/Davis")},
+	{timezone: "Antarctica/DumontDUrville", country_code: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/DumontDUrville")},
+	{timezone: "Antarctica/Macquarie", country_code: "AU", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Macquarie")},
+	{timezone: "Antarctica/Mawson", country_code: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Mawson")},
+	{timezone: "Antarctica/McMurdo", country_code: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/McMurdo")},
+	{timezone: "Antarctica/Palmer", country_code: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Palmer")},
+	{timezone: "Antarctica/Rothera", country_code: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Rothera")},
+	{timezone: "Antarctica/Syowa", country_code: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Syowa")},
+	{timezone: "Antarctica/Troll", country_code: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Troll")},
+	{timezone: "Antarctica/Vostok", country_code: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Vostok")},
 
 	//Arctic ocean's timezones...
 	{timezone: "Arctic/Longyearbyen", country_code: "SJ", moment: moment.tz("Arctic/Longyearbyen")},
