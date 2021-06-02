@@ -280,7 +280,7 @@ var timezones = [
 	{timezone: "Asia/Muscat", country_code: "OM", moment: moment.tz("Asia/Muscat")},
 	{timezone: "Asia/Nicosia", country_code: "CY", moment: moment.tz("Asia/Nicosia")},
 	{timezone: "Asia/Novokuznetsk", country_code: "RU", country: "Russia", flag: "https://flagcdn.com/h40/ru.png", moment: moment.tz("Asia/Novokuznetsk")},
-	{timezone: "Asia/Novosibirsk", country_code: "RU", moment: moment.tz("Asia/Novosibirsk")},
+	{timezone: "Asia/Novosibirsk", country_code: "RU", country: "Russia", flag: "https://flagcdn.com/h40/ru.png", moment: moment.tz("Asia/Novosibirsk")},
 	{timezone: "Asia/Omsk", country_code: "RU", country: "Russia", flag: "https://flagcdn.com/h40/ru.png", moment: moment.tz("Asia/Omsk")},
 	{timezone: "Asia/Oral", country_code: "KZ", moment: moment.tz("Asia/Oral")},
 	{timezone: "Asia/Phnom_Penh", country_code: "KH", moment: moment.tz("Asia/Phnom_Penh")},
