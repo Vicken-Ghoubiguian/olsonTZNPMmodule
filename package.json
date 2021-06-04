@@ -4,19 +4,19 @@
   "description": "NPM module written in JavaScript to get, treat and return datetime for all timezones",
   "main": "olsonTZNPMmodule.js",
   "keywords": [
-		"date",
-		"time",
-		"timezone",
-		"olson",
-		"iana",
-		"zone",
-		"tz",
-    "country",
-    "countries",
-    "flag",
-    "flags",
-    "iso"
-	],
+	"date",
+	"time",
+	"timezone",
+	"olson",
+	"iana",
+	"zone",
+	"tz",
+    	"country",
+    	"countries",
+    	"flag",
+    	"flags",
+    	"iso"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
