@@ -457,13 +457,13 @@ var timezones = [
 ];
 
 //
-function getAllDatasFromMultipleTimezones(wishedTimezonesArray) {
+function getAllDatasFromMultipleTimezones(wishedTimezonesArray, dateAndTimeFormat = "X") {
 
 
 }
 
-//
-function getAllDatasFromTimezone(wishedTimezone) {
+// 
+function getAllDatasFromTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 
 	// Definition of the 'allDatasFromTimezoneJSON' variable which will contain all datas from a wished timezone...
 	var allDatasFromTimezoneJSON = {};
@@ -475,7 +475,11 @@ function getAllDatasFromTimezone(wishedTimezone) {
 		if(timezones[i].timezone === wishedTimezone) {
 
 			// Affectation of all datas from the wished timezone in the 'allDatasFromTimezoneJSON' variable...
-			allDatasFromTimezoneJSON = timezones[i];
+			allDatasFromTimezoneJSON['timezone'] = timezones[i].timezone;
+			allDatasFromTimezoneJSON['country_code'] = timezones[i].country_code;
+			allDatasFromTimezoneJSON['country'] = timezones[i].country;
+			allDatasFromTimezoneJSON['flag'] = timezones[i].flag;
+			allDatasFromTimezoneJSON['datetime'] = timezones[i].moment.format(dateAndTimeFormat);
 
 			// Leaving the loop...
 			break;
