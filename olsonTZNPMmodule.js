@@ -459,13 +459,28 @@ var timezones = [
 //
 function getAllDatasFromMultipleTimezones(wishedTimezonesArray) {
 
-	
+
 }
 
 //
 function getAllDatasFromTimezone(wishedTimezone) {
 
-	
+	// Definition of the 'allDatasFromTimezoneJSON' variable which will contain all datas from a wished timezone...
+	var allDatasFromTimezoneJSON = {};
+
+	// Browse for each element contained in the 'timezones' array...
+	for(var i = 0; i < timezones.length; i++)
+	{
+		// If the current element of the 'timezones' array corresponds to the desired timezone...
+		if(timezones[i].timezone === wishedTimezone) {
+
+			// Affectation of all datas from the wished timezone in the 'allDatasFromTimezoneJSON' variable...
+			allDatasFromTimezoneJSON = timezones[i];
+
+			// Leaving the loop...
+			break;
+		}
+	}
 }
 
 //
