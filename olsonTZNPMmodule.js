@@ -214,7 +214,7 @@ var timezones = [
 
 	//Antarctican timezones...
 	{timezone: "Antarctica/Casey", country_code: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Casey")},
-	{timezone: "Antarctica/Davis", country_code: "AQ", moment: country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Davis")},
+	{timezone: "Antarctica/Davis", country_code: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Davis")},
 	{timezone: "Antarctica/DumontDUrville", country_code: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/DumontDUrville")},
 	{timezone: "Antarctica/Macquarie", country_code: "AU", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Macquarie")},
 	{timezone: "Antarctica/Mawson", country_code: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Mawson")},
