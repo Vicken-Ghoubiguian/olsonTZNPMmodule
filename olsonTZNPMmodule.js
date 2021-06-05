@@ -459,23 +459,23 @@ var timezones = [
 //
 function getAllDatasFromMultipleTimezones(wishedTimezonesArray) {
 
-
+	
 }
 
 //
 function getAllDatasFromTimezone(wishedTimezone) {
 
+	
+}
+
+//
+function getFlagFromMultipleTimezones(wishedTimezonesArray) {
+
 
 }
 
 //
-function getFlagsFromMultipleTimezones(wishedTimezonesArray) {
-
-
-}
-
-//
-function getFlagsFromTimezone(wishedTimezone) {
+function getFlagFromTimezone(wishedTimezone) {
 
 
 }
@@ -589,8 +589,8 @@ module.exports = {
 
 	'getAllDatasFromMultipleTimezones': getAllDatasFromMultipleTimezones,
 	'getAllDatasFromTimezone': getAllDatasFromTimezone,
-	'getFlagsFromMultipleTimezones': getFlagsFromMultipleTimezones,
-	'getFlagsFromTimezone': getFlagsFromTimezone,
+	'getFlagFromMultipleTimezones': getFlagFromMultipleTimezones,
+	'getFlagFromTimezone': getFlagFromTimezone,
 	'getCountryCodeForMultipleTimezones': getCountryCodeForMultipleTimezones, 
 	'getCountryCodeFromOneTimezone': getCountryCodeFromOneTimezone,
 	'getDatTimeForMultipleTimezones': getDatTimeForMultipleTimezones,
