@@ -459,7 +459,39 @@ var timezones = [
 //
 function getAllDatasFromMultipleTimezones(wishedTimezonesArray, dateAndTimeFormat = "X") {
 
+	// Definition of the 'allDatasFromTimezonesJSONArray' variable which is an array which will contain all JSON datas from all the wished timezones...
+	var allDatasFromTimezonesJSONArray = [];
 
+	// Browse for each element contained in the 'wishedTimezonesArray' array...
+	for(var i = 0; i < wishedTimezonesArray.length; i++)
+	{
+		// Browse for each element contained in the 'timezones' array...
+		for(var j = 0; j < timezones.length; j++)
+		{
+			//  If the current element of the 'timezones' array corresponds to one of the desired timezones (current element of the 'wishedTimezonesArray' array)...
+			if(wishedTimezonesArray[i] === timezones[j].timezone) {
+
+				// Definition of the 'allDatasFromTimezoneJSON' variable which will contain all datas from the current timezone in the wished ones...
+				var allDatasFromTimezoneJSON = {};
+
+				// Affectation of all datas from the current timezone in the wished ones in the 'allDatasFromTimezoneJSON' variable...
+				allDatasFromTimezoneJSON['timezone'] = timezones[i].timezone;
+				allDatasFromTimezoneJSON['country_code'] = timezones[i].country_code;
+				allDatasFromTimezoneJSON['country'] = timezones[i].country;
+				allDatasFromTimezoneJSON['flag'] = timezones[i].flag;
+				allDatasFromTimezoneJSON['datetime'] = timezones[i].moment.format(dateAndTimeFormat);
+
+				// Push the 'allDatasFromTimezoneJSON' variable in the 'allDatasFromTimezonesJSONArray' array...
+				allDatasFromTimezonesJSONArray.push(allDatasFromTimezoneJSON);
+
+				// Leaving the second loop...
+				break;
+			}
+		}
+	}
+
+	//
+	return allDatasFromTimezonesJSONArray;
 }
 
 // Definition of the 'getAllDatasFromTimezone' function to return all datas from a wishedTimezone and even the current datetime in a wished format...
@@ -512,7 +544,7 @@ function getCountryCodeForMultipleTimezones(wishedTimezonesArray) {
 	for(var i = 0; i < wishedTimezonesArray.length; i++)
 	{
 		// Browse for each element contained in the 'timezones' array...
-		for(var i = 0; i < timezones.length; i++)
+		for(var j = 0; j < timezones.length; j++)
 		{
 			// If the current element of the 'timezones' array corresponds to one of the desired timezones (current element of the 'wishedTimezonesArray' array)...
 			if(wishedTimezonesArray[i] === timezones[j].timezone) {
