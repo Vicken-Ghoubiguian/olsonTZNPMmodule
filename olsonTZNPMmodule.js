@@ -475,11 +475,11 @@ function getAllDatasFromMultipleTimezones(wishedTimezonesArray, dateAndTimeForma
 				var allDatasFromTimezoneJSON = {};
 
 				// Affectation of all datas from the current timezone in the wished ones in the 'allDatasFromTimezoneJSON' variable...
-				allDatasFromTimezoneJSON['timezone'] = timezones[i].timezone;
-				allDatasFromTimezoneJSON['country_code'] = timezones[i].country_code;
-				allDatasFromTimezoneJSON['country'] = timezones[i].country;
-				allDatasFromTimezoneJSON['flag'] = timezones[i].flag;
-				allDatasFromTimezoneJSON['datetime'] = timezones[i].moment.format(dateAndTimeFormat);
+				allDatasFromTimezoneJSON['timezone'] = timezones[j].timezone;
+				allDatasFromTimezoneJSON['country_code'] = timezones[j].country_code;
+				allDatasFromTimezoneJSON['country'] = timezones[j].country;
+				allDatasFromTimezoneJSON['flag'] = timezones[j].flag;
+				allDatasFromTimezoneJSON['datetime'] = timezones[j].moment.format(dateAndTimeFormat);
 
 				// Push the 'allDatasFromTimezoneJSON' variable in the 'allDatasFromTimezonesJSONArray' array...
 				allDatasFromTimezonesJSONArray.push(allDatasFromTimezoneJSON);
