@@ -462,7 +462,7 @@ function getAllDatasFromMultipleTimezones(wishedTimezonesArray, dateAndTimeForma
 
 }
 
-// 
+// Definition of the 'getAllDatasFromTimezone' function to return all datas from a wishedTimezone and even the current datetime in a wished format...
 function getAllDatasFromTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 
 	// Definition of the 'allDatasFromTimezoneJSON' variable which will contain all datas from a wished timezone...
