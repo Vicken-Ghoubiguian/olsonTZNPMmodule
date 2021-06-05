@@ -485,6 +485,9 @@ function getAllDatasFromTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 			break;
 		}
 	}
+
+	// Return all datas from the wished timezone in the 'allDatasFromTimezoneJSON' JSON variable... 
+	return allDatasFromTimezoneJSON;
 }
 
 //
