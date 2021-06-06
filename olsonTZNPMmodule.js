@@ -490,7 +490,7 @@ function getAllDatasFromMultipleTimezones(wishedTimezonesArray, dateAndTimeForma
 		}
 	}
 
-	// Return all datas from all the wished timezones in the 'allDatasFromTimezonesJSONArray' array containing JSON variables... 
+	// Return all datas from all the wished timezones in the 'allDatasFromTimezonesJSONArray' array containing JSON variables...
 	return allDatasFromTimezonesJSONArray;
 }
 
@@ -518,7 +518,7 @@ function getAllDatasFromTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 		}
 	}
 
-	// Return all datas from the wished timezone in the 'allDatasFromTimezoneJSON' JSON variable... 
+	// Return all datas from the wished timezone in the 'allDatasFromTimezoneJSON' JSON variable...
 	return allDatasFromTimezoneJSON;
 }
 
@@ -558,7 +558,7 @@ function getCountryCodeForMultipleTimezones(wishedTimezonesArray) {
 		}
 	}
 
-	// Return all country code contained in the completed 'wishedCountryCodesJSON' JSON variable... 
+	// Return all country code contained in the completed 'wishedCountryCodesJSON' JSON variable...
 	return wishedCountryCodesJSON;
 }
 
@@ -582,7 +582,7 @@ function getCountryCodeFromOneTimezone(wishedTimezone) {
 		}
 	}
 
-	// Return the country code contained in the completed 'wishedCountryCodeJSON' JSON variable... 
+	// Return the country code contained in the completed 'wishedCountryCodeJSON' JSON variable...
 	return wishedCountryCodeJSON;
 }
 
@@ -610,7 +610,7 @@ function getDatTimeForMultipleTimezones(wishedTimezonesArray, dateAndTimeFormat 
 		}
 	}
 
-	// Return all current dates and times for all wished timezones in the completed 'wishedTimezonesMomentsJSON' JSON variable... 
+	// Return all current dates and times for all wished timezones in the completed 'wishedTimezonesMomentsJSON' JSON variable...
 	return wishedTimezonesMomentsJSON;
 }
 
@@ -634,7 +634,7 @@ function getDateTimeForOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 		}
 	}
 
-	// Return current date and time for the wished timezone in the completed 'wishedTimezoneMomentJSON' JSON variable... 
+	// Return current date and time for the wished timezone in the completed 'wishedTimezoneMomentJSON' JSON variable...
 	return wishedTimezoneMomentJSON;
 }
 
