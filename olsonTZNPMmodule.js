@@ -456,7 +456,7 @@ var timezones = [
 	{timezone: "Pacific/Wallis", country_code: "WF", country: "Wallis and Futuna", flag: "https://flagcdn.com/h40/wf.png", moment: moment.tz("Pacific/Wallis")}
 ];
 
-//
+// Definition of the 'getAllDatasFromMultipleTimezones' function to return all datas from all wished timezones in an array and even the current datetime in a wished format...
 function getAllDatasFromMultipleTimezones(wishedTimezonesArray, dateAndTimeFormat = "X") {
 
 	// Definition of the 'allDatasFromTimezonesJSONArray' variable which is an array which will contain all JSON datas from all the wished timezones...
@@ -490,7 +490,7 @@ function getAllDatasFromMultipleTimezones(wishedTimezonesArray, dateAndTimeForma
 		}
 	}
 
-	//
+	// Return all datas from all the wished timezones in the 'allDatasFromTimezonesJSONArray' array containing JSON variables... 
 	return allDatasFromTimezonesJSONArray;
 }
 
