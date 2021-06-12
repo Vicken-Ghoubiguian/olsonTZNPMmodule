@@ -142,7 +142,7 @@ var timezones = [
 	{timezone: "America/Kentucky/Monticello", country_code: "US", country: "United States of America", flag: "https://flagcdn.com/h40/us.png", moment: moment.tz("America/Kentucky/Monticello")},
 	{timezone: "America/Kralendijk", country_code: "BQ", moment: moment.tz("America/Kralendijk")},
 	{timezone: "America/La_Paz", country_code: "BO", moment: moment.tz("America/La_Paz")},
-	{timezone: "America/Lima", country_code: "PM", moment: moment.tz("America/Lima")},
+	{timezone: "America/Lima", country_code: "PE", country: "Peru", flag: "https://flagcdn.com/h40/pe.png", moment: moment.tz("America/Lima")},
 	{timezone: "America/Los_Angeles", country_code: "US", country: "United States of America", flag: "https://flagcdn.com/h40/us.png", moment: moment.tz("America/Los_Angeles")},
 	{timezone: "America/Lower_Princes", country_code: "SX", country: "Sint Maarten", flag: "https://flagcdn.com/h40/sx.png", moment: moment.tz("America/Lower_Princes")},
 	{timezone: "America/Maceio", country_code: "BR", country: "Brazil", flag: "https://flagcdn.com/h40/br.png", moment: moment.tz("America/Maceio")},
