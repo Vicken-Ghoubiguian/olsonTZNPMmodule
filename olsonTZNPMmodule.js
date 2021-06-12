@@ -141,7 +141,7 @@ var timezones = [
 	{timezone: "America/Kentucky/Louisville", country_code: "US", country: "United States of America", flag: "https://flagcdn.com/h40/us.png", moment: moment.tz("America/Kentucky/Louisville")},
 	{timezone: "America/Kentucky/Monticello", country_code: "US", country: "United States of America", flag: "https://flagcdn.com/h40/us.png", moment: moment.tz("America/Kentucky/Monticello")},
 	{timezone: "America/Kralendijk", country_code: "BQ", moment: moment.tz("America/Kralendijk")},
-	{timezone: "America/La_Paz", country_code: "BO", moment: moment.tz("America/La_Paz")},
+	{timezone: "America/La_Paz", country_code: "BO", country: "Bolivia", flag: "https://flagcdn.com/h40/bo.png", moment: moment.tz("America/La_Paz")},
 	{timezone: "America/Lima", country_code: "PE", country: "Peru", flag: "https://flagcdn.com/h40/pe.png", moment: moment.tz("America/Lima")},
 	{timezone: "America/Los_Angeles", country_code: "US", country: "United States of America", flag: "https://flagcdn.com/h40/us.png", moment: moment.tz("America/Los_Angeles")},
 	{timezone: "America/Lower_Princes", country_code: "SX", country: "Sint Maarten", flag: "https://flagcdn.com/h40/sx.png", moment: moment.tz("America/Lower_Princes")},
