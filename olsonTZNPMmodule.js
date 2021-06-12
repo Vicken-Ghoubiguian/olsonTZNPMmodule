@@ -119,7 +119,7 @@ var timezones = [
 	{timezone: "America/Goose_Bay", country_code: "CA", country: "Canada", flag: "https://flagcdn.com/h40/ca.png", moment: moment.tz("America/Goose_Bay")},
 	{timezone: "America/Grand_Turk", country_code: "TC", moment: moment.tz("America/Grand_Turk")},
 	{timezone: "America/Grenada", country_code: "GD", moment: moment.tz("America/Grenada")},
-	{timezone: "America/Guadeloupe", country_code: "GP", moment: moment.tz("America/Guadeloupe")},
+	{timezone: "America/Guadeloupe", country_code: "GP", country: "Guadeloupe", flag: "https://flagcdn.com/h40/gp.png", moment: moment.tz("America/Guadeloupe")},
 	{timezone: "America/Guyana", country_code: "GY", moment: moment.tz("America/Guyana")},
 	{timezone: "America/Guayaquil", country_code: "EC", moment: moment.tz("America/Guayaquil")},
 	{timezone: "America/Guyana", country_code: "GY", moment: moment.tz("America/Guyana")},
