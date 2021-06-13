@@ -534,6 +534,18 @@ function getFlagFromTimezone(wishedTimezone) {
 
 }
 
+//
+function getCountryFromMultipleTimezones(wishedTimezonesArray) {
+
+
+}
+
+//
+function getCountryFromTimezone(wishedTimezone) {
+
+
+}
+
 // Definition of the 'getCountryCodeForMultipleTimezones' function to identify and return the country code of all wished timezones in the 'wishedTimezonesArray' array...
 function getCountryCodeForMultipleTimezones(wishedTimezonesArray) {
 
