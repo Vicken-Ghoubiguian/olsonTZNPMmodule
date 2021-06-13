@@ -657,6 +657,8 @@ module.exports = {
 	'getAllDatasFromTimezone': getAllDatasFromTimezone,
 	'getFlagFromMultipleTimezones': getFlagFromMultipleTimezones,
 	'getFlagFromTimezone': getFlagFromTimezone,
+	'getCountryFromMultipleTimezones': getCountryFromMultipleTimezones,
+	'getCountryFromTimezone': getCountryFromTimezone,
 	'getCountryCodeForMultipleTimezones': getCountryCodeForMultipleTimezones, 
 	'getCountryCodeFromOneTimezone': getCountryCodeFromOneTimezone,
 	'getDatTimeForMultipleTimezones': getDatTimeForMultipleTimezones,
