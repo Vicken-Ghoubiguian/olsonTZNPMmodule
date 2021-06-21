@@ -528,7 +528,7 @@ function getFlagFromMultipleTimezones(wishedTimezonesArray) {
 
 }
 
-//
+// Definition of the 'getFlagFromTimezone' function to return the flag URL from a 'wishedTimezone' wished timezone...
 function getFlagFromTimezone(wishedTimezone) {
 
 	// Definition of the 'flagFromTimezoneJSON' variable which will contain the flag URL from a wished timezone...
