@@ -558,7 +558,7 @@ function getCountryFromMultipleTimezones(wishedTimezonesArray) {
 
 }
 
-//
+// Definition of the 'getCountryFromTimezone' function to return the country name from a 'wishedTimezone' wished timezone...
 function getCountryFromTimezone(wishedTimezone) {
 
 	// Definition of the 'countryFromTimezoneJSON' variable which will contain the country name from a wished timezone...
