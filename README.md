@@ -27,7 +27,7 @@ This project consists to develop an NPM module written in JavaScript to get, tre
 
 This NPM module is composed of 1 array and 10 functions in total. They are presented right here:
 
-*
+* 1 array which contains 
 
 *
 
