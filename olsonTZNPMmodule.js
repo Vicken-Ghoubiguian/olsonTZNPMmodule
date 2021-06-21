@@ -548,7 +548,7 @@ function getFlagFromTimezone(wishedTimezone) {
 		}
 	}
 
-	// Return all datas from the wished timezone in the 'flagFromTimezoneJSON' JSON variable...
+	// Return the flag URL from the wished timezone in the 'flagFromTimezoneJSON' JSON variable...
 	return flagFromTimezoneJSON;
 }
 
