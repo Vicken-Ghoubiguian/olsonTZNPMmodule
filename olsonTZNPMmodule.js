@@ -531,7 +531,25 @@ function getFlagFromMultipleTimezones(wishedTimezonesArray) {
 //
 function getFlagFromTimezone(wishedTimezone) {
 
+	// Definition of the 'flagFromTimezoneJSON' variable which will contain the flag URL from a wished timezone...
+	var flagFromTimezoneJSON = {};
 
+	// Browse for each element contained in the 'timezones' array...
+	for(var i = 0; i < timezones.length; i++)
+	{
+		// If the current element of the 'timezones' array corresponds to the desired timezone...
+		if(timezones[i].timezone === wishedTimezone) {
+
+			// Affectation of the flag URL from the wished timezone in the 'flagFromTimezoneJSON' variable...
+			flagFromTimezoneJSON[timezones[i].timezone] = timezones[i].flag;
+
+			// Leaving the loop...
+			break;
+		}
+	}
+
+	// Return all datas from the wished timezone in the 'flagFromTimezoneJSON' JSON variable...
+	return flagFromTimezoneJSON;
 }
 
 //
