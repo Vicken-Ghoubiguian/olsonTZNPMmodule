@@ -25,7 +25,19 @@ This is an NPM module written in JavaScript to get, treat and return datetime fo
 
 This project consists to develop an NPM module written in JavaScript to get, treat and return datetime for all timezones.
 
-This NPM module is composed of 1 array and 4 functions in total. They are presented right here:
+This NPM module is composed of 1 array and 10 functions in total. They are presented right here:
+
+*
+
+*
+
+*
+
+*
+
+*
+
+*
 
 *
 
