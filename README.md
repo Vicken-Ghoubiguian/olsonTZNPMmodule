@@ -29,25 +29,25 @@ This NPM module is composed of 1 array and 10 functions in total. They are prese
 
 * 1 array called `timezones` and which contains fundamental datas (timezone name, country name, country code, country flag and current datetime) for all timezones each in JSON format,
 
-*
+* 1 function called `getAllDatasFromMultipleTimezones`
 
-*
+* 1 function called `getAllDatasFromTimezone`
 
-*
+* 1 function called `getFlagFromMultipleTimezones`
 
-*
+* 1 function called `getFlagFromTimezone`
 
-*
+* 1 function called `getCountryFromMultipleTimezones`
 
-*
+* 1 function called `getCountryFromTimezone`
 
-*
+* 1 function called `getCountryCodeForMultipleTimezones`
 
-*
+* 1 function called `getCountryCodeFromOneTimezone`
 
-*
+* 1 function called `getDatTimeForMultipleTimezones`
 
-*
+* 1 function called `getDateTimeForOneTimezone`
 
 <a name="how_to_use_it"></a>
 ## How to use it ?
