@@ -546,7 +546,7 @@ function getFlagFromMultipleTimezones(wishedTimezonesArray) {
 		}
 	}
 
-	// Return all country flags for all wished timezones in the completed 'wishedTimezonesMomentsJSON' JSON variable...
+	// Return all country flags for all wished timezones in the completed 'wishedFlagsFromTimezonesJSON' JSON variable...
 	return wishedFlagsFromTimezonesJSON;
 }
 
