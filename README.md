@@ -31,23 +31,23 @@ This NPM module is composed of 1 array and 10 functions in total. They are prese
 
 * 1 function called `getAllDatasFromMultipleTimezones`
 
-* 1 function called `getAllDatasFromTimezone`
+* 1 function called `getAllDatasFromOneTimezone`
 
 * 1 function called `getFlagFromMultipleTimezones`
 
-* 1 function called `getFlagFromTimezone`
+* 1 function called `getFlagFromOneTimezone`
 
 * 1 function called `getCountryFromMultipleTimezones`
 
-* 1 function called `getCountryFromTimezone`
+* 1 function called `getCountryFromOneTimezone`
 
-* 1 function called `getCountryCodeForMultipleTimezones`
+* 1 function called `getCountryCodeFromMultipleTimezones`
 
 * 1 function called `getCountryCodeFromOneTimezone`
 
-* 1 function called `getDatTimeForMultipleTimezones`
+* 1 function called `getDatTimeFromMultipleTimezones`
 
-* 1 function called `getDateTimeForOneTimezone`
+* 1 function called `getDateTimeFromOneTimezone`
 
 <a name="how_to_use_it"></a>
 ## How to use it ?
