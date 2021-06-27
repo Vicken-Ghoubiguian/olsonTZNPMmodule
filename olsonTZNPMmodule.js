@@ -494,8 +494,8 @@ function getAllDatasFromMultipleTimezones(wishedTimezonesArray, dateAndTimeForma
 	return allDatasFromTimezonesJSONArray;
 }
 
-// Definition of the 'getAllDatasFromTimezone' function to return all datas from a wishedTimezone and even the current datetime in a wished format...
-function getAllDatasFromTimezone(wishedTimezone, dateAndTimeFormat = "X") {
+// Definition of the 'getAllDatasFromOneTimezone' function to return all datas from a wishedTimezone and even the current datetime in a wished format...
+function getAllDatasFromOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 
 	// Definition of the 'allDatasFromTimezoneJSON' variable which will contain all datas from a wished timezone...
 	var allDatasFromTimezoneJSON = {};
@@ -550,8 +550,8 @@ function getFlagFromMultipleTimezones(wishedTimezonesArray) {
 	return wishedFlagsFromTimezonesJSON;
 }
 
-// Definition of the 'getFlagFromTimezone' function to return the country flag URL from a 'wishedTimezone' wished timezone...
-function getFlagFromTimezone(wishedTimezone) {
+// Definition of the 'getFlagFromOneTimezone' function to return the country flag URL from a 'wishedTimezone' wished timezone...
+function getFlagFromOneTimezone(wishedTimezone) {
 
 	// Definition of the 'flagFromTimezoneJSON' variable which will contain the country flag URL from a wished timezone...
 	var flagFromTimezoneJSON = {};
@@ -602,8 +602,8 @@ function getCountryFromMultipleTimezones(wishedTimezonesArray) {
 	return countryFromTimezonesJSON;
 }
 
-// Definition of the 'getCountryFromTimezone' function to return the country name from a 'wishedTimezone' wished timezone...
-function getCountryFromTimezone(wishedTimezone) {
+// Definition of the 'getCountryFromOneTimezone' function to return the country name from a 'wishedTimezone' wished timezone...
+function getCountryFromOneTimezone(wishedTimezone) {
 
 	// Definition of the 'countryFromTimezoneJSON' variable which will contain the country name from a wished timezone...
 	var countryFromTimezoneJSON = {};
@@ -626,8 +626,8 @@ function getCountryFromTimezone(wishedTimezone) {
 	return countryFromTimezoneJSON;
 }
 
-// Definition of the 'getCountryCodeForMultipleTimezones' function to identify and return the country code of all wished timezones in the 'wishedTimezonesArray' array...
-function getCountryCodeForMultipleTimezones(wishedTimezonesArray) {
+// Definition of the 'getCountryCodeFromMultipleTimezones' function to identify and return the country code of all wished timezones in the 'wishedTimezonesArray' array...
+function getCountryCodeFromMultipleTimezones(wishedTimezonesArray) {
 
 	// Definition of the 'wishedCountryCodesJSON' variable which will contain all the found country codes...
 	var wishedCountryCodesJSON = {};
@@ -678,8 +678,8 @@ function getCountryCodeFromOneTimezone(wishedTimezone) {
 	return wishedCountryCodeJSON;
 }
 
-// Definition of the 'getDatTimeForMultipleTimezones' function to return date and time (in a format specified by the 'dateAndTimeFormat' variable) from an array containing all wished timezones named 'wishedTimezonesArray' passed as an argument...
-function getDatTimeForMultipleTimezones(wishedTimezonesArray, dateAndTimeFormat = "X") {
+// Definition of the 'getDatTimeFromMultipleTimezones' function to return date and time (in a format specified by the 'dateAndTimeFormat' variable) from an array containing all wished timezones named 'wishedTimezonesArray' passed as an argument...
+function getDatTimeFromMultipleTimezones(wishedTimezonesArray, dateAndTimeFormat = "X") {
 
 	// Definition of the 'wishedTimezonesMomentsJSON' variable which will contain all moments for every wished timezones...
 	var wishedTimezonesMomentsJSON = {};
@@ -706,8 +706,8 @@ function getDatTimeForMultipleTimezones(wishedTimezonesArray, dateAndTimeFormat 
 	return wishedTimezonesMomentsJSON;
 }
 
-// Definition of the 'getDateTimeForOneTimezone' function to return date and time (in a format specified by the 'dateAndTimeFormat' variable) from string containing the wished timezone named 'wishedTimezone' passed as an argument...
-function getDateTimeForOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
+// Definition of the 'getDateTimeFromOneTimezone' function to return date and time (in a format specified by the 'dateAndTimeFormat' variable) from string containing the wished timezone named 'wishedTimezone' passed as an argument...
+function getDateTimeFromOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 
 	// Definition of the 'wishedTimezoneMomentJSON' variable which will contain all moments for every wished timezones...
 	var wishedTimezoneMomentJSON = {};
@@ -734,13 +734,13 @@ function getDateTimeForOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 module.exports = {
 
 	'getAllDatasFromMultipleTimezones': getAllDatasFromMultipleTimezones,
-	'getAllDatasFromTimezone': getAllDatasFromTimezone,
+	'getAllDatasFromOneTimezone': getAllDatasFromOneTimezone,
 	'getFlagFromMultipleTimezones': getFlagFromMultipleTimezones,
-	'getFlagFromTimezone': getFlagFromTimezone,
+	'getFlagFromOneTimezone': getFlagFromOneTimezone,
 	'getCountryFromMultipleTimezones': getCountryFromMultipleTimezones,
-	'getCountryFromTimezone': getCountryFromTimezone,
-	'getCountryCodeForMultipleTimezones': getCountryCodeForMultipleTimezones, 
+	'getCountryFromOneTimezone': getCountryFromOneTimezone,
+	'getCountryCodeFromMultipleTimezones': getCountryCodeFromMultipleTimezones, 
 	'getCountryCodeFromOneTimezone': getCountryCodeFromOneTimezone,
-	'getDatTimeForMultipleTimezones': getDatTimeForMultipleTimezones,
-	'getDateTimeForOneTimezone': getDateTimeForOneTimezone
+	'getDatTimeFromMultipleTimezones': getDatTimeFromMultipleTimezones,
+	'getDateTimeFromOneTimezone': getDateTimeFromOneTimezone
 }
