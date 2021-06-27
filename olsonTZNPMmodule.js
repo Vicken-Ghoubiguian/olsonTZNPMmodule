@@ -581,7 +581,7 @@ function getCountryFromMultipleTimezones(wishedTimezonesArray) {
 	var countryFromTimezonesJSON = {};
 
 	// Browse for each element contained in the 'wishedTimezonesArray' array...
- 	/*for(var i = 0; i < wishedTimezonesArray.length; i++)
+ 	for(var i = 0; i < wishedTimezonesArray.length; i++)
 	{
 		// Browse for each element contained in the 'timezones' array...
 		for(var j = 0; j < timezones.length; j++)
@@ -589,14 +589,14 @@ function getCountryFromMultipleTimezones(wishedTimezonesArray) {
 			//  If the current element of the 'timezones' array corresponds to one of the desired timezones (current element of the 'wishedTimezonesArray' array)...
 			if(wishedTimezonesArray[i] === timezones[j].timezone) {
 
-				// Add the country flag URL to the 'wishedFlagsFromTimezonesJSON' JSON variable...
-				wishedFlagsFromTimezonesJSON[timezones[j].timezone] = timezones[j].flag;
+				//
+				countryFromTimezonesJSON[timezones[j].timezone] = timezones[j].country;
 
 				// Leaving the second loop...
 				break;
 			}
 		}
-	}*/
+	}
 
 	// Return the country name from all wished timezone in the 'countryFromTimezonesJSON' JSON variable...
 	return countryFromTimezonesJSON;
