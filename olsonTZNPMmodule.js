@@ -574,7 +574,7 @@ function getFlagFromTimezone(wishedTimezone) {
 	return flagFromTimezoneJSON;
 }
 
-//
+// Definition of the 'getCountryFromMultipleTimezones' function to identify and return the country name of all wished timezones in the 'wishedTimezonesArray' array...
 function getCountryFromMultipleTimezones(wishedTimezonesArray) {
 
 	// Definition of the 'countryFromTimezonesJSON' variable which will contain the country name from all wished timezone...
