@@ -642,7 +642,7 @@ function getCountryCodeFromMultipleTimezones(wishedTimezonesArray) {
 			if(wishedTimezonesArray[i] === timezones[j].timezone) {
 
 				// Add the country code to the 'wishedCountryCodesJSON' JSON variable...
-				wishedCountryCodesJSON[timezones[i].timezone] = timezones[i].country_code;
+				wishedCountryCodesJSON[timezones[j].timezone] = timezones[j].country_code;
 
 				// Leaving the loop...
 				break;
