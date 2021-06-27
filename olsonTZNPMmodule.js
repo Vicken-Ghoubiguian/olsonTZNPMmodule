@@ -525,7 +525,29 @@ function getAllDatasFromTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 //
 function getFlagFromMultipleTimezones(wishedTimezonesArray) {
 
+	// Definition of the 'wishedFlagsFromTimezonesJSON' variable which will contain all country flags URL from every wished timezones...
+	var wishedFlagsFromTimezonesJSON = {};
 
+	// Browse for each element contained in the 'wishedTimezonesArray' array...
+ 	for(var i = 0; i < wishedTimezonesArray.length; i++)
+	{
+		// Browse for each element contained in the 'timezones' array...
+		for(var j = 0; j < timezones.length; j++)
+		{
+			//  If the current element of the 'timezones' array corresponds to one of the desired timezones (current element of the 'wishedTimezonesArray' array)...
+			if(wishedTimezonesArray[i] === timezones[j].timezone) {
+
+				/*// Add the formating date and time to the 'wishedTimezonesMomentsJSON' JSON variable...
+				wishedTimezonesMomentsJSON[timezones[j].timezone] = timezones[j].moment.format(dateAndTimeFormat);*/
+
+				// Leaving the second loop...
+				break;
+			}
+		}
+	}
+
+	// Return all country flags for all wished timezones in the completed 'wishedTimezonesMomentsJSON' JSON variable...
+	return wishedFlagsFromTimezonesJSON;
 }
 
 // Definition of the 'getFlagFromTimezone' function to return the flag URL from a 'wishedTimezone' wished timezone...
