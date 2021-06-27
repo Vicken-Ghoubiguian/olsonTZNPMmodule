@@ -537,8 +537,8 @@ function getFlagFromMultipleTimezones(wishedTimezonesArray) {
 			//  If the current element of the 'timezones' array corresponds to one of the desired timezones (current element of the 'wishedTimezonesArray' array)...
 			if(wishedTimezonesArray[i] === timezones[j].timezone) {
 
-				/*// Add the formating date and time to the 'wishedTimezonesMomentsJSON' JSON variable...
-				wishedTimezonesMomentsJSON[timezones[j].timezone] = timezones[j].moment.format(dateAndTimeFormat);*/
+				// 
+				wishedFlagsFromTimezonesJSON[timezones[j].timezone] = timezones[j].flag;
 
 				// Leaving the second loop...
 				break;
