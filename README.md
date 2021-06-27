@@ -27,7 +27,7 @@ This project consists to develop an NPM module written in JavaScript to get, tre
 
 This NPM module is composed of 1 array and 10 functions in total. They are presented right here:
 
-* 1 array called `timezones` and which contains fundamental datas (timezone name, country name, country code, country flag and current datetime) for all timezones each in JSON format,
+* 1 array called `timezones` and which contains fundamental datas (timezone name, country name, country code, country flag and current datetime) for all timezones each in JSON format and which is not exported,
 
 * 1 function called `getAllDatasFromMultipleTimezones`
 
