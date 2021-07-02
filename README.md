@@ -23,11 +23,11 @@ This is an NPM module written in JavaScript to get, treat and return datetime fo
 <a name="what_is_this_project"></a>
 ## What is this project ?
 
-This project consists to develop an NPM module written in JavaScript to get, treat and return datetime for all timezones.
+This project consists to develop an NPM module written in JavaScript to get, treat and return datetime for all timezones in the world.
 
 This NPM module is composed of 1 array and 10 functions in total. They are presented right here:
 
-* 1 array called `timezones` and which contains fundamental datas (timezone name, country name, country code, country flag and current datetime) for all timezones each in JSON format and which is not exported,
+* 1 array called `timezones` and which contains fundamental datas (timezone name, country name, country code, country flag URL and current datetime) for all timezones in the world each in JSON format and which is not exported outside the present module,
 
 * 1 function called `getAllDatasFromMultipleTimezones`
 
