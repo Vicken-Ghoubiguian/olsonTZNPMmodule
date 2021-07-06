@@ -114,7 +114,7 @@ var timezones = [
 	{timezone: "America/Eirunepe", country_code: "BR", country: "Brazil", flag: "https://flagcdn.com/h40/br.png", moment: moment.tz("America/Eirunepe")},
 	{timezone: "America/El_Salvador", country_code: "SV", country: "El Salvador", flag: "https://flagcdn.com/h40/sv.png", moment: moment.tz("America/El_Salvador")},
 	{timezone: "America/Fort_Nelson", country_code: "CA", country: "Canada", flag: "https://flagcdn.com/h40/ca.png", moment: moment.tz("America/Fort_Nelson")},
-	{timezone: "America/Fortaleza", country_code: "CA", country: "Canada", flag: "https://flagcdn.com/h40/ca.png", moment: moment.tz("America/Fortaleza")},
+	{timezone: "America/Fortaleza", country_code: "BR", country: "Brazil", flag: "https://flagcdn.com/h40/br.png", moment: moment.tz("America/Fortaleza")},
 	{timezone: "America/Glace_Bay", country_code: "CA", country: "Canada", flag: "https://flagcdn.com/h40/ca.png", moment: moment.tz("America/Glace_Bay")},
 	{timezone: "America/Goose_Bay", country_code: "CA", country: "Canada", flag: "https://flagcdn.com/h40/ca.png", moment: moment.tz("America/Goose_Bay")},
 	{timezone: "America/Grand_Turk", country_code: "TC", country: "Grand Turk Island", flag: "https://flagcdn.com/h40/tc.png", moment: moment.tz("America/Grand_Turk")},
