@@ -9,7 +9,7 @@ var timezones = [
 	{timezone: "Etc/GMT", country_code_ISO_3166_1_alpha_2: null, country_code_ISO_3166_1_alpha_3: null, country_code_ISO_3166_1_numeric: null, country: null, flag: null, moment: moment.tz("Etc/GMT")},
 
 	//African timezones...
-	{timezone: "Africa/Abidjan", country_code_ISO_3166_1_alpha_2: "CI", country_code_ISO_3166_1_alpha_3: "CIV", country_code_ISO_3166_1_numeric: 384, country: "Ivory Coast", flag: "https://flagcdn.com/h40/ci.png", moment: moment.tz("Africa/Abidjan")},
+	{timezone: "Africa/Abidjan", country_code_ISO_3166_1_alpha_2: "CI", country_code_ISO_3166_1_alpha_3: "CIV", country_code_ISO_3166_1_numeric: "384", country: "Ivory Coast", flag: "https://flagcdn.com/h40/ci.png", moment: moment.tz("Africa/Abidjan")},
 	{timezone: "Africa/Accra", country_code_ISO_3166_1_alpha_2: "GH", country: "Ghana", flag: "https://flagcdn.com/h40/gh.png", moment: moment.tz("Africa/Accra")},
 	{timezone: "Africa/Addis_Ababa", country_code_ISO_3166_1_alpha_2: "ET", country: "Ethiopia", flag: "https://flagcdn.com/h40/et.png", moment: moment.tz("Africa/Addis_Ababa")},
 	{timezone: "Africa/Algiers", country_code_ISO_3166_1_alpha_2: "DZ", country: "Algeria", flag: "https://flagcdn.com/h40/dz.png", moment: moment.tz("Africa/Algiers")},
@@ -213,17 +213,17 @@ var timezones = [
 	{timezone: "America/Yellowknife", country_code_ISO_3166_1_alpha_2: "CA", country: "Canada", flag: "https://flagcdn.com/h40/ca.png", moment: moment.tz("America/Yellowknife")},
 
 	//Antarctican timezones...
-	{timezone: "Antarctica/Casey", country_code_ISO_3166_1_alpha_2: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Casey")},
-	{timezone: "Antarctica/Davis", country_code_ISO_3166_1_alpha_2: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Davis")},
-	{timezone: "Antarctica/DumontDUrville", country_code_ISO_3166_1_alpha_2: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/DumontDUrville")},
-	{timezone: "Antarctica/Macquarie", country_code_ISO_3166_1_alpha_2: "AU", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Macquarie")},
-	{timezone: "Antarctica/Mawson", country_code_ISO_3166_1_alpha_2: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Mawson")},
-	{timezone: "Antarctica/McMurdo", country_code_ISO_3166_1_alpha_2: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/McMurdo")},
-	{timezone: "Antarctica/Palmer", country_code_ISO_3166_1_alpha_2: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Palmer")},
-	{timezone: "Antarctica/Rothera", country_code_ISO_3166_1_alpha_2: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Rothera")},
-	{timezone: "Antarctica/Syowa", country_code_ISO_3166_1_alpha_2: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Syowa")},
-	{timezone: "Antarctica/Troll", country_code_ISO_3166_1_alpha_2: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Troll")},
-	{timezone: "Antarctica/Vostok", country_code_ISO_3166_1_alpha_2: "AQ", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Vostok")},
+	{timezone: "Antarctica/Casey", country_code_ISO_3166_1_alpha_2: "AQ", country_code_ISO_3166_1_alpha_3: "ATA", country_code_ISO_3166_1_numeric: "010", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Casey")},
+	{timezone: "Antarctica/Davis", country_code_ISO_3166_1_alpha_2: "AQ", country_code_ISO_3166_1_alpha_3: "ATA", country_code_ISO_3166_1_numeric: "010", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Davis")},
+	{timezone: "Antarctica/DumontDUrville", country_code_ISO_3166_1_alpha_2: "AQ", country_code_ISO_3166_1_alpha_3: "ATA", country_code_ISO_3166_1_numeric: "010", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/DumontDUrville")},
+	{timezone: "Antarctica/Macquarie", country_code_ISO_3166_1_alpha_2: "AU", country_code_ISO_3166_1_alpha_3: "ATA", country_code_ISO_3166_1_numeric: "010", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Macquarie")},
+	{timezone: "Antarctica/Mawson", country_code_ISO_3166_1_alpha_2: "AQ", country_code_ISO_3166_1_alpha_3: "ATA", country_code_ISO_3166_1_numeric: "010", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Mawson")},
+	{timezone: "Antarctica/McMurdo", country_code_ISO_3166_1_alpha_2: "AQ", country_code_ISO_3166_1_alpha_3: "ATA", country_code_ISO_3166_1_numeric: "010", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/McMurdo")},
+	{timezone: "Antarctica/Palmer", country_code_ISO_3166_1_alpha_2: "AQ", country_code_ISO_3166_1_alpha_3: "ATA", country_code_ISO_3166_1_numeric: "010", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Palmer")},
+	{timezone: "Antarctica/Rothera", country_code_ISO_3166_1_alpha_2: "AQ", country_code_ISO_3166_1_alpha_3: "ATA", country_code_ISO_3166_1_numeric: "010", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Rothera")},
+	{timezone: "Antarctica/Syowa", country_code_ISO_3166_1_alpha_2: "AQ", country_code_ISO_3166_1_alpha_3: "ATA", country_code_ISO_3166_1_numeric: "010", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Syowa")},
+	{timezone: "Antarctica/Troll", country_code_ISO_3166_1_alpha_2: "AQ", country_code_ISO_3166_1_alpha_3: "ATA", country_code_ISO_3166_1_numeric: "010", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Troll")},
+	{timezone: "Antarctica/Vostok", country_code_ISO_3166_1_alpha_2: "AQ", country_code_ISO_3166_1_alpha_3: "ATA", country_code_ISO_3166_1_numeric: "010", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Vostok")},
 
 	//Arctic ocean's timezones...
 	{timezone: "Arctic/Longyearbyen", country_code_ISO_3166_1_alpha_2: "SJ", country: "Svalbard and Jan Mayen", flag: "https://flagcdn.com/h40/sj.png", moment: moment.tz("Arctic/Longyearbyen")},
@@ -374,8 +374,8 @@ var timezones = [
 	{timezone: "Europe/Monaco", country_code_ISO_3166_1_alpha_2: "MC", country: "Monaco", flag: "https://flagcdn.com/h40/mc.png", moment: moment.tz("Europe/Monaco")},
 	{timezone: "Europe/Moscow", country_code_ISO_3166_1_alpha_2: "RU", country: "Russia", flag: "https://flagcdn.com/h40/ru.png", moment: moment.tz("Europe/Moscow")},
 	{timezone: "Europe/Nicosia", country_code_ISO_3166_1_alpha_2: "CY", country: "Cyprus", flag: "https://flagcdn.com/h40/cy.png", moment: moment.tz("Europe/Nicosia")},
-	{timezone: "Europe/Oslo", country_code_ISO_3166_1_alpha_2: "NO", country_code_ISO_3166_1_alpha_3: "NOR", country_code_ISO_3166_1_numeric: 578, country: "Norway", flag: "https://flagcdn.com/h40/no.png", moment: moment.tz("Europe/Oslo")},
-	{timezone: "Europe/Paris", country_code_ISO_3166_1_alpha_2: "FR", country_code_ISO_3166_1_alpha_3: "FRA", country_code_ISO_3166_1_numeric: 250, country: "France", flag: "https://flagcdn.com/h40/fr.png", moment: moment.tz("Europe/Paris")},
+	{timezone: "Europe/Oslo", country_code_ISO_3166_1_alpha_2: "NO", country_code_ISO_3166_1_alpha_3: "NOR", country_code_ISO_3166_1_numeric: "578", country: "Norway", flag: "https://flagcdn.com/h40/no.png", moment: moment.tz("Europe/Oslo")},
+	{timezone: "Europe/Paris", country_code_ISO_3166_1_alpha_2: "FR", country_code_ISO_3166_1_alpha_3: "FRA", country_code_ISO_3166_1_numeric: "250", country: "France", flag: "https://flagcdn.com/h40/fr.png", moment: moment.tz("Europe/Paris")},
 	{timezone: "Europe/Podgorica", country_code_ISO_3166_1_alpha_2: "ME", country: "Montenegro", flag: "https://flagcdn.com/h40/me.png", moment: moment.tz("Europe/Podgorica")},
 	{timezone: "Europe/Prague", country_code_ISO_3166_1_alpha_2: "CZ", country: "Czechia", flag: "https://flagcdn.com/h40/cz.png", moment: moment.tz("Europe/Prague")},
 	{timezone: "Europe/Riga", country_code_ISO_3166_1_alpha_2: "LV", country: "Latvia", flag: "https://flagcdn.com/h40/lv.png", moment: moment.tz("Europe/Riga")},
