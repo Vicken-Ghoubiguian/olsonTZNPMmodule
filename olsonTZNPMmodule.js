@@ -627,7 +627,17 @@ function getCountryFromOneTimezone(wishedTimezone) {
 }
 
 //
+function getCountryCodeISO3166_1AlphaNumericFromMultipleTimezones(wishedTimezonesArray) {
+	
+}
+
+//
 function getCountryCodeISO3166_1AlphaNumericFromOneTimezone(wishedTimezone) {
+
+}
+
+//
+function getCountryCodeISO3166_1Alpha3FromMultipleTimezones(wishedTimezonesArray) {
 
 }
 
@@ -749,9 +759,9 @@ module.exports = {
 	'getFlagFromOneTimezone': getFlagFromOneTimezone,
 	'getCountryFromMultipleTimezones': getCountryFromMultipleTimezones,
 	'getCountryFromOneTimezone': getCountryFromOneTimezone,
-
+	'getCountryCodeISO3166_1AlphaNumericFromMultipleTimezones': getCountryCodeISO3166_1AlphaNumericFromMultipleTimezones,
 	'getCountryCodeISO3166_1AlphaNumericFromOneTimezone': getCountryCodeISO3166_1AlphaNumericFromOneTimezone,
-
+	'getCountryCodeISO3166_1Alpha3FromMultipleTimezones': getCountryCodeISO3166_1Alpha3FromMultipleTimezones,
 	'getCountryCodeISO3166_1Alpha3FromOneTimezone': getCountryCodeISO3166_1Alpha3FromOneTimezone,
 	'getCountryCodeISO3166_1Alpha2FromMultipleTimezones': getCountryCodeISO3166_1Alpha2FromMultipleTimezones, 
 	'getCountryCodeISO3166_1Alpha2FromOneTimezone': getCountryCodeISO3166_1Alpha2FromOneTimezone,
