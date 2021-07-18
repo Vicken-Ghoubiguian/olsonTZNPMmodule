@@ -43,7 +43,7 @@ This NPM module is composed of 1 array and 10 functions in total. They are prese
 
 * 1 function called `getCountryCodeFromMultipleTimezones`
 
-* 1 function called `getCountryCodeFromOneTimezone`
+* 1 function called `getCountryCodeISO3166_1Alpha2FromOneTimezone`
 
 * 1 function called `getDatTimeFromMultipleTimezones`
 
