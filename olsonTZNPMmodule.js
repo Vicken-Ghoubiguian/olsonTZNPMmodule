@@ -662,8 +662,8 @@ function getCountryCodeISO3166_1AlphaNumericFromOneTimezone(wishedTimezone) {
 //
 function getCountryCodeISO3166_1Alpha3FromMultipleTimezones(wishedTimezonesArray) {
 
-	// Definition of the 'wishedCountryCodesJSON' variable which will contain all the found ISO 3166-1 alpha-3 country codes...
-	var wishedCountryCodesJSON = {};
+	// Definition of the 'wishedCountryCodesISO3166_1Alpha3JSON' variable which will contain all the found ISO 3166-1 alpha-3 country codes...
+	var wishedCountryCodesISO3166_1Alpha3JSON = {};
 
 	// Browse for each element contained in the 'wishedTimezonesArray' array...
 	for(var i = 0; i < wishedTimezonesArray.length; i++)
@@ -674,8 +674,8 @@ function getCountryCodeISO3166_1Alpha3FromMultipleTimezones(wishedTimezonesArray
 			// If the current element of the 'timezones' array corresponds to one of the desired timezones (current element of the 'wishedTimezonesArray' array)...
 			if(wishedTimezonesArray[i] === timezones[j].timezone) {
 
-				// Add the ISO 3166-1 alpha-2 country code to the 'wishedCountryCodesJSON' JSON variable...
-				wishedCountryCodesJSON[timezones[j].timezone] = timezones[j].country_code_ISO_3166_1_alpha_3;
+				// Add the ISO 3166-1 alpha-2 country code to the 'wishedCountryCodesISO3166_1Alpha3JSON' JSON variable...
+				wishedCountryCodesISO3166_1Alpha3JSON[timezones[j].timezone] = timezones[j].country_code_ISO_3166_1_alpha_3;
 
 				// Leaving the loop...
 				break;
@@ -683,8 +683,8 @@ function getCountryCodeISO3166_1Alpha3FromMultipleTimezones(wishedTimezonesArray
 		}
 	}
 
-	// Return the ISO 3166-1 alpha-3 country code contained in the completed 'wishedCountryCodesJSON' JSON variable...
-	return wishedCountryCodesJSON;
+	// Return the ISO 3166-1 alpha-3 country code contained in the completed 'wishedCountryCodesISO3166_1Alpha3JSON' JSON variable...
+	return wishedCountryCodesISO3166_1Alpha3JSON;
 }
 
 //
