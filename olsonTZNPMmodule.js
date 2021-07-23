@@ -655,9 +655,9 @@ function getCountryCodeISO3166_1NumericFromMultipleTimezones(wishedTimezonesArra
 }
 
 //
-function getCountryCodeISO3166_1NumericFromOneTimezone(wishedTimezone) {
+/*function getCountryCodeISO3166_1NumericFromOneTimezone(wishedTimezone) {
 
-}
+}*/
 
 // Definition of the 'getCountryCodeISO3166_1Alpha3FromMultipleTimezones' function to identify and return the ISO 3166-1 alpha-3 country code of all wished timezones in the 'wishedTimezonesArray' array...
 function getCountryCodeISO3166_1Alpha3FromMultipleTimezones(wishedTimezonesArray) {
@@ -688,9 +688,9 @@ function getCountryCodeISO3166_1Alpha3FromMultipleTimezones(wishedTimezonesArray
 }
 
 //
-function getCountryCodeISO3166_1Alpha3FromOneTimezone(wishedTimezone) {
+/*function getCountryCodeISO3166_1Alpha3FromOneTimezone(wishedTimezone) {
 
-}
+}*/
 
 // Definition of the 'getCountryCodeISO3166_1Alpha2FromMultipleTimezones' function to identify and return the ISO 3166-1 alpha-2 ISO 3166-1 alpha-2 country code of all wished timezones in the 'wishedTimezonesArray' array...
 function getCountryCodeISO3166_1Alpha2FromMultipleTimezones(wishedTimezonesArray) {
