@@ -630,7 +630,7 @@ function getCountryFromOneTimezone(wishedTimezone) {
 function getCountryCodeISO3166_1NumericFromMultipleTimezones(wishedTimezonesArray) {
 
 	//
-	var wishedCountryCodesJSON = {};
+	var wishedCountryCodesISO3166_1NumericJSON = {};
 
 	//
 	for(var i = 0; i < wishedTimezonesArray.length; i++)
@@ -642,7 +642,7 @@ function getCountryCodeISO3166_1NumericFromMultipleTimezones(wishedTimezonesArra
 			if(wishedTimezonesArray[i] === timezones[j].timezone) {
 
 				//
-				wishedCountryCodesJSON[timezones[j].timezone] = timezones[j].country_code_ISO_3166_1_numeric;
+				wishedCountryCodesISO3166_1NumericJSON[timezones[j].timezone] = timezones[j].country_code_ISO_3166_1_numeric;
 
 				//
 				break;
@@ -651,7 +651,7 @@ function getCountryCodeISO3166_1NumericFromMultipleTimezones(wishedTimezonesArra
 	}
 
 	//
-	return wishedCountryCodesJSON;	
+	return wishedCountryCodesISO3166_1NumericJSON;	
 }
 
 //
