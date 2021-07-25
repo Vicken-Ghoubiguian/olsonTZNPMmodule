@@ -6,7 +6,9 @@ This is an NPM module written in JavaScript to get, treat and return datetime fo
 
 1. [What is this project ?](#what_is_this_project)
 
-2. [How to use it ?](#how_to_use_it)
+2. [How is an NPM module structured ?](#how_is_structured_an_npm_module)
+
+3. [How to use it ?](#how_to_use_it)
 
     * [From locally...](#from_locally)
   
@@ -14,11 +16,11 @@ This is an NPM module written in JavaScript to get, treat and return datetime fo
   
     * [From NPM...](#from_npm)
 
-3. [Little examples](#little_examples)
+4. [Little examples](#little_examples)
 
-4. [A few usefull links](#a_few_links)
+5. [A few usefull links](#a_few_links)
 
-5. [Conclusion](#conclusion)
+6. [Conclusion](#conclusion)
 
 <a name="what_is_this_project"></a>
 ## What is this project ?
@@ -56,6 +58,9 @@ This NPM module is composed of 1 array and 10 functions in total. They are prese
 * 1 function called `getDatTimeFromMultipleTimezones`
 
 * 1 function called `getDateTimeFromOneTimezone`
+
+<a name="how_is_structured_an_npm_module"></a>
+## How is an NPM module structured ?
 
 <a name="how_to_use_it"></a>
 ## How to use it ?
