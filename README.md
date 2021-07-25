@@ -170,5 +170,9 @@ console.log(olsonArray);
 <a name="a_few_links"></a>
 ## A few usefull links
 
+* [NodeJS official website](https://nodejs.org/en/),
+* [NPM official website](https://www.npmjs.com/),
+* [Creating NodeJS modules](https://docs.npmjs.com/creating-node-js-modules),
+
 <a name="conclusion"></a>
 ## Conclusion
