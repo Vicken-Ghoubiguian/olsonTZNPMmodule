@@ -654,7 +654,7 @@ function getCountryCodeISO3166_1NumericFromMultipleTimezones(wishedTimezonesArra
 	return wishedCountryCodesISO3166_1NumericJSON;	
 }
 
-//
+// Definition of the 'getCountryCodeISO3166_1NumericFromOneTimezone' function to identify and return the ISO 3166-1 alpha numeric country code of the 'wishedTimezone' timezone...
 function getCountryCodeISO3166_1NumericFromOneTimezone(wishedTimezone) {
 
 	//
@@ -743,7 +743,7 @@ function getCountryCodeISO3166_1Alpha2FromMultipleTimezones(wishedTimezonesArray
 	return wishedCountryCodesISO3166_1Alpha2JSON;
 }
 
-// Definition of the 'getCountryCodeISO3166_1Alpha2FromOneTimezone' function to identify and return the ISO 3166-1 alpha-2 ISO 3166-1 alpha-2 country code of the 'wishedTimezone' timezone...
+// Definition of the 'getCountryCodeISO3166_1Alpha2FromOneTimezone' function to identify and return the ISO 3166-1 alpha-2 country code of the 'wishedTimezone' timezone...
 function getCountryCodeISO3166_1Alpha2FromOneTimezone(wishedTimezone) {
 
 	// Definition of the 'wishedCountryCodeISO3166_1Alpha2JSON' variable which will contain the found ISO 3166-1 alpha-2 country code...
