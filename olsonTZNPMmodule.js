@@ -716,14 +716,14 @@ function getCountryCodeISO3166_1Alpha3FromOneTimezone(wishedTimezone) {
 	for(var i = 0; i < timezones.length; i++)
 	{
 		// If the current element of the 'timezones' array corresponds to the desired timezone...
-		/*if(timezones[i].timezone === wishedTimezone) {
+		if(timezones[i].timezone === wishedTimezone) {
 
-			// Add the ISO 3166-1 alpha numeric country code to the 'wishedCountryCodesISO3166_1AlphaNumericJSON' JSON variable...
-			wishedCountryCodesISO3166_1AlphaNumericJSON[timezones[i].timezone] = timezones[i].country_code_ISO_3166_1_alpha_2;
+			// Add the ISO 3166-1 alpha 3 country code to the 'wishedCountryCodesISO3166_1Alpha3JSON' JSON variable...
+			wishedCountryCodesISO3166_1Alpha3JSON[timezones[i].timezone] = timezones[i].country_code_ISO_3166_1_alpha_3;
 
 			// Leaving the loop...
 			break;
-		}*/
+		}
 	}
 
 	// Return the ISO 3166-1 alpha-3 country code contained in the completed 'wishedCountryCodesISO3166_1AlphaNumericJSON' JSON variable...
