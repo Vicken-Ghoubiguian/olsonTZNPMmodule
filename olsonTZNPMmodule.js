@@ -706,7 +706,7 @@ function getCountryCodeISO3166_1Alpha3FromMultipleTimezones(wishedTimezonesArray
 	return wishedCountryCodesISO3166_1Alpha3JSON;
 }
 
-//
+// Definition of the 'getCountryCodeISO3166_1Alpha3FromOneTimezone' function to identify and return the ISO 3166-1 alpha-3 country code of the 'wishedTimezone' timezone...
 function getCountryCodeISO3166_1Alpha3FromOneTimezone(wishedTimezone) {
 
 	// Definition of the 'wishedCountryCodesISO3166_1Alpha3JSON' variable which will contain the found ISO 3166-1 alpha-3 country code...
