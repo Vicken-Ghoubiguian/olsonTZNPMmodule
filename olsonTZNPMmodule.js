@@ -5,7 +5,7 @@ var moment = require('moment-timezone');
 var timezones = [
 
 	//Universal and conventional timezones...
-	/*{timezone: "Etc/UTC", country_code_ISO_3166_1_alpha_2: null, country_code_ISO_3166_1_alpha_3: null, country_code_ISO_3166_1_numeric: null, country: null, flag: null, moment: moment.tz("Etc/UTC")},
+	{timezone: "Etc/UTC", country_code_ISO_3166_1_alpha_2: null, country_code_ISO_3166_1_alpha_3: null, country_code_ISO_3166_1_numeric: null, country: null, flag: null, moment: moment.tz("Etc/UTC")},
 	{timezone: "Etc/GMT", country_code_ISO_3166_1_alpha_2: null, country_code_ISO_3166_1_alpha_3: null, country_code_ISO_3166_1_numeric: null, country: null, flag: null, moment: moment.tz("Etc/GMT")},
 
 	//African timezones...
@@ -453,7 +453,7 @@ var timezones = [
 	{timezone: "Pacific/Tarawa", country_code_ISO_3166_1_alpha_2: "KI", country: "Kiribati", flag: "https://flagcdn.com/h40/ki.png", moment: moment.tz("Pacific/Tarawa")},
 	{timezone: "Pacific/Tongatapu", country_code_ISO_3166_1_alpha_2: "TO", country: "Tonga", flag: "https://flagcdn.com/h40/to.png", moment: moment.tz("Pacific/Tongatapu")},
 	{timezone: "Pacific/Wake", country_code_ISO_3166_1_alpha_2: "UM", country: "United States of America", flag: "https://flagcdn.com/h40/us.png", moment: moment.tz("Pacific/Wake")},
-	{timezone: "Pacific/Wallis", country_code_ISO_3166_1_alpha_2: "WF", country: "Wallis and Futuna", flag: "https://flagcdn.com/h40/wf.png", moment: moment.tz("Pacific/Wallis")}*/
+	{timezone: "Pacific/Wallis", country_code_ISO_3166_1_alpha_2: "WF", country: "Wallis and Futuna", flag: "https://flagcdn.com/h40/wf.png", moment: moment.tz("Pacific/Wallis")}
 ];
 
 // Definition of the 'getAllDatasFromMultipleTimezones' function to return all datas from all wished timezones in an array and even the current datetime in a wished format...
