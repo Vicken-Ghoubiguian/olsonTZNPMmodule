@@ -124,7 +124,7 @@ var timezones = [
 	{timezone: "America/Guayaquil", country_code_ISO_3166_1_alpha_2: "EC", country: "Ecuador", flag: "https://flagcdn.com/h40/ec.png", moment: moment.tz("America/Guayaquil")},
 	{timezone: "America/Guyana", country_code_ISO_3166_1_alpha_2: "GY", country: "Guyana", flag: "https://flagcdn.com/h40/gy.png", moment: moment.tz("America/Guyana")},
 	{timezone: "America/Halifax", country_code_ISO_3166_1_alpha_2: "CA", country_code_ISO_3166_1_alpha_3: "CAN", country_code_ISO_3166_1_numeric: "124", country: "Canada", flag: "https://flagcdn.com/h40/ca.png", moment: moment.tz("America/Halifax")},
-	{timezone: "America/Havana", country_code_ISO_3166_1_alpha_2: "CU", country: "Cuba", flag: "https://flagcdn.com/h40/cu.png", moment: moment.tz("America/Havana")},
+	{timezone: "America/Havana", country_code_ISO_3166_1_alpha_2: "CU", country_code_ISO_3166_1_alpha_3: "CUB", country_code_ISO_3166_1_numeric: "192", country: "Cuba", flag: "https://flagcdn.com/h40/cu.png", moment: moment.tz("America/Havana")},
 	{timezone: "America/Hermosillo", country_code_ISO_3166_1_alpha_2: "MX", country: "Mexico", flag: "https://flagcdn.com/h40/mx.png", moment: moment.tz("America/Hermosillo")},
 	{timezone: "America/Indiana/Indianapolis", country_code_ISO_3166_1_alpha_2: "US", country_code_ISO_3166_1_alpha_3: "USA", country_code_ISO_3166_1_numeric: "840", country: "United States of America", flag: "https://flagcdn.com/h40/us.png", moment: moment.tz("America/Indiana/Indianapolis")},
 	{timezone: "America/Indiana/Knox", country_code_ISO_3166_1_alpha_2: "US", country_code_ISO_3166_1_alpha_3: "USA", country_code_ISO_3166_1_numeric: "840", country: "United States of America", flag: "https://flagcdn.com/h40/us.png", moment: moment.tz("America/Indiana/Knox")},
