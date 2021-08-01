@@ -179,7 +179,7 @@ var timezones = [
 	{timezone: "America/Port-au-Prince", country_code_ISO_3166_1_alpha_2: "HT", country: "Haiti", flag: "https://flagcdn.com/h40/ht.png", moment: moment.tz("America/Port-au-Prince")},
 	{timezone: "America/Port_of_Spain", country_code_ISO_3166_1_alpha_2: "TT", country: "Trinidad and Tobago", flag: "https://flagcdn.com/h40/tt.png", moment: moment.tz("America/Port_of_Spain")},
 	{timezone: "America/Porto_Velho", country_code_ISO_3166_1_alpha_2: "BR", country: "Brazil", flag: "https://flagcdn.com/h40/br.png", moment: moment.tz("America/Porto_Velho")},
-	{timezone: "America/Puerto_Rico", country_code_ISO_3166_1_alpha_2: "PR", country: "Puerto Rico", flag: "https://flagcdn.com/h40/pr.png", moment: moment.tz("America/Puerto_Rico")},
+	{timezone: "America/Puerto_Rico", country_code_ISO_3166_1_alpha_2: "PR", country_code_ISO_3166_1_alpha_3: "PRI", country_code_ISO_3166_1_numeric: "630", country: "Puerto Rico", flag: "https://flagcdn.com/h40/pr.png", moment: moment.tz("America/Puerto_Rico")},
 	{timezone: "America/Punta_Arenas", country_code_ISO_3166_1_alpha_2: "CL", country: "Chile", flag: "https://flagcdn.com/h40/cl.png", moment: moment.tz("America/Punta_Arenas")},
 	{timezone: "America/Rainy_River", country_code_ISO_3166_1_alpha_2: "CA", country_code_ISO_3166_1_alpha_3: "CAN", country_code_ISO_3166_1_numeric: "124", country: "Canada", flag: "https://flagcdn.com/h40/ca.png", moment: moment.tz("America/Rainy_River")},
 	{timezone: "America/Rankin_Inlet", country_code_ISO_3166_1_alpha_2: "CA", country_code_ISO_3166_1_alpha_3: "CAN", country_code_ISO_3166_1_numeric: "124", country: "Canada", flag: "https://flagcdn.com/h40/ca.png", moment: moment.tz("America/Rankin_Inlet")},
