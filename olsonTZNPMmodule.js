@@ -403,17 +403,17 @@ var timezones = [
 	{timezone: "Europe/Zurich", country_code_ISO_3166_1_alpha_2: "CH", country: "Switzerland", flag: "https://flagcdn.com/h40/ch.png", moment: moment.tz("Europe/Zurich")},
 
 	//Indian ocean's timezones...
-	{timezone: "Indian/Antananarivo", country_code_ISO_3166_1_alpha_2: "MG", country: "Madagascar", flag: "https://flagcdn.com/h40/mg.png", moment: moment.tz("Indian/Antananarivo")},
-	{timezone: "Indian/Chagos", country_code_ISO_3166_1_alpha_2: "IO", country: "Chagos Archipelago", flag: "https://flagcdn.com/h40/io.png", moment: moment.tz("Indian/Chagos")},
-	{timezone: "Indian/Christmas", country_code_ISO_3166_1_alpha_2: "CX", country: "Christmas Island", flag: "https://flagcdn.com/h40/cx.png", moment: moment.tz("Indian/Christmas")},
-	{timezone: "Indian/Cocos", country_code_ISO_3166_1_alpha_2: "CC", country: "Cocos Islands", flag: "https://flagcdn.com/h40/cc.png", moment: moment.tz("Indian/Cocos")},
-	{timezone: "Indian/Comoro", country_code_ISO_3166_1_alpha_2: "KM", country: "Comoros", flag: "https://flagcdn.com/h40/km.png", moment: moment.tz("Indian/Comoro")},
-	{timezone: "Indian/Kerguelen", country_code_ISO_3166_1_alpha_2: "TF", country: "Kerguelen Islands", flag: "https://flagcdn.com/h40/tf.png", moment: moment.tz("Indian/Kerguelen")},
-	{timezone: "Indian/Mahe", country_code_ISO_3166_1_alpha_2: "SC", country: "Seychelles", flag: "https://flagcdn.com/h40/sc.png", moment: moment.tz("Indian/Mahe")},
-	{timezone: "Indian/Maldives", country_code_ISO_3166_1_alpha_2: "MV", country: "Maldives", flag: "https://flagcdn.com/h40/mv.png", moment: moment.tz("Indian/Maldives")},
-	{timezone: "Indian/Mauritius", country_code_ISO_3166_1_alpha_2: "MU", country: "Mauritius", flag: "https://flagcdn.com/h40/mu.png", moment: moment.tz("Indian/Mauritius")},
-	{timezone: "Indian/Mayotte", country_code_ISO_3166_1_alpha_2: "YT", country: "Mayotte", flag: "https://flagcdn.com/h40/yt.png", moment: moment.tz("Indian/Mayotte")},
-	{timezone: "Indian/Reunion", country_code_ISO_3166_1_alpha_2: "RE", country: "Réunion", flag: "https://flagcdn.com/h40/re.png", moment: moment.tz("Indian/Reunion")},
+	{timezone: "Indian/Antananarivo", country_code_ISO_3166_1_alpha_2: "MG", country_code_ISO_3166_1_alpha_3: "MDG", country_code_ISO_3166_1_numeric: "450", country: "Madagascar", flag: "https://flagcdn.com/h40/mg.png", moment: moment.tz("Indian/Antananarivo")},
+	{timezone: "Indian/Chagos", country_code_ISO_3166_1_alpha_2: "IO", country_code_ISO_3166_1_alpha_3: "IOT", country_code_ISO_3166_1_numeric: "086", country: "Chagos Archipelago", flag: "https://flagcdn.com/h40/io.png", moment: moment.tz("Indian/Chagos")},
+	{timezone: "Indian/Christmas", country_code_ISO_3166_1_alpha_2: "CX", country_code_ISO_3166_1_alpha_3: "CXR", country_code_ISO_3166_1_numeric: "162", country: "Christmas Island", flag: "https://flagcdn.com/h40/cx.png", moment: moment.tz("Indian/Christmas")},
+	{timezone: "Indian/Cocos", country_code_ISO_3166_1_alpha_2: "CC", country_code_ISO_3166_1_alpha_3: "CCK", country_code_ISO_3166_1_numeric: "166", country: "Cocos Islands", flag: "https://flagcdn.com/h40/cc.png", moment: moment.tz("Indian/Cocos")},
+	{timezone: "Indian/Comoro", country_code_ISO_3166_1_alpha_2: "KM", country_code_ISO_3166_1_alpha_3: "COM", country_code_ISO_3166_1_numeric: "174", country: "Comoros", flag: "https://flagcdn.com/h40/km.png", moment: moment.tz("Indian/Comoro")},
+	{timezone: "Indian/Kerguelen", country_code_ISO_3166_1_alpha_2: "TF", country_code_ISO_3166_1_alpha_3: "ATF", country_code_ISO_3166_1_numeric: "260", country: "Kerguelen Islands", flag: "https://flagcdn.com/h40/tf.png", moment: moment.tz("Indian/Kerguelen")},
+	{timezone: "Indian/Mahe", country_code_ISO_3166_1_alpha_2: "SC", country_code_ISO_3166_1_alpha_3: "SYC", country_code_ISO_3166_1_numeric: "690", country: "Seychelles", flag: "https://flagcdn.com/h40/sc.png", moment: moment.tz("Indian/Mahe")},
+	{timezone: "Indian/Maldives", country_code_ISO_3166_1_alpha_2: "MV", country_code_ISO_3166_1_alpha_3: "MDV", country_code_ISO_3166_1_numeric: "462", country: "Maldives", flag: "https://flagcdn.com/h40/mv.png", moment: moment.tz("Indian/Maldives")},
+	{timezone: "Indian/Mauritius", country_code_ISO_3166_1_alpha_2: "MU", country_code_ISO_3166_1_alpha_3: "MUS", country_code_ISO_3166_1_numeric: "480", country: "Mauritius", flag: "https://flagcdn.com/h40/mu.png", moment: moment.tz("Indian/Mauritius")},
+	{timezone: "Indian/Mayotte", country_code_ISO_3166_1_alpha_2: "YT", country_code_ISO_3166_1_alpha_3: "MYT", country_code_ISO_3166_1_numeric: "175", country: "Mayotte", flag: "https://flagcdn.com/h40/yt.png", moment: moment.tz("Indian/Mayotte")},
+	{timezone: "Indian/Reunion", country_code_ISO_3166_1_alpha_2: "RE", country_code_ISO_3166_1_alpha_3: "REU", country_code_ISO_3166_1_numeric: "638", country: "Réunion", flag: "https://flagcdn.com/h40/re.png", moment: moment.tz("Indian/Reunion")},
 
 	//Pacific ocean's timezones...
 	{timezone: "Pacific/Apia", country_code_ISO_3166_1_alpha_2: "WS", country: "Samoa", flag: "https://flagcdn.com/h40/ws.png", moment: moment.tz("Pacific/Apia")},
