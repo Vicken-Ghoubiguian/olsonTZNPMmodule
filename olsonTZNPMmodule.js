@@ -99,7 +99,7 @@ var timezones = [
 	{timezone: "America/Cayenne", country_code_ISO_3166_1_alpha_2: "GF", country: "French Guiana", flag: "https://flagcdn.com/h40/gf.png", moment: moment.tz("America/Cayenne")},
 	{timezone: "America/Cayman", country_code_ISO_3166_1_alpha_2: "KY", country: "Cayman Islands", flag: "https://flagcdn.com/h40/ky.png", moment: moment.tz("America/Cayman")},
 	{timezone: "America/Chicago", country_code_ISO_3166_1_alpha_2: "US", country_code_ISO_3166_1_alpha_3: "USA", country_code_ISO_3166_1_numeric: "840", country: "United States of America", flag: "https://flagcdn.com/h40/us.png", moment: moment.tz("America/Chicago")},
-	{timezone: "America/Chihuahua", country_code_ISO_3166_1_alpha_2: "MX", country: "Mexico", flag: "https://flagcdn.com/h40/mx.png", moment: moment.tz("America/Chihuahua")},
+	{timezone: "America/Chihuahua", country_code_ISO_3166_1_alpha_2: "MX", country_code_ISO_3166_1_alpha_3: "MEX", country_code_ISO_3166_1_numeric: "484", country: "Mexico", flag: "https://flagcdn.com/h40/mx.png", moment: moment.tz("America/Chihuahua")},
 	{timezone: "America/Costa_Rica", country_code_ISO_3166_1_alpha_2: "CR", country: "Costa Rica", flag: "https://flagcdn.com/h40/cr.png", moment: moment.tz("America/Costa_Rica")},
 	{timezone: "America/Creston", country_code_ISO_3166_1_alpha_2: "CA", country_code_ISO_3166_1_alpha_3: "CAN", country_code_ISO_3166_1_numeric: "124", country: "Canada", flag: "https://flagcdn.com/h40/ca.png", moment: moment.tz("America/Creston")},
 	{timezone: "America/Cuiaba", country_code_ISO_3166_1_alpha_2: "BR", country_code_ISO_3166_1_alpha_3: "BRA", country_code_ISO_3166_1_numeric: "076", country: "Brazil", flag: "https://flagcdn.com/h40/br.png", moment: moment.tz("America/Cuiaba")},
