@@ -314,12 +314,12 @@ var timezones = [
 	{timezone: "Asia/Yerevan", country_code_ISO_3166_1_alpha_2: "AM", country_code_ISO_3166_1_alpha_3: "ARM", country_code_ISO_3166_1_numeric: "051", country: "Armenia", flag: "https://flagcdn.com/h40/am.png", moment: moment.tz("Asia/Yerevan")},
 
 	//Atlantic ocean's timezones...
-	{timezone: "Atlantic/Azores", country_code_ISO_3166_1_alpha_2: "PT", country: "Portugal", flag: "https://flagcdn.com/h40/pt.png", moment: moment.tz("Atlantic/Azores")},
+	{timezone: "Atlantic/Azores", country_code_ISO_3166_1_alpha_2: "PT", country_code_ISO_3166_1_alpha_3: "PRT", country_code_ISO_3166_1_numeric: "620", country: "Portugal", flag: "https://flagcdn.com/h40/pt.png", moment: moment.tz("Atlantic/Azores")},
 	{timezone: "Atlantic/Bermuda", country_code_ISO_3166_1_alpha_2: "BM", country: "Bermuda", flag: "https://flagcdn.com/h40/bm.png", moment: moment.tz("Atlantic/Bermuda")},
 	{timezone: "Atlantic/Canary", country_code_ISO_3166_1_alpha_2: "ES", country: "Canary Islands", flag: "https://flagcdn.com/h40/es.png", moment: moment.tz("Atlantic/Canary")},
 	{timezone: "Atlantic/Cape_Verde", country_code_ISO_3166_1_alpha_2: "CV", country: "Cape Verde", flag: "https://flagcdn.com/h40/cv.png", moment: moment.tz("Atlantic/Cape_Verde")},
 	{timezone: "Atlantic/Faroe", country_code_ISO_3166_1_alpha_2: "FO", country: "Faroe Islands", flag: "https://flagcdn.com/h40/fo.png", moment: moment.tz("Atlantic/Faroe")},
-	{timezone: "Atlantic/Madeira", country_code_ISO_3166_1_alpha_2: "PT", country: "Portugal", flag: "https://flagcdn.com/h40/pt.png", moment: moment.tz("Atlantic/Madeira")},
+	{timezone: "Atlantic/Madeira", country_code_ISO_3166_1_alpha_2: "PT", country_code_ISO_3166_1_alpha_3: "PRT", country_code_ISO_3166_1_numeric: "620", country: "Portugal", flag: "https://flagcdn.com/h40/pt.png", moment: moment.tz("Atlantic/Madeira")},
 	{timezone: "Atlantic/Reykjavik", country_code_ISO_3166_1_alpha_2: "IS", country: "Iceland", flag: "https://flagcdn.com/h40/is.png", moment: moment.tz("Atlantic/Reykjavik")},
 	{timezone: "Atlantic/South_Georgia", country_code_ISO_3166_1_alpha_2: "GS", country: "South Georgia", flag: "https://flagcdn.com/h40/gs.png", moment: moment.tz("Atlantic/South_Georgia")},
 	{timezone: "Atlantic/St_Helena", country_code_ISO_3166_1_alpha_2: "SH", country: "Saint Helena", flag: "https://flagcdn.com/h40/sh.png", moment: moment.tz("Atlantic/St_Helena")},
@@ -363,7 +363,7 @@ var timezones = [
 	{timezone: "Europe/Kaliningrad", country_code_ISO_3166_1_alpha_2: "RU", country_code_ISO_3166_1_alpha_3: "RUS", country_code_ISO_3166_1_numeric: "643", country: "Russia", flag: "https://flagcdn.com/h40/ru.png", moment: moment.tz("Europe/Kaliningrad")},
 	{timezone: "Europe/Kiev", country_code_ISO_3166_1_alpha_2: "UA", country: "Ukraine", flag: "https://flagcdn.com/h40/ua.png", moment: moment.tz("Europe/Kiev")},
 	{timezone: "Europe/Kirov", country_code_ISO_3166_1_alpha_2: "RU", country_code_ISO_3166_1_alpha_3: "RUS", country_code_ISO_3166_1_numeric: "643", country: "Russia", flag: "https://flagcdn.com/h40/ru.png", moment: moment.tz("Europe/Kirov")},
-	{timezone: "Europe/Lisbon", country_code_ISO_3166_1_alpha_2: "PT", country: "Portugal", flag: "https://flagcdn.com/h40/pt.png", moment: moment.tz("Europe/Lisbon")},
+	{timezone: "Europe/Lisbon", country_code_ISO_3166_1_alpha_2: "PT", country_code_ISO_3166_1_alpha_3: "PRT", country_code_ISO_3166_1_numeric: "620", country: "Portugal", flag: "https://flagcdn.com/h40/pt.png", moment: moment.tz("Europe/Lisbon")},
 	{timezone: "Europe/Ljubljana", country_code_ISO_3166_1_alpha_2: "SI", country: "Slovenia", flag: "https://flagcdn.com/h40/si.png", moment: moment.tz("Europe/Ljubljana")},
 	{timezone: "Europe/London", country_code_ISO_3166_1_alpha_2: "GB", country: "United Kingdom", flag: "https://flagcdn.com/h40/gb.png", moment: moment.tz("Europe/London")},
 	{timezone: "Europe/Luxembourg", country_code_ISO_3166_1_alpha_2: "LU", country: "Luxembourg", flag: "https://flagcdn.com/h40/lu.png", moment: moment.tz("Europe/Luxembourg")},
