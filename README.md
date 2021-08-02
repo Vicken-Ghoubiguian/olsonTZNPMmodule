@@ -180,6 +180,9 @@ console.log(olsonArray);
 * [NodeJS official website](https://nodejs.org/en/),
 * [NPM official website](https://www.npmjs.com/),
 * [Creating NodeJS modules](https://docs.npmjs.com/creating-node-js-modules),
+* [About the tz database](https://fr.wikipedia.org/wiki/Tz_database),
+* [List of tz database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones),
+* [About the ISO 3166-1 standard](https://en.wikipedia.org/wiki/ISO_3166-1)
 
 <a name="conclusion"></a>
 ## Conclusion
