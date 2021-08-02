@@ -22,6 +22,8 @@ This is an NPM module written in JavaScript to get, treat and return datetime fo
 
 6. [Conclusion](#conclusion)
 
+__Cultural precision__:
+
 <a name="what_is_this_project"></a>
 ## What is this project ?
 
