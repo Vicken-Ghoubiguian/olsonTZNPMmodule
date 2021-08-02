@@ -51,9 +51,9 @@ This NPM module is composed of 1 array and 10 functions in total. They are prese
 
 * 1 function called `getCountryCodeISO3166_1NumericFromMultipleTimezones`
 
-*
+* 1 function called `getCountryCodeISO3166_1Alpha3FromMultipleTimezones`
 
-*
+* 1 function called `getCountryCodeISO3166_1Alpha3FromOneTimezone`
 
 * 1 function called `getDatTimeFromMultipleTimezones`
 
