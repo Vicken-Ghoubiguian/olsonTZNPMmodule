@@ -226,7 +226,7 @@ var timezones = [
 	{timezone: "Antarctica/Vostok", country_code_ISO_3166_1_alpha_2: "AQ", country_code_ISO_3166_1_alpha_3: "ATA", country_code_ISO_3166_1_numeric: "010", country: "Antarctica", flag: "https://flagcdn.com/h40/aq.png", moment: moment.tz("Antarctica/Vostok")},
 
 	//Arctic ocean's timezones...
-	{timezone: "Arctic/Longyearbyen", country_code_ISO_3166_1_alpha_2: "SJ", country: "Svalbard and Jan Mayen", flag: "https://flagcdn.com/h40/sj.png", moment: moment.tz("Arctic/Longyearbyen")},
+	{timezone: "Arctic/Longyearbyen", country_code_ISO_3166_1_alpha_2: "SJ", country_code_ISO_3166_1_alpha_3: "SJM", country_code_ISO_3166_1_numeric: "744", country: "Svalbard and Jan Mayen", flag: "https://flagcdn.com/h40/sj.png", moment: moment.tz("Arctic/Longyearbyen")},
 
 	//Asian timezones...
 	{timezone: "Asia/Almaty", country_code_ISO_3166_1_alpha_2: "KZ", country_code_ISO_3166_1_alpha_3: "KAZ", country_code_ISO_3166_1_numeric: "398", country: "Kazakhstan", flag: "https://flagcdn.com/h40/kz.png", moment: moment.tz("Asia/Almaty")},
