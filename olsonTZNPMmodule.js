@@ -418,11 +418,11 @@ var timezones = [
 	//Pacific ocean's timezones...
 	{timezone: "Pacific/Apia", country_code_ISO_3166_1_alpha_2: "WS", country_code_ISO_3166_1_alpha_3: "WSM", country_code_ISO_3166_1_numeric: "882", country: "Samoa", flag: "https://flagcdn.com/h40/ws.png", moment: moment.tz("Pacific/Apia")},
 	{timezone: "Pacific/Auckland", country_code_ISO_3166_1_alpha_2: "NZ", country_code_ISO_3166_1_alpha_3: "NZL", country_code_ISO_3166_1_numeric: "554", country: "New Zeland", flag: "https://flagcdn.com/h40/nz.png", moment: moment.tz("Pacific/Auckland")},
-	{timezone: "Pacific/Bougainville", country_code_ISO_3166_1_alpha_2: "PG", country: "Papua New Guinea", flag: "https://flagcdn.com/h40/pg.png", moment: moment.tz("Pacific/Bougainville")},
+	{timezone: "Pacific/Bougainville", country_code_ISO_3166_1_alpha_2: "PG", country_code_ISO_3166_1_alpha_3: "PNG", country_code_ISO_3166_1_numeric: "598", country: "Papua New Guinea", flag: "https://flagcdn.com/h40/pg.png", moment: moment.tz("Pacific/Bougainville")},
 	{timezone: "Pacific/Chatham", country_code_ISO_3166_1_alpha_2: "NZ", country_code_ISO_3166_1_alpha_3: "NZL", country_code_ISO_3166_1_numeric: "554", country: "New Zeland", flag: "https://flagcdn.com/h40/nz.png", moment: moment.tz("Pacific/Chatham")},
 	{timezone: "Pacific/Chuuk", country_code_ISO_3166_1_alpha_2: "FM", country_code_ISO_3166_1_alpha_3: "FSM", country_code_ISO_3166_1_numeric: "583", country: "Federated States of Micronesia", flag: "https://flagcdn.com/h40/fm.png", moment: moment.tz("Pacific/Chuuk")},
 	{timezone: "Pacific/Easter", country_code_ISO_3166_1_alpha_2: "CL", country_code_ISO_3166_1_alpha_3: "CHL", country_code_ISO_3166_1_numeric: "152", country: "Chile", flag: "https://flagcdn.com/h40/cl.png", moment: moment.tz("Pacific/Easter")},
-	{timezone: "Pacific/Efate", country_code_ISO_3166_1_alpha_2: "VU", country: "Vanuatu", flag: "https://flagcdn.com/h40/vu.png", moment: moment.tz("Pacific/Efate")},
+	{timezone: "Pacific/Efate", country_code_ISO_3166_1_alpha_2: "VU", country_code_ISO_3166_1_alpha_3: "VUT", country_code_ISO_3166_1_numeric: "548", country: "Vanuatu", flag: "https://flagcdn.com/h40/vu.png", moment: moment.tz("Pacific/Efate")},
 	{timezone: "Pacific/Enderbury", country_code_ISO_3166_1_alpha_2: "KI", country_code_ISO_3166_1_alpha_3: "KIR", country_code_ISO_3166_1_numeric: "296", country: "Kiribati", flag: "https://flagcdn.com/h40/ki.png", moment: moment.tz("Pacific/Enderbury")},
 	{timezone: "Pacific/Fakaofo", country_code_ISO_3166_1_alpha_2: "TK", country: "Tokelau", flag: "https://flagcdn.com/h40/tk.png", moment: moment.tz("Pacific/Fakaofo")},
 	{timezone: "Pacific/Fiji", country_code_ISO_3166_1_alpha_2: "FJ", country: "Fiji", flag: "https://flagcdn.com/h40/fj.png", moment: moment.tz("Pacific/Fiji")},
