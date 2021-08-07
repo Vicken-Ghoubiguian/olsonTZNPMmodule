@@ -417,13 +417,13 @@ var timezones = [
 
 	//Pacific ocean's timezones...
 	{timezone: "Pacific/Apia", country_code_ISO_3166_1_alpha_2: "WS", country: "Samoa", flag: "https://flagcdn.com/h40/ws.png", moment: moment.tz("Pacific/Apia")},
-	{timezone: "Pacific/Auckland", country_code_ISO_3166_1_alpha_2: "NZ", country: "New Zeland", flag: "https://flagcdn.com/h40/nz.png", moment: moment.tz("Pacific/Auckland")},
+	{timezone: "Pacific/Auckland", country_code_ISO_3166_1_alpha_2: "NZ", country_code_ISO_3166_1_alpha_3: "NZL", country_code_ISO_3166_1_numeric: "554", country: "New Zeland", flag: "https://flagcdn.com/h40/nz.png", moment: moment.tz("Pacific/Auckland")},
 	{timezone: "Pacific/Bougainville", country_code_ISO_3166_1_alpha_2: "PG", country: "Papua New Guinea", flag: "https://flagcdn.com/h40/pg.png", moment: moment.tz("Pacific/Bougainville")},
-	{timezone: "Pacific/Chatham", country_code_ISO_3166_1_alpha_2: "NZ", country: "New Zeland", flag: "https://flagcdn.com/h40/nz.png", moment: moment.tz("Pacific/Chatham")},
+	{timezone: "Pacific/Chatham", country_code_ISO_3166_1_alpha_2: "NZ", country_code_ISO_3166_1_alpha_3: "NZL", country_code_ISO_3166_1_numeric: "554", country: "New Zeland", flag: "https://flagcdn.com/h40/nz.png", moment: moment.tz("Pacific/Chatham")},
 	{timezone: "Pacific/Chuuk", country_code_ISO_3166_1_alpha_2: "FM", country: "Federated States of Micronesia", flag: "https://flagcdn.com/h40/fm.png", moment: moment.tz("Pacific/Chuuk")},
 	{timezone: "Pacific/Easter", country_code_ISO_3166_1_alpha_2: "CL", country: "Chile", flag: "https://flagcdn.com/h40/cl.png", moment: moment.tz("Pacific/Easter")},
 	{timezone: "Pacific/Efate", country_code_ISO_3166_1_alpha_2: "VU", country: "Vanuatu", flag: "https://flagcdn.com/h40/vu.png", moment: moment.tz("Pacific/Efate")},
-	{timezone: "Pacific/Enderbury", country_code_ISO_3166_1_alpha_2: "KI", country: "Kiribati", flag: "https://flagcdn.com/h40/ki.png", moment: moment.tz("Pacific/Enderbury")},
+	{timezone: "Pacific/Enderbury", country_code_ISO_3166_1_alpha_2: "KI", country_code_ISO_3166_1_alpha_3: "KIR", country_code_ISO_3166_1_numeric: "296", country: "Kiribati", flag: "https://flagcdn.com/h40/ki.png", moment: moment.tz("Pacific/Enderbury")},
 	{timezone: "Pacific/Fakaofo", country_code_ISO_3166_1_alpha_2: "TK", country: "Tokelau", flag: "https://flagcdn.com/h40/tk.png", moment: moment.tz("Pacific/Fakaofo")},
 	{timezone: "Pacific/Fiji", country_code_ISO_3166_1_alpha_2: "FJ", country: "Fiji", flag: "https://flagcdn.com/h40/fj.png", moment: moment.tz("Pacific/Fiji")},
 	{timezone: "Pacific/Funafuti", country_code_ISO_3166_1_alpha_2: "TV", country: "Tuvalu", flag: "https://flagcdn.com/h40/tv.png", moment: moment.tz("Pacific/Funafuti")},
@@ -450,7 +450,7 @@ var timezones = [
 	{timezone: "Pacific/Rarotonga", country_code_ISO_3166_1_alpha_2: "CK", country: "Cook Islands", flag: "https://flagcdn.com/h40/ck.png", moment: moment.tz("Pacific/Rarotonga")},
 	{timezone: "Pacific/Saipan", country_code_ISO_3166_1_alpha_2: "MP", country: "Northern Mariana Islands", flag: "https://flagcdn.com/h40/mp.png", moment: moment.tz("Pacific/Saipan")},
 	{timezone: "Pacific/Tahiti", country_code_ISO_3166_1_alpha_2: "PF", country: "French Polynesia", flag: "https://flagcdn.com/h40/pf.png", moment: moment.tz("Pacific/Tahiti")},
-	{timezone: "Pacific/Tarawa", country_code_ISO_3166_1_alpha_2: "KI", country: "Kiribati", flag: "https://flagcdn.com/h40/ki.png", moment: moment.tz("Pacific/Tarawa")},
+	{timezone: "Pacific/Tarawa", country_code_ISO_3166_1_alpha_2: "KI", country_code_ISO_3166_1_alpha_3: "KIR", country_code_ISO_3166_1_numeric: "296", country: "Kiribati", flag: "https://flagcdn.com/h40/ki.png", moment: moment.tz("Pacific/Tarawa")},
 	{timezone: "Pacific/Tongatapu", country_code_ISO_3166_1_alpha_2: "TO", country: "Tonga", flag: "https://flagcdn.com/h40/to.png", moment: moment.tz("Pacific/Tongatapu")},
 	{timezone: "Pacific/Wake", country_code_ISO_3166_1_alpha_2: "UM", country_code_ISO_3166_1_alpha_3: "UMI", country_code_ISO_3166_1_numeric: "581", country: "United States Minor Outlying Islands", flag: "https://flagcdn.com/h40/us.png", moment: moment.tz("Pacific/Wake")},
 	{timezone: "Pacific/Wallis", country_code_ISO_3166_1_alpha_2: "WF", country: "Wallis and Futuna", flag: "https://flagcdn.com/h40/wf.png", moment: moment.tz("Pacific/Wallis")}
