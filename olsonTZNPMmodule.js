@@ -315,15 +315,15 @@ var timezones = [
 
 	//Atlantic ocean's timezones...
 	{timezone: "Atlantic/Azores", country_code_ISO_3166_1_alpha_2: "PT", country_code_ISO_3166_1_alpha_3: "PRT", country_code_ISO_3166_1_numeric: "620", country: "Portugal", flag: "https://flagcdn.com/h40/pt.png", moment: moment.tz("Atlantic/Azores")},
-	{timezone: "Atlantic/Bermuda", country_code_ISO_3166_1_alpha_2: "BM", country: "Bermuda", flag: "https://flagcdn.com/h40/bm.png", moment: moment.tz("Atlantic/Bermuda")},
-	{timezone: "Atlantic/Canary", country_code_ISO_3166_1_alpha_2: "ES", country: "Canary Islands", flag: "https://flagcdn.com/h40/es.png", moment: moment.tz("Atlantic/Canary")},
-	{timezone: "Atlantic/Cape_Verde", country_code_ISO_3166_1_alpha_2: "CV", country: "Cape Verde", flag: "https://flagcdn.com/h40/cv.png", moment: moment.tz("Atlantic/Cape_Verde")},
-	{timezone: "Atlantic/Faroe", country_code_ISO_3166_1_alpha_2: "FO", country: "Faroe Islands", flag: "https://flagcdn.com/h40/fo.png", moment: moment.tz("Atlantic/Faroe")},
+	{timezone: "Atlantic/Bermuda", country_code_ISO_3166_1_alpha_2: "BM", country_code_ISO_3166_1_alpha_3: "BMU", country_code_ISO_3166_1_numeric: "060", country: "Bermuda", flag: "https://flagcdn.com/h40/bm.png", moment: moment.tz("Atlantic/Bermuda")},
+	{timezone: "Atlantic/Canary", country_code_ISO_3166_1_alpha_2: "ES", country_code_ISO_3166_1_alpha_3: "ESP", country_code_ISO_3166_1_numeric: "724", country: "Canary Islands", flag: "https://flagcdn.com/h40/es.png", moment: moment.tz("Atlantic/Canary")},
+	{timezone: "Atlantic/Cape_Verde", country_code_ISO_3166_1_alpha_2: "CV", country_code_ISO_3166_1_alpha_3: "CPV", country_code_ISO_3166_1_numeric: "132", country: "Cape Verde", flag: "https://flagcdn.com/h40/cv.png", moment: moment.tz("Atlantic/Cape_Verde")},
+	{timezone: "Atlantic/Faroe", country_code_ISO_3166_1_alpha_2: "FO", country_code_ISO_3166_1_alpha_3: "FRO", country_code_ISO_3166_1_numeric: "234", country: "Faroe Islands", flag: "https://flagcdn.com/h40/fo.png", moment: moment.tz("Atlantic/Faroe")},
 	{timezone: "Atlantic/Madeira", country_code_ISO_3166_1_alpha_2: "PT", country_code_ISO_3166_1_alpha_3: "PRT", country_code_ISO_3166_1_numeric: "620", country: "Portugal", flag: "https://flagcdn.com/h40/pt.png", moment: moment.tz("Atlantic/Madeira")},
-	{timezone: "Atlantic/Reykjavik", country_code_ISO_3166_1_alpha_2: "IS", country: "Iceland", flag: "https://flagcdn.com/h40/is.png", moment: moment.tz("Atlantic/Reykjavik")},
-	{timezone: "Atlantic/South_Georgia", country_code_ISO_3166_1_alpha_2: "GS", country: "South Georgia", flag: "https://flagcdn.com/h40/gs.png", moment: moment.tz("Atlantic/South_Georgia")},
-	{timezone: "Atlantic/St_Helena", country_code_ISO_3166_1_alpha_2: "SH", country: "Saint Helena", flag: "https://flagcdn.com/h40/sh.png", moment: moment.tz("Atlantic/St_Helena")},
-	{timezone: "Atlantic/Stanley", country_code_ISO_3166_1_alpha_2: "FK", country: "Falkland Islands", flag: "https://flagcdn.com/h40/fk.png", moment: moment.tz("Atlantic/Stanley")},
+	{timezone: "Atlantic/Reykjavik", country_code_ISO_3166_1_alpha_2: "IS", country_code_ISO_3166_1_alpha_3: "ISL", country_code_ISO_3166_1_numeric: "352", country: "Iceland", flag: "https://flagcdn.com/h40/is.png", moment: moment.tz("Atlantic/Reykjavik")},
+	{timezone: "Atlantic/South_Georgia", country_code_ISO_3166_1_alpha_2: "GS", country_code_ISO_3166_1_alpha_3: "SGS", country_code_ISO_3166_1_numeric: "239", country: "South Georgia", flag: "https://flagcdn.com/h40/gs.png", moment: moment.tz("Atlantic/South_Georgia")},
+	{timezone: "Atlantic/St_Helena", country_code_ISO_3166_1_alpha_2: "SH", country_code_ISO_3166_1_alpha_3: "SHN", country_code_ISO_3166_1_numeric: "654", country: "Saint Helena", flag: "https://flagcdn.com/h40/sh.png", moment: moment.tz("Atlantic/St_Helena")},
+	{timezone: "Atlantic/Stanley", country_code_ISO_3166_1_alpha_2: "FK", country_code_ISO_3166_1_alpha_3: "FLK", country_code_ISO_3166_1_numeric: "238", country: "Falkland Islands", flag: "https://flagcdn.com/h40/fk.png", moment: moment.tz("Atlantic/Stanley")},
 
 	//Australian timezones...
 	{timezone: "Australia/Adelaide", country_code_ISO_3166_1_alpha_2: "AU", country_code_ISO_3166_1_alpha_3: "AUS", country_code_ISO_3166_1_numeric: "036", country: "Australia", flag: "https://flagcdn.com/h40/au.png", moment: moment.tz("Australia/Adelaide")},
