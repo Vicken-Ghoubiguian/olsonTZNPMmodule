@@ -432,7 +432,7 @@ var timezones = [
 	{timezone: "Pacific/Guadalcanal", country_code_ISO_3166_1_alpha_2: "SB", country: "Solomon Islands", flag: "https://flagcdn.com/h40/sb.png", moment: moment.tz("Pacific/Guadalcanal")},
 	{timezone: "Pacific/Guam", country_code_ISO_3166_1_alpha_2: "GU", country: "Solomon Islands", flag: "https://flagcdn.com/h40/gu.png", moment: moment.tz("Pacific/Guam")},
 	{timezone: "Pacific/Honolulu", country_code_ISO_3166_1_alpha_2: "US", country_code_ISO_3166_1_alpha_3: "USA", country_code_ISO_3166_1_numeric: "840", country: "United States of America", flag: "https://flagcdn.com/h40/us.png", moment: moment.tz("Pacific/Honolulu")},
-	{timezone: "Pacific/Kiritimati", country_code_ISO_3166_1_alpha_2: "KI", country: "Kiribati", flag: "https://flagcdn.com/h40/ki.png", moment: moment.tz("Pacific/Kiritimati")},
+	{timezone: "Pacific/Kiritimati", country_code_ISO_3166_1_alpha_2: "KI", country_code_ISO_3166_1_alpha_3: "KIR", country_code_ISO_3166_1_numeric: "296", country: "Kiribati", flag: "https://flagcdn.com/h40/ki.png", moment: moment.tz("Pacific/Kiritimati")},
 	{timezone: "Pacific/Kosrae", country_code_ISO_3166_1_alpha_2: "FM", country: "Federated States of Micronesia", flag: "https://flagcdn.com/h40/fm.png", moment: moment.tz("Pacific/Kosrae")},
 	{timezone: "Pacific/Kwajalein", country_code_ISO_3166_1_alpha_2: "MH", country: "Marshall Islands", flag: "https://flagcdn.com/h40/mh.png", moment: moment.tz("Pacific/Kwajalein")},
 	{timezone: "Pacific/Majuro", country_code_ISO_3166_1_alpha_2: "MH", country: "Marshall Islands", flag: "https://flagcdn.com/h40/mh.png", moment: moment.tz("Pacific/Majuro")},
