@@ -37,7 +37,7 @@ This NPM module is composed of 1 array and 10 functions in total. They are prese
 
 * 1 function called `getAllDatasFromOneTimezone` and which return all datas from only one whished timezone as 'String' type and even the current datetime in a wished format,
 
-* 1 function called `getFlagFromMultipleTimezones`
+* 1 function called `getFlagFromMultipleTimezones` and which return the corresponding flag as 'String' type from all wished timezones in an array containing elements of 'String' type
 
 * 1 function called `getFlagFromOneTimezone`
 
