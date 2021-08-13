@@ -309,7 +309,7 @@ var timezones = [
 	{timezone: "Asia/Vientiane", country_code_ISO_3166_1_alpha_2: "LA", country: "Laos", flag: "https://flagcdn.com/h40/la.png", moment: moment.tz("Asia/Vientiane")},
 	{timezone: "Asia/Vladivostok", country_code_ISO_3166_1_alpha_2: "RU", country_code_ISO_3166_1_alpha_3: "RUS", country_code_ISO_3166_1_numeric: "643", country: "Russia", flag: "https://flagcdn.com/h40/ru.png", moment: moment.tz("Asia/Vladivostok")},
 	{timezone: "Asia/Yakutsk", country_code_ISO_3166_1_alpha_2: "RU", country_code_ISO_3166_1_alpha_3: "RUS", country_code_ISO_3166_1_numeric: "643", country: "Russia", flag: "https://flagcdn.com/h40/ru.png", moment: moment.tz("Asia/Yakutsk")},
-	{timezone: "Asia/Yangon", country_code_ISO_3166_1_alpha_2: "MM", country: "Myanmar", flag: "https://flagcdn.com/h40/mm.png", moment: moment.tz("Asia/Yangon")},
+	{timezone: "Asia/Yangon", country_code_ISO_3166_1_alpha_2: "MM", country_code_ISO_3166_1_alpha_3: "MMR", country_code_ISO_3166_1_numeric: "104", country: "Myanmar", flag: "https://flagcdn.com/h40/mm.png", moment: moment.tz("Asia/Yangon")},
 	{timezone: "Asia/Yekaterinburg", country_code_ISO_3166_1_alpha_2: "RU", country_code_ISO_3166_1_alpha_3: "RUS", country_code_ISO_3166_1_numeric: "643", country: "Russia", flag: "https://flagcdn.com/h40/ru.png", moment: moment.tz("Asia/Yekaterinburg")},
 	{timezone: "Asia/Yerevan", country_code_ISO_3166_1_alpha_2: "AM", country_code_ISO_3166_1_alpha_3: "ARM", country_code_ISO_3166_1_numeric: "051", country: "Armenia", flag: "https://flagcdn.com/h40/am.png", moment: moment.tz("Asia/Yerevan")},
 
