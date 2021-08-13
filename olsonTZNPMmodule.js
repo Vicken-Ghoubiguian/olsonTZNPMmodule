@@ -230,7 +230,7 @@ var timezones = [
 
 	//Asian timezones...
 	{timezone: "Asia/Almaty", country_code_ISO_3166_1_alpha_2: "KZ", country_code_ISO_3166_1_alpha_3: "KAZ", country_code_ISO_3166_1_numeric: "398", country: "Kazakhstan", flag: "https://flagcdn.com/h40/kz.png", moment: moment.tz("Asia/Almaty")},
-	{timezone: "Asia/Amman", country_code_ISO_3166_1_alpha_2: "JO", country: "Jordan", flag: "https://flagcdn.com/h40/jo.png", moment: moment.tz("Asia/Amman")},
+	{timezone: "Asia/Amman", country_code_ISO_3166_1_alpha_2: "JO", country_code_ISO_3166_1_alpha_3: "JOR", country_code_ISO_3166_1_numeric: "400", country: "Jordan", flag: "https://flagcdn.com/h40/jo.png", moment: moment.tz("Asia/Amman")},
 	{timezone: "Asia/Anadyr", country_code_ISO_3166_1_alpha_2: "RU", country_code_ISO_3166_1_alpha_3: "RUS", country_code_ISO_3166_1_numeric: "643", country: "Russia", flag: "https://flagcdn.com/h40/ru.png", moment: moment.tz("Asia/Anadyr")},
 	{timezone: "Asia/Aqtau", country_code_ISO_3166_1_alpha_2: "KZ", country_code_ISO_3166_1_alpha_3: "KAZ", country_code_ISO_3166_1_numeric: "398", country: "Kazakhstan", flag: "https://flagcdn.com/h40/kz.png", moment: moment.tz("Asia/Aqtau")},
 	{timezone: "Asia/Aqtobe", country_code_ISO_3166_1_alpha_2: "KZ", country_code_ISO_3166_1_alpha_3: "KAZ", country_code_ISO_3166_1_numeric: "398", country: "Kazakhstan", flag: "https://flagcdn.com/h40/kz.png", moment: moment.tz("Asia/Aqtobe")},
