@@ -19,7 +19,7 @@ var timezones = [
 	{timezone: "Africa/Banjul", country_code_ISO_3166_1_alpha_2: "GM", country: "The Gambia", flag: "https://flagcdn.com/h40/gm.png", moment: moment.tz("Africa/Banjul")},
 	{timezone: "Africa/Bissau", country_code_ISO_3166_1_alpha_2: "GW", country: "Guinea-Bissau", flag: "https://flagcdn.com/h40/gw.png", moment: moment.tz("Africa/Bissau")},
 	{timezone: "Africa/Blantyre", country_code_ISO_3166_1_alpha_2: "MW", country: "Malawi", flag: "https://flagcdn.com/h40/mw.png", moment: moment.tz("Africa/Blantyre")},
-	{timezone: "Africa/Brazzaville", country_code_ISO_3166_1_alpha_2: "CG", country: "Republic of the Congo", flag: "https://flagcdn.com/h40/cg.png", moment: moment.tz("Africa/Brazzaville")},
+	{timezone: "Africa/Brazzaville", country_code_ISO_3166_1_alpha_2: "CG", country_code_ISO_3166_1_alpha_3: "COG", country_code_ISO_3166_1_numeric: "178", country: "Republic of the Congo", flag: "https://flagcdn.com/h40/cg.png", moment: moment.tz("Africa/Brazzaville")},
 	{timezone: "Africa/Bujumbura", country_code_ISO_3166_1_alpha_2: "BI", country: "Burundi", flag: "https://flagcdn.com/h40/bi.png", moment: moment.tz("Africa/Bujumbura")},
 	{timezone: "Africa/Cairo", country_code_ISO_3166_1_alpha_2: "EG", country: "Egypt", flag: "https://flagcdn.com/h40/eg.png", moment: moment.tz("Africa/Cairo")},
 	{timezone: "Africa/Casablanca", country_code_ISO_3166_1_alpha_2: "MA", country: "Morocco", flag: "https://flagcdn.com/h40/ma.png", moment: moment.tz("Africa/Casablanca")},
