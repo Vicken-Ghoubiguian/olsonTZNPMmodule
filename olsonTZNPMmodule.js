@@ -266,7 +266,7 @@ var timezones = [
 	{timezone: "Asia/Kabul", country_code_ISO_3166_1_alpha_2: "AF", country: "Afghanistan", flag: "https://flagcdn.com/h40/af.png", moment: moment.tz("Asia/Kabul")},
 	{timezone: "Asia/Kamchatka", country_code_ISO_3166_1_alpha_2: "RU", country_code_ISO_3166_1_alpha_3: "RUS", country_code_ISO_3166_1_numeric: "643", country: "Russia", flag: "https://flagcdn.com/h40/ru.png", moment: moment.tz("Asia/Kamchatka")},
 	{timezone: "Asia/Karachi", country_code_ISO_3166_1_alpha_2: "PK", country: "Pakistan", flag: "https://flagcdn.com/h40/pk.png", moment: moment.tz("Asia/Karachi")},
-	{timezone: "Asia/Kathmandu", country_code_ISO_3166_1_alpha_2: "NP", country: "Nepal", flag: "https://flagcdn.com/h40/np.png", moment: moment.tz("Asia/Kathmandu")},
+	{timezone: "Asia/Kathmandu", country_code_ISO_3166_1_alpha_2: "NP", country_code_ISO_3166_1_alpha_3: "NPL", country_code_ISO_3166_1_numeric: "524", country: "Nepal", flag: "https://flagcdn.com/h40/np.png", moment: moment.tz("Asia/Kathmandu")},
 	{timezone: "Asia/Khandyga", country_code_ISO_3166_1_alpha_2: "RU", country_code_ISO_3166_1_alpha_3: "RUS", country_code_ISO_3166_1_numeric: "643", country: "Russia", flag: "https://flagcdn.com/h40/ru.png", moment: moment.tz("Asia/Khandyga")},
 	{timezone: "Asia/Kolkata", country_code_ISO_3166_1_alpha_2: "IN", country_code_ISO_3166_1_alpha_3: "IND", country_code_ISO_3166_1_numeric: "356", country: "India", flag: "https://flagcdn.com/h40/in.png", moment: moment.tz("Asia/Kolkata")},
 	{timezone: "Asia/Krasnoyarsk", country_code_ISO_3166_1_alpha_2: "RU", country_code_ISO_3166_1_alpha_3: "RUS", country_code_ISO_3166_1_numeric: "643", country: "Russia", flag: "https://flagcdn.com/h40/ru.png", moment: moment.tz("Asia/Krasnoyarsk")},
