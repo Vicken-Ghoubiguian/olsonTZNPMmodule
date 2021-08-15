@@ -346,7 +346,7 @@ var timezones = [
 	{timezone: "Europe/Athens", country_code_ISO_3166_1_alpha_2: "GR", country_code_ISO_3166_1_alpha_3: "GRC", country_code_ISO_3166_1_numeric: "300", country: "Greece", flag: "https://flagcdn.com/h40/gr.png", moment: moment.tz("Europe/Athens")},
 	{timezone: "Europe/Belgrade", country_code_ISO_3166_1_alpha_2: "RS", country_code_ISO_3166_1_alpha_3: "SRB", country_code_ISO_3166_1_numeric: "688", country: "Serbia", flag: "https://flagcdn.com/h40/gr.png", moment: moment.tz("Europe/Belgrade")},
 	{timezone: "Europe/Berlin", country_code_ISO_3166_1_alpha_2: "DE", country_code_ISO_3166_1_alpha_3: "DEU", country_code_ISO_3166_1_numeric: "276", country: "Germany", flag: "https://flagcdn.com/h40/de.png", moment: moment.tz("Europe/Berlin")},
-	{timezone: "Europe/Bratislava", country_code_ISO_3166_1_alpha_2: "SK", country: "Slovakia", flag: "https://flagcdn.com/h40/sk.png", moment: moment.tz("Europe/Bratislava")},
+	{timezone: "Europe/Bratislava", country_code_ISO_3166_1_alpha_2: "SK", country_code_ISO_3166_1_alpha_3: "SVK", country_code_ISO_3166_1_numeric: "703", country: "Slovakia", flag: "https://flagcdn.com/h40/sk.png", moment: moment.tz("Europe/Bratislava")},
 	{timezone: "Europe/Brussels", country_code_ISO_3166_1_alpha_2: "BE", country: "Belgium", flag: "https://flagcdn.com/h40/be.png", moment: moment.tz("Europe/Brussels")},
 	{timezone: "Europe/Bucharest", country_code_ISO_3166_1_alpha_2: "RO", country: "Romania", flag: "https://flagcdn.com/h40/ro.png", moment: moment.tz("Europe/Bucharest")},
 	{timezone: "Europe/Budapest", country_code_ISO_3166_1_alpha_2: "HU", country: "Hungary", flag: "https://flagcdn.com/h40/hu.png", moment: moment.tz("Europe/Budapest")},
