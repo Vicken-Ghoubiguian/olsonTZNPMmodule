@@ -392,7 +392,7 @@ var timezones = [
 	{timezone: "Europe/Tirane", country_code_ISO_3166_1_alpha_2: "AL", country: "Albania", flag: "https://flagcdn.com/h40/al.png", moment: moment.tz("Europe/Tirane")},
 	{timezone: "Europe/Ulyanovsk", country_code_ISO_3166_1_alpha_2: "RU", country_code_ISO_3166_1_alpha_3: "RUS", country_code_ISO_3166_1_numeric: "643", country: "Russia", flag: "https://flagcdn.com/h40/ru.png", moment: moment.tz("Europe/Ulyanovsk")},
 	{timezone: "Europe/Uzhgorod", country_code_ISO_3166_1_alpha_2: "UA", country_code_ISO_3166_1_alpha_3: "UKR", country_code_ISO_3166_1_numeric: "804", country: "Ukraine", flag: "https://flagcdn.com/h40/ua.png", moment: moment.tz("Europe/Uzhgorod")},
-	{timezone: "Europe/Vaduz", country_code_ISO_3166_1_alpha_2: "LI", country: "Liechtenstein", flag: "https://flagcdn.com/h40/li.png", moment: moment.tz("Europe/Vaduz")},
+	{timezone: "Europe/Vaduz", country_code_ISO_3166_1_alpha_2: "LI", country_code_ISO_3166_1_alpha_3: "LIE", country_code_ISO_3166_1_numeric: "438", country: "Liechtenstein", flag: "https://flagcdn.com/h40/li.png", moment: moment.tz("Europe/Vaduz")},
 	{timezone: "Europe/Vatican", country_code_ISO_3166_1_alpha_2: "VA", country_code_ISO_3166_1_alpha_3: "VAT", country_code_ISO_3166_1_numeric: "336", country: "Vatican City", flag: "https://flagcdn.com/h40/va.png", moment: moment.tz("Europe/Vatican")},
 	{timezone: "Europe/Vienna", country_code_ISO_3166_1_alpha_2: "AT", country: "Austria", flag: "https://flagcdn.com/h40/at.png", moment: moment.tz("Europe/Vienna")},
 	{timezone: "Europe/Vilnius", country_code_ISO_3166_1_alpha_2: "LT", country: "Lithuania", flag: "https://flagcdn.com/h40/lt.png", moment: moment.tz("Europe/Vilnius")},
