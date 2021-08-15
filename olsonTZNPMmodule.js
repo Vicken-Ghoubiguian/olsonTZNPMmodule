@@ -393,14 +393,14 @@ var timezones = [
 	{timezone: "Europe/Ulyanovsk", country_code_ISO_3166_1_alpha_2: "RU", country_code_ISO_3166_1_alpha_3: "RUS", country_code_ISO_3166_1_numeric: "643", country: "Russia", flag: "https://flagcdn.com/h40/ru.png", moment: moment.tz("Europe/Ulyanovsk")},
 	{timezone: "Europe/Uzhgorod", country_code_ISO_3166_1_alpha_2: "UA", country_code_ISO_3166_1_alpha_3: "UKR", country_code_ISO_3166_1_numeric: "804", country: "Ukraine", flag: "https://flagcdn.com/h40/ua.png", moment: moment.tz("Europe/Uzhgorod")},
 	{timezone: "Europe/Vaduz", country_code_ISO_3166_1_alpha_2: "LI", country: "Liechtenstein", flag: "https://flagcdn.com/h40/li.png", moment: moment.tz("Europe/Vaduz")},
-	{timezone: "Europe/Vatican", country_code_ISO_3166_1_alpha_2: "VA", country: "Vatican City", flag: "https://flagcdn.com/h40/va.png", moment: moment.tz("Europe/Vatican")},
+	{timezone: "Europe/Vatican", country_code_ISO_3166_1_alpha_2: "VA", country_code_ISO_3166_1_alpha_3: "VAT", country_code_ISO_3166_1_numeric: "336", country: "Vatican City", flag: "https://flagcdn.com/h40/va.png", moment: moment.tz("Europe/Vatican")},
 	{timezone: "Europe/Vienna", country_code_ISO_3166_1_alpha_2: "AT", country: "Austria", flag: "https://flagcdn.com/h40/at.png", moment: moment.tz("Europe/Vienna")},
 	{timezone: "Europe/Vilnius", country_code_ISO_3166_1_alpha_2: "LT", country: "Lithuania", flag: "https://flagcdn.com/h40/lt.png", moment: moment.tz("Europe/Vilnius")},
 	{timezone: "Europe/Volgograd", country_code_ISO_3166_1_alpha_2: "RU", country_code_ISO_3166_1_alpha_3: "RUS", country_code_ISO_3166_1_numeric: "643", country: "Russia", flag: "https://flagcdn.com/h40/ru.png", moment: moment.tz("Europe/Volgograd")},
 	{timezone: "Europe/Warsaw", country_code_ISO_3166_1_alpha_2: "PL", country: "Poland", flag: "https://flagcdn.com/h40/pl.png", moment: moment.tz("Europe/Warsaw")},
 	{timezone: "Europe/Zagreb", country_code_ISO_3166_1_alpha_2: "HR", country: "Croatia", flag: "https://flagcdn.com/h40/hr.png", moment: moment.tz("Europe/Zagreb")},
 	{timezone: "Europe/Zaporozhye", country_code_ISO_3166_1_alpha_2: "UA", country_code_ISO_3166_1_alpha_3: "UKR", country_code_ISO_3166_1_numeric: "804", country: "Ukraine", flag: "https://flagcdn.com/h40/ua.png", moment: moment.tz("Europe/Zaporozhye")},
-	{timezone: "Europe/Zurich", country_code_ISO_3166_1_alpha_2: "CH", country: "Switzerland", flag: "https://flagcdn.com/h40/ch.png", moment: moment.tz("Europe/Zurich")},
+	{timezone: "Europe/Zurich", country_code_ISO_3166_1_alpha_2: "CH", country_code_ISO_3166_1_alpha_3: "CHE", country_code_ISO_3166_1_numeric: "756", country: "Switzerland", flag: "https://flagcdn.com/h40/ch.png", moment: moment.tz("Europe/Zurich")},
 
 	//Indian ocean's timezones...
 	{timezone: "Indian/Antananarivo", country_code_ISO_3166_1_alpha_2: "MG", country_code_ISO_3166_1_alpha_3: "MDG", country_code_ISO_3166_1_numeric: "450", country: "Madagascar", flag: "https://flagcdn.com/h40/mg.png", moment: moment.tz("Indian/Antananarivo")},
