@@ -119,7 +119,7 @@ var timezones = [
 	{timezone: "America/Goose_Bay", country_code_ISO_3166_1_alpha_2: "CA", country_code_ISO_3166_1_alpha_3: "CAN", country_code_ISO_3166_1_numeric: "124", country: "Canada", flag: "https://flagcdn.com/h40/ca.png", moment: moment.tz("America/Goose_Bay")},
 	{timezone: "America/Grand_Turk", country_code_ISO_3166_1_alpha_2: "TC", country: "Grand Turk Island", flag: "https://flagcdn.com/h40/tc.png", moment: moment.tz("America/Grand_Turk")},
 	{timezone: "America/Grenada", country_code_ISO_3166_1_alpha_2: "GD", country: "Grenada", flag: "https://flagcdn.com/h40/gd.png", moment: moment.tz("America/Grenada")},
-	{timezone: "America/Guadeloupe", country_code_ISO_3166_1_alpha_2: "GP", country: "Guadeloupe", flag: "https://flagcdn.com/h40/gp.png", moment: moment.tz("America/Guadeloupe")},
+	{timezone: "America/Guadeloupe", country_code_ISO_3166_1_alpha_2: "GP", country_code_ISO_3166_1_alpha_3: "GLP", country_code_ISO_3166_1_numeric: "312", country: "Guadeloupe", flag: "https://flagcdn.com/h40/gp.png", moment: moment.tz("America/Guadeloupe")},
 	{timezone: "America/Guatemala", country_code_ISO_3166_1_alpha_2: "GT", country: "Guatemala", flag: "https://flagcdn.com/h40/gt.png", moment: moment.tz("America/Guatemala")},
 	{timezone: "America/Guayaquil", country_code_ISO_3166_1_alpha_2: "EC", country_code_ISO_3166_1_alpha_3: "ECU", country_code_ISO_3166_1_numeric: "218", country: "Ecuador", flag: "https://flagcdn.com/h40/ec.png", moment: moment.tz("America/Guayaquil")},
 	{timezone: "America/Guyana", country_code_ISO_3166_1_alpha_2: "GY", country_code_ISO_3166_1_alpha_3: "GUY", country_code_ISO_3166_1_numeric: "328", country: "Guyana", flag: "https://flagcdn.com/h40/gy.png", moment: moment.tz("America/Guyana")},
