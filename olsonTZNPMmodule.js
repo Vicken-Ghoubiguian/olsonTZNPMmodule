@@ -11,7 +11,7 @@ var timezones = [
 	//African timezones...
 	{timezone: "Africa/Abidjan", country_code_ISO_3166_1_alpha_2: "CI", country_code_ISO_3166_1_alpha_3: "CIV", country_code_ISO_3166_1_numeric: "384", country: "Ivory Coast", flag: "https://flagcdn.com/h40/ci.png", moment: moment.tz("Africa/Abidjan")},
 	{timezone: "Africa/Accra", country_code_ISO_3166_1_alpha_2: "GH", country: "Ghana", flag: "https://flagcdn.com/h40/gh.png", moment: moment.tz("Africa/Accra")},
-	{timezone: "Africa/Addis_Ababa", country_code_ISO_3166_1_alpha_2: "ET", country: "Ethiopia", flag: "https://flagcdn.com/h40/et.png", moment: moment.tz("Africa/Addis_Ababa")},
+	{timezone: "Africa/Addis_Ababa", country_code_ISO_3166_1_alpha_2: "ET", country_code_ISO_3166_1_alpha_3: "ETH", country_code_ISO_3166_1_numeric: "231", country: "Ethiopia", flag: "https://flagcdn.com/h40/et.png", moment: moment.tz("Africa/Addis_Ababa")},
 	{timezone: "Africa/Algiers", country_code_ISO_3166_1_alpha_2: "DZ", country: "Algeria", flag: "https://flagcdn.com/h40/dz.png", moment: moment.tz("Africa/Algiers")},
 	{timezone: "Africa/Asmara", country_code_ISO_3166_1_alpha_2: "ER", country: "Eritrea", flag: "https://flagcdn.com/h40/er.png", moment: moment.tz("Africa/Asmara")},
 	{timezone: "Africa/Bamako", country_code_ISO_3166_1_alpha_2: "ML", country: "Mali", flag: "https://flagcdn.com/h40/ml.png", moment: moment.tz("Africa/Bamako")},
@@ -60,7 +60,7 @@ var timezones = [
 	{timezone: "Africa/Sao_Tome", country_code_ISO_3166_1_alpha_2: "ST", country: "São Tomé and Príncipe", flag: "https://flagcdn.com/h40/st.png", moment: moment.tz("Africa/Sao_Tome")},
 	{timezone: "Africa/Tripoli", country_code_ISO_3166_1_alpha_2: "LY", country: "Libya", flag: "https://flagcdn.com/h40/ly.png", moment: moment.tz("Africa/Tripoli")},
 	{timezone: "Africa/Tunis", country_code_ISO_3166_1_alpha_2: "TN", country: "Tunisia", flag: "https://flagcdn.com/h40/tn.png", moment: moment.tz("Africa/Tunis")},
-	{timezone: "Africa/Windhoek", country_code_ISO_3166_1_alpha_2: "NA", country: "Namibia", flag: "https://flagcdn.com/h40/na.png", moment: moment.tz("Africa/Windhoek")},
+	{timezone: "Africa/Windhoek", country_code_ISO_3166_1_alpha_2: "NA", country_code_ISO_3166_1_alpha_3: "NAM", country_code_ISO_3166_1_numeric: "516", country: "Namibia", flag: "https://flagcdn.com/h40/na.png", moment: moment.tz("Africa/Windhoek")},
 
 	//American timezones...
 	{timezone: "America/Adak", country_code_ISO_3166_1_alpha_2: "US", country_code_ISO_3166_1_alpha_3: "USA", country_code_ISO_3166_1_numeric: "840", country: "United States of America", flag: "https://flagcdn.com/h40/us.png", moment: moment.tz("America/Adak")},
