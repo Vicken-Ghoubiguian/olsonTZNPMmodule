@@ -59,7 +59,7 @@ var timezones = [
 	{timezone: "Africa/Porto-Novo", country_code_ISO_3166_1_alpha_2: "BJ", country: "Benin", flag: "https://flagcdn.com/h40/bj.png", moment: moment.tz("Africa/Porto-Novo")},
 	{timezone: "Africa/Sao_Tome", country_code_ISO_3166_1_alpha_2: "ST", country: "São Tomé and Príncipe", flag: "https://flagcdn.com/h40/st.png", moment: moment.tz("Africa/Sao_Tome")},
 	{timezone: "Africa/Tripoli", country_code_ISO_3166_1_alpha_2: "LY", country: "Libya", flag: "https://flagcdn.com/h40/ly.png", moment: moment.tz("Africa/Tripoli")},
-	{timezone: "Africa/Tunis", country_code_ISO_3166_1_alpha_2: "TN", country: "Tunisia", flag: "https://flagcdn.com/h40/tn.png", moment: moment.tz("Africa/Tunis")},
+	{timezone: "Africa/Tunis", country_code_ISO_3166_1_alpha_2: "TN", country_code_ISO_3166_1_alpha_3: "TUN", country_code_ISO_3166_1_numeric: "788", country: "Tunisia", flag: "https://flagcdn.com/h40/tn.png", moment: moment.tz("Africa/Tunis")},
 	{timezone: "Africa/Windhoek", country_code_ISO_3166_1_alpha_2: "NA", country_code_ISO_3166_1_alpha_3: "NAM", country_code_ISO_3166_1_numeric: "516", country: "Namibia", flag: "https://flagcdn.com/h40/na.png", moment: moment.tz("Africa/Windhoek")},
 
 	//American timezones...
