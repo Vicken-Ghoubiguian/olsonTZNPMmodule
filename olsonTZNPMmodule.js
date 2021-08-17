@@ -32,7 +32,7 @@ var timezones = [
 	{timezone: "Africa/El_Aaiun", country_code_ISO_3166_1_alpha_2: "EH", country_code_ISO_3166_1_alpha_3: "ESH", country_code_ISO_3166_1_numeric: "732", country: "Western Sahara", flag: "https://flagcdn.com/h40/eh.png", moment: moment.tz("Africa/El_Aaiun")},
 	{timezone: "Africa/Freetown", country_code_ISO_3166_1_alpha_2: "SL", country: "Sierra Leone", flag: "https://flagcdn.com/h40/sl.png", moment: moment.tz("Africa/Freetown")},
 	{timezone: "Africa/Gaborone", country_code_ISO_3166_1_alpha_2: "BW", country: "Botswana", flag: "https://flagcdn.com/h40/bw.png", moment: moment.tz("Africa/Gaborone")},
-	{timezone: "Africa/Harare", country_code_ISO_3166_1_alpha_2: "ZW", country: "Zimbabwe", flag: "https://flagcdn.com/h40/zw.png", moment: moment.tz("Africa/Harare")},
+	{timezone: "Africa/Harare", country_code_ISO_3166_1_alpha_2: "ZW", country_code_ISO_3166_1_alpha_3: "ZWE", country_code_ISO_3166_1_numeric: "716", country: "Zimbabwe", flag: "https://flagcdn.com/h40/zw.png", moment: moment.tz("Africa/Harare")},
 	{timezone: "Africa/Johannesburg", country_code_ISO_3166_1_alpha_2: "ZA", country_code_ISO_3166_1_alpha_3: "ZAF", country_code_ISO_3166_1_numeric: "710", country: "South Africa", flag: "https://flagcdn.com/h40/za.png", moment: moment.tz("Africa/Johannesburg")},
 	{timezone: "Africa/Juba", country_code_ISO_3166_1_alpha_2: "SS", country: "South Sudan", flag: "https://flagcdn.com/h40/ss.png", moment: moment.tz("Africa/Juba")},
 	{timezone: "Africa/Kampala", country_code_ISO_3166_1_alpha_2: "UG", country: "Uganda", flag: "https://flagcdn.com/h40/ug.png", moment: moment.tz("Africa/Kampala")},
