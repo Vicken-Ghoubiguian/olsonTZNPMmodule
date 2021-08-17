@@ -44,7 +44,7 @@ var timezones = [
 	{timezone: "Africa/Lome", country_code_ISO_3166_1_alpha_2: "TG", country_code_ISO_3166_1_alpha_3: "TGO", country_code_ISO_3166_1_numeric: "768", country: "Togo", flag: "https://flagcdn.com/h40/tg.png", moment: moment.tz("Africa/Lome")},
 	{timezone: "Africa/Luanda", country_code_ISO_3166_1_alpha_2: "AO", country_code_ISO_3166_1_alpha_3: "AGO", country_code_ISO_3166_1_numeric: "024", country: "Angola", flag: "https://flagcdn.com/h40/ao.png", moment: moment.tz("Africa/Luanda")},
 	{timezone: "Africa/Lubumbashi", country_code_ISO_3166_1_alpha_2: "CD", country_code_ISO_3166_1_alpha_3: "COD", country_code_ISO_3166_1_numeric: "180", country: "Democratic Republic of the Congo", flag: "https://flagcdn.com/h40/cd.png", moment: moment.tz("Africa/Lubumbashi")},
-	{timezone: "Africa/Lusaka", country_code_ISO_3166_1_alpha_2: "ZM", country: "Zambia", flag: "https://flagcdn.com/h40/zm.png", moment: moment.tz("Africa/Lusaka")},
+	{timezone: "Africa/Lusaka", country_code_ISO_3166_1_alpha_2: "ZM", country_code_ISO_3166_1_alpha_3: "ZMB", country_code_ISO_3166_1_numeric: "894", country: "Zambia", flag: "https://flagcdn.com/h40/zm.png", moment: moment.tz("Africa/Lusaka")},
 	{timezone: "Africa/Malabo", country_code_ISO_3166_1_alpha_2: "GQ", country: "Equatorial Guinea", flag: "https://flagcdn.com/h40/gq.png", moment: moment.tz("Africa/Malabo")},
 	{timezone: "Africa/Maputo", country_code_ISO_3166_1_alpha_2: "MZ", country: "Mozambique", flag: "https://flagcdn.com/h40/mz.png", moment: moment.tz("Africa/Maputo")},
 	{timezone: "Africa/Maseru", country_code_ISO_3166_1_alpha_2: "LS", country: "Lesotho", flag: "https://flagcdn.com/h40/ls.png", moment: moment.tz("Africa/Maseru")},
