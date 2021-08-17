@@ -29,7 +29,7 @@ var timezones = [
 	{timezone: "Africa/Dar_es_Salaam", country_code_ISO_3166_1_alpha_2: "TZ", country: "Tanzania", flag: "https://flagcdn.com/h40/tz.png", moment: moment.tz("Africa/Dar_es_Salaam")},
 	{timezone: "Africa/Djibouti", country_code_ISO_3166_1_alpha_2: "DJ", country: "Djibouti", flag: "https://flagcdn.com/h40/dj.png", moment: moment.tz("Africa/Djibouti")},
 	{timezone: "Africa/Douala", country_code_ISO_3166_1_alpha_2: "CM", country: "Cameroon", flag: "https://flagcdn.com/h40/cm.png", moment: moment.tz("Africa/Douala")},
-	{timezone: "Africa/El_Aaiun", country_code_ISO_3166_1_alpha_2: "EH", country: "Western Sahara", flag: "https://flagcdn.com/h40/eh.png", moment: moment.tz("Africa/El_Aaiun")},
+	{timezone: "Africa/El_Aaiun", country_code_ISO_3166_1_alpha_2: "EH", country_code_ISO_3166_1_alpha_3: "ESH", country_code_ISO_3166_1_numeric: "732", country: "Western Sahara", flag: "https://flagcdn.com/h40/eh.png", moment: moment.tz("Africa/El_Aaiun")},
 	{timezone: "Africa/Freetown", country_code_ISO_3166_1_alpha_2: "SL", country: "Sierra Leone", flag: "https://flagcdn.com/h40/sl.png", moment: moment.tz("Africa/Freetown")},
 	{timezone: "Africa/Gaborone", country_code_ISO_3166_1_alpha_2: "BW", country: "Botswana", flag: "https://flagcdn.com/h40/bw.png", moment: moment.tz("Africa/Gaborone")},
 	{timezone: "Africa/Harare", country_code_ISO_3166_1_alpha_2: "ZW", country: "Zimbabwe", flag: "https://flagcdn.com/h40/zw.png", moment: moment.tz("Africa/Harare")},
