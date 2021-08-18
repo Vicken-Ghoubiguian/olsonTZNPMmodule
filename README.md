@@ -53,9 +53,9 @@ This NPM module is composed of 1 array and 10 functions in total. They are prese
 
 * 1 function called `getCountryCodeISO3166_1NumericFromOneTimezone` and which return the corresponding country code ISO 3166-1 alpha numeric as 'String' type from only one whished timezone as 'String' type as a 'String' object,
 
-* 1 function called `getCountryCodeISO3166_1Alpha3FromMultipleTimezones`
+* 1 function called `getCountryCodeISO3166_1Alpha3FromMultipleTimezones` and which return the corresponding country code ISO 3166-1 alpha-3 from all wished timezones in an array containing elements of 'String' type,
 
-* 1 function called `getCountryCodeISO3166_1Alpha3FromOneTimezone`
+* 1 function called `getCountryCodeISO3166_1Alpha3FromOneTimezone` and which return the corresponding country code ISO 3166-1 alpha-3 as 'String' type from only one whished timezone as 'String' type as a 'String' object,
 
 * 1 function called `getDatTimeFromMultipleTimezones` and which return the current date and time in the whiched format from all wished timezones in an array containing elements of 'String' type,
 
