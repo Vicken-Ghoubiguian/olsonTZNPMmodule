@@ -57,9 +57,9 @@ This NPM module is composed of 1 array and 10 functions in total. They are prese
 
 * 1 function called `getCountryCodeISO3166_1Alpha3FromOneTimezone`
 
-* 1 function called `getDatTimeFromMultipleTimezones`
+* 1 function called `getDatTimeFromMultipleTimezones` and which return the current date and time in the whiched format from all wished timezones in an array containing elements of 'String' type,
 
-* 1 function called `getDateTimeFromOneTimezone`
+* 1 function called `getDateTimeFromOneTimezone` and which return the current date and time as 'String' type from only one whished timezone as 'String' type as a 'String' object,
 
 <a name="how_is_structured_an_npm_module"></a>
 ## How is an NPM module structured ?
