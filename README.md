@@ -154,9 +154,9 @@ var olsonTZNPMmodule = require('@wicken/olsonTZNPMmodule');
 // defining the 'wishedTimezone' array which contains the wished timezone...
 var wishedTimezone = 'Europe/Paris';
 
-// ========================== ==========================
+// ========================== display the datetime frome the wished timezone ==========================
 
-// getting datetime from the wished timezones...
+// getting datetime from the wished timezone...
 var olsonArray = olsonTZNPMmodule.getDateTimeForOneTimezone(wishedTimezone);
 
 // display the 'olsonArray' associative array which contains all returning timezones as key and they current datetime as values...
@@ -172,7 +172,7 @@ var olsonTZNPMmodule = require('@wicken/olsonTZNPMmodule');
 // defining the 'wishedTimezonesArray' array which contains all wished timezones...
 var wishedTimezonesArray = ['Europe/Paris', 'Europe/Moscow'];
 
-// ========================== ==========================
+// ========================== display the datetime frome the wished timezones in the 'wishedTimezonesArray' array... ==========================
 
 // getting datetime from all wished timezones stocked in the 'wishedTimezonesArray' array...
 var olsonArray = olsonTZNPMmodule.getDatTimeForMultipleTimezones(wishedTimezonesArray);
