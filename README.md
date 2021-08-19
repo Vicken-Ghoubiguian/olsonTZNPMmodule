@@ -31,33 +31,33 @@ This project consists to develop an NPM module written in JavaScript to get, tre
 
 This NPM module is composed of 1 array and 10 functions in total. They are presented right here:
 
-* 1 array called `timezones` and which contains fundamental datas (timezone name, country name, ISO 3166-1 alpha-2 country code, country flag URL and current datetime) for all timezones in the world each in JSON format and which is not exported outside the present module,
+* 1 array called `timezones` and which contains fundamental datas (timezone name, country name, ISO 3166-1 alpha-2 country code, country flag URL and current datetime) for all timezones in the world each in JSON format and which is not exported outside the present module;
 
-* 1 function called `getAllDatasFromMultipleTimezones` and which return all datas from all wished timezones in an array containing elements of 'String' type and even the current datetime in a wished format,
+* 1 function called `getAllDatasFromMultipleTimezones` and which return all datas from all wished timezones in an array containing elements of 'String' type and even the current datetime in a wished format;
 
-* 1 function called `getAllDatasFromOneTimezone` and which return all datas from only one whished timezone as 'String' type and even the current datetime in a wished format,
+* 1 function called `getAllDatasFromOneTimezone` and which return all datas from only one whished timezone as 'String' type and even the current datetime in a wished format;
 
-* 1 function called `getFlagFromMultipleTimezones` and which return the corresponding flag as 'String' type from all wished timezones in an array containing elements of 'String' type,
+* 1 function called `getFlagFromMultipleTimezones` and which return the corresponding flag as 'String' type from all wished timezones in an array containing elements of 'String' type;
 
-* 1 function called `getFlagFromOneTimezone` and which return the corresponding flag as 'String' type from only one whished timezone as 'String' type as a 'String' object,
+* 1 function called `getFlagFromOneTimezone` and which return the corresponding flag as 'String' type from only one whished timezone as 'String' type as a 'String' object;
 
-* 1 function called `getCountryFromMultipleTimezones` and which return the corresponding country name (or country) as 'String' type from all wished timezones in an array containing elements of 'String' type,
+* 1 function called `getCountryFromMultipleTimezones` and which return the corresponding country name (or country) as 'String' type from all wished timezones in an array containing elements of 'String' type;
 
-* 1 function called `getCountryFromOneTimezone` and which return the corresponding country name (or country) as 'String' type from only one whished timezone as 'String' type as a 'String' object,
+* 1 function called `getCountryFromOneTimezone` and which return the corresponding country name (or country) as 'String' type from only one whished timezone as 'String' type as a 'String' object;
 
-* 1 function called `getCountryCodeISO3166_1Alpha2FromMultipleTimezones` and which return the corresponding country code ISO 3166-1 alpha-2 as 'String' type from all wished timezones in an array containing elements of 'String' type,
+* 1 function called `getCountryCodeISO3166_1Alpha2FromMultipleTimezones` and which return the corresponding country code ISO 3166-1 alpha-2 as 'String' type from all wished timezones in an array containing elements of 'String' type;
 
-* 1 function called `getCountryCodeISO3166_1Alpha2FromOneTimezone` and which return the corresponding country code ISO 3166-1 alpha-2 as 'String' type from only one whished timezone as 'String' type as a 'String' object,
+* 1 function called `getCountryCodeISO3166_1Alpha2FromOneTimezone` and which return the corresponding country code ISO 3166-1 alpha-2 as 'String' type from only one whished timezone as 'String' type as a 'String' object;
 
-* 1 function called `getCountryCodeISO3166_1NumericFromMultipleTimezones` and which return the corresponding country code ISO 3166-1 alpha numeric as 'String' type from all wished timezones in an array containing elements of 'String' type,
+* 1 function called `getCountryCodeISO3166_1NumericFromMultipleTimezones` and which return the corresponding country code ISO 3166-1 alpha numeric as 'String' type from all wished timezones in an array containing elements of 'String' type;
 
-* 1 function called `getCountryCodeISO3166_1NumericFromOneTimezone` and which return the corresponding country code ISO 3166-1 alpha numeric as 'String' type from only one whished timezone as 'String' type as a 'String' object,
+* 1 function called `getCountryCodeISO3166_1NumericFromOneTimezone` and which return the corresponding country code ISO 3166-1 alpha numeric as 'String' type from only one whished timezone as 'String' type as a 'String' object;
 
-* 1 function called `getCountryCodeISO3166_1Alpha3FromMultipleTimezones` and which return the corresponding country code ISO 3166-1 alpha-3 from all wished timezones in an array containing elements of 'String' type,
+* 1 function called `getCountryCodeISO3166_1Alpha3FromMultipleTimezones` and which return the corresponding country code ISO 3166-1 alpha-3 from all wished timezones in an array containing elements of 'String' type;
 
-* 1 function called `getCountryCodeISO3166_1Alpha3FromOneTimezone` and which return the corresponding country code ISO 3166-1 alpha-3 as 'String' type from only one whished timezone as 'String' type as a 'String' object,
+* 1 function called `getCountryCodeISO3166_1Alpha3FromOneTimezone` and which return the corresponding country code ISO 3166-1 alpha-3 as 'String' type from only one whished timezone as 'String' type as a 'String' object;
 
-* 1 function called `getDatTimeFromMultipleTimezones` and which return the current date and time in the whiched format from all wished timezones in an array containing elements of 'String' type,
+* 1 function called `getDatTimeFromMultipleTimezones` and which return the current date and time in the whiched format from all wished timezones in an array containing elements of 'String' type;
 
 * 1 function called `getDateTimeFromOneTimezone` and which return the current date and time as 'String' type from only one whished timezone as 'String' type as a 'String' object.
 
