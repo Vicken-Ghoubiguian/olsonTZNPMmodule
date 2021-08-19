@@ -151,10 +151,13 @@ For one timezone:
 // import the 'olsonTZNPMmodule' module...
 var olsonTZNPMmodule = require('@wicken/olsonTZNPMmodule');
 
+// defining the 'wishedTimezone' array which contains the wished timezone we want their current datetime...
+var wishedTimezone = 'Europe/Paris';
+
 // ========================== ==========================
 
 // getting datetime from the wished timezones...
-var olsonArray = olsonTZNPMmodule.getDateTimeForOneTimezone('Europe/Paris');
+var olsonArray = olsonTZNPMmodule.getDateTimeForOneTimezone(wishedTimezone);
 
 // display the 'olsonArray' associative array which contains all returning timezones as key and they current datetime as values...
 console.log(olsonArray);
