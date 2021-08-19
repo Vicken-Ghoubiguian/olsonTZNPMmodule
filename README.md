@@ -151,7 +151,7 @@ For one timezone:
 // import the 'olsonTZNPMmodule' module...
 var olsonTZNPMmodule = require('@wicken/olsonTZNPMmodule');
 
-// ==========================
+// ========================== ==========================
 
 // getting datetime from the wished timezones...
 var olsonArray = olsonTZNPMmodule.getDateTimeForOneTimezone('Europe/Paris');
@@ -169,7 +169,7 @@ var olsonTZNPMmodule = require('@wicken/olsonTZNPMmodule');
 // defining the 'wishedTimezonesArray' array which contains all wished timezones we want their current datetime...
 var wishedTimezonesArray = ['Europe/Paris', 'Europe/Moscow'];
 
-// ==========================
+// ========================== ==========================
 
 // getting datetime from all wished timezones stocked in the 'wishedTimezonesArray' array...
 var olsonArray = olsonTZNPMmodule.getDatTimeForMultipleTimezones(wishedTimezonesArray);
