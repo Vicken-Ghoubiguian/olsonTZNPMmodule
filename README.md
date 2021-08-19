@@ -159,7 +159,7 @@ var wishedTimezone = 'Europe/Paris';
 // getting datetime from the wished timezone...
 var olsonArray_datetime = olsonTZNPMmodule.getDateTimeForOneTimezone(wishedTimezone);
 
-// display the 'olsonArray_datetime' associative array which contains all returning timezones as key and they current datetime as values...
+// display the 'olsonArray_datetime' associative array which contains all returning timezones as key and their current datetime as values...
 console.log(olsonArray_datetime);
 
 // ========================== ... ==========================
@@ -175,6 +175,12 @@ console.log(olsonArray_datetime);
 // ========================== ... ==========================
 
 // ========================== display all datas from the wished timezone... ==========================
+
+// getting all datas from the wished timezone...
+var olsonArray_all_datas = olsonTZNPMmodule.getAllDatasFromOneTimezone(wishedTimezone);
+
+// display the 'olsonArray_all_datas' associative array which contains all returning timezones as key and all of their datas as values...
+console.log(olsonArray_all_datas);
 
 ```
 
@@ -192,7 +198,7 @@ var wishedTimezonesArray = ['Europe/Paris', 'Europe/Moscow'];
 // getting datetime from all wished timezones stocked in the 'wishedTimezonesArray' array...
 var olsonArray_datetime = olsonTZNPMmodule.getDatTimeForMultipleTimezones(wishedTimezonesArray);
 
-// display the 'olsonArray_datetime' associative array which contains all returning timezones as key and they current datetime as values...
+// display the 'olsonArray_datetime' associative array which contains all returning timezones as key and their current datetime as values...
 console.log(olsonArray_datetime);
 
 // ========================== ... ==========================
@@ -208,6 +214,12 @@ console.log(olsonArray_datetime);
 // ========================== ... ==========================
 
 // ========================== display all datas from all wished timezones in the 'wishedTimezonesArray' array... ==========================
+
+// getting all datas from all wished timezone...
+var olsonArray_all_datas = olsonTZNPMmodule.getAllDatasFromMultipleTimezones(wishedTimezone);
+
+// display the 'olsonArray_datetime' associative array which contains all returning timezones as key and all of their datas as values...
+console.log(olsonArray_all_datas);
 
 ```
 
