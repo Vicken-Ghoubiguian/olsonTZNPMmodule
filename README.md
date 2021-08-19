@@ -157,10 +157,10 @@ var wishedTimezone = 'Europe/Paris';
 // ========================== display the datetime frome the wished timezone... ==========================
 
 // getting datetime from the wished timezone...
-var olsonArray = olsonTZNPMmodule.getDateTimeForOneTimezone(wishedTimezone);
+var olsonArray_0 = olsonTZNPMmodule.getDateTimeForOneTimezone(wishedTimezone);
 
-// display the 'olsonArray' associative array which contains all returning timezones as key and they current datetime as values...
-console.log(olsonArray);
+// display the 'olsonArray_0' associative array which contains all returning timezones as key and they current datetime as values...
+console.log(olsonArray_0);
 ```
 
 For several timezones:
@@ -175,10 +175,10 @@ var wishedTimezonesArray = ['Europe/Paris', 'Europe/Moscow'];
 // ========================== display the datetime frome the wished timezones in the 'wishedTimezonesArray' array... ==========================
 
 // getting datetime from all wished timezones stocked in the 'wishedTimezonesArray' array...
-var olsonArray = olsonTZNPMmodule.getDatTimeForMultipleTimezones(wishedTimezonesArray);
+var olsonArray_0 = olsonTZNPMmodule.getDatTimeForMultipleTimezones(wishedTimezonesArray);
 
-// display the 'olsonArray' associative array which contains all returning timezones as key and they current datetime as values...
-console.log(olsonArray);
+// display the 'olsonArray_0' associative array which contains all returning timezones as key and they current datetime as values...
+console.log(olsonArray_0);
 ```
 
 <a name="a_few_links"></a>
