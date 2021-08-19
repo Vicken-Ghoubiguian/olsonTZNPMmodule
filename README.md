@@ -171,6 +171,8 @@ console.log(olsonArray_datetime);
 // ========================== ... ==========================
 
 // ========================== ... ==========================
+
+// ========================== ... ==========================
 ```
 
 For several timezones:
@@ -189,6 +191,8 @@ var olsonArray_datetime = olsonTZNPMmodule.getDatTimeForMultipleTimezones(wished
 
 // display the 'olsonArray_datetime' associative array which contains all returning timezones as key and they current datetime as values...
 console.log(olsonArray_datetime);
+
+// ========================== ... ==========================
 
 // ========================== ... ==========================
 
