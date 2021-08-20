@@ -201,7 +201,13 @@ var olsonArray_datetime = olsonTZNPMmodule.getDatTimeForMultipleTimezones(wished
 // display the 'olsonArray_datetime' associative array which contains all returning timezones as key and their current datetime as values...
 console.log(olsonArray_datetime);
 
-// ========================== ... ==========================
+// ========================== display the country from all wished timezones in the 'wishedTimezonesArray' array... ==========================
+
+// getting countries from all wished timezones stocked in the 'wishedTimezonesArray' array...
+var olsonArray_country = olsonTZNPMmodule.getCountryFromMultipleTimezones(wishedTimezonesArray);
+
+// display the 'olsonArray_country' associative array which contains all returning timezones as key and their current country as values...
+console.log(olsonArray_country);
 
 // ========================== display the country flag URL from all wished timezones in the 'wishedTimezonesArray' array... ==========================
 
