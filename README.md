@@ -162,9 +162,9 @@ var olsonArray_datetime = olsonTZNPMmodule.getDateTimeForOneTimezone(wishedTimez
 // display the 'olsonArray_datetime' associative array which contains all returning timezones as key and their current datetime as values...
 console.log(olsonArray_datetime);
 
-// ========================== ... ==========================
+// ========================== display the country from the wished timezone... ==========================
 
-// ========================== ... ==========================
+// ========================== display the country flag URL from the wished timezone... ==========================
 
 // ========================== ... ==========================
 
