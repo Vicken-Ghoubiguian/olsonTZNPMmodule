@@ -165,14 +165,18 @@ console.log(olsonArray_datetime);
 // ========================== display the country from the wished timezone... ==========================
 
 // getting the country from the wished timezone...
+var olsonArray_country = olsonTZNPMmodule.getCountryFromOneTimezone(wishedTimezone);
 
 //
+console.log(olsonArray_country);
 
 // ========================== display the country flag URL from the wished timezone... ==========================
 
 // getting the country flag URL from the wished timezone...
+var olsonArray_country_flag_url = olsonTZNPMmodule.getFlagFromOneTimezone(wishedTimezone);
 
 //
+console.log(olsonArray_country_flag_url);
 
 // ========================== ... ==========================
 
