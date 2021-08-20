@@ -203,7 +203,13 @@ console.log(olsonArray_datetime);
 
 // ========================== ... ==========================
 
-// ========================== ... ==========================
+// ========================== display the country flag URL from all wished timezones in the 'wishedTimezonesArray' array... ==========================
+
+// getting country flag URL from all wished timezones stocked in the 'wishedTimezonesArray' array...
+var olsonArray_country_flag_url = olsonTZNPMmodule.getFlagFromMultipleTimezones(wishedTimezonesArray);
+
+// display the 'olsonArray_country_flag_url' associative array which contains all returning timezones as key and their country flag URL as values...
+console.log(olsonArray_country_flag_url);
 
 // ========================== ... ==========================
 
