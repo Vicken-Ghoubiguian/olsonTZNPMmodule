@@ -237,9 +237,19 @@ console.log(olsonArray_country_code_iso_3166_1_numeric);
 
 // ========================== display the country code ISO 3166 1 Alpha 3 from all wished timezones in the 'wishedTimezonesArray' array... ==========================
 
+//
+
+
+//
+
 
 // ========================== display the country code ISO 3166 1 Alpha 2 from all wished timezones in the 'wishedTimezonesArray' array... ==========================
 
+//
+var olsonArray_country_code_iso_3166_1_alpha_2 = olsonTZNPMmodule.getCountryCodeISO3166_1Alpha2FromMultipleTimezones(wishedTimezonesArray);
+
+//
+console.log(olsonArray_country_code_iso_3166_1_alpha_2);
 
 // ========================== display all datas from all wished timezones in the 'wishedTimezonesArray' array... ==========================
 
