@@ -184,8 +184,6 @@ console.log(olsonArray_country_flag_url);
 
 // ========================== ... ==========================
 
-// ========================== ... ==========================
-
 // ========================== display all datas from the wished timezone... ==========================
 
 // getting all datas from the wished timezone...
