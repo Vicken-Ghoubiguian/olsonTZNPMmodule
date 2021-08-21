@@ -245,7 +245,7 @@ console.log(olsonArray_country_code_iso_3166_1_alpha_3);
 
 // ========================== display the country code ISO 3166 1 Alpha 2 from all wished timezones in the 'wishedTimezonesArray' array... ==========================
 
-//
+// getting country code iso 3166 1 alpha 2 from all wished timezones stocked in the 'wishedTimezonesArray' array...
 var olsonArray_country_code_iso_3166_1_alpha_2 = olsonTZNPMmodule.getCountryCodeISO3166_1Alpha2FromMultipleTimezones(wishedTimezonesArray);
 
 // display the 'olsonArray_country_code_iso_3166_1_alpha_3' associative array which contains all returning timezones as key and their country code iso 3166 1 alpha 2 as values...
