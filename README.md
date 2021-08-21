@@ -231,10 +231,10 @@ console.log(olsonArray_country_flag_url);
 
 // ========================== display the country code ISO 3166 1 Numeric from all wished timezones in the 'wishedTimezonesArray' array... ==========================
 
-//
+// getting country flag URL from all wished timezones stocked in the 'wishedTimezonesArray' array...
 var olsonArray_country_code_iso_3166_1_numeric = olsonTZNPMmodule.getCountryCodeISO3166_1NumericFromMultipleTimezones(wishedTimezonesArray);
 
-//
+// display the 'olsonArray_country_code_iso_3166_1_numeric' associative array which contains all returning timezones as key and their country code iso 3166 1 numeric as values...
 console.log(olsonArray_country_code_iso_3166_1_numeric);
 
 // ========================== ... ==========================
