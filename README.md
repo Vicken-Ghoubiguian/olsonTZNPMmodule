@@ -239,9 +239,12 @@ console.log(olsonArray_country_code_iso_3166_1_numeric);
 
 // ========================== ... ==========================
 
-// ========================== ... ==========================
 
-// ========================== ... ==========================
+// ========================== display the country code ISO 3166 1 Alpha 3 from all wished timezones in the 'wishedTimezonesArray' array... ==========================
+
+
+// ========================== display the country code ISO 3166 1 Alpha 2 from all wished timezones in the 'wishedTimezonesArray' array... ==========================
+
 
 // ========================== display all datas from all wished timezones in the 'wishedTimezonesArray' array... ==========================
 
