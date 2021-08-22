@@ -209,7 +209,7 @@ var wishedTimezonesArray = ['Europe/Paris', 'Europe/Moscow'];
 console.log("==== display the datetime from all wished timezones in the 'wishedTimezonesArray' array... ====\n");
 
 // getting datetime from all wished timezones stocked in the 'wishedTimezonesArray' array...
-var olsonArray_datetime = olsonTZNPMmodule.getDatTimeForMultipleTimezones(wishedTimezonesArray);
+var olsonArray_datetime = olsonTZNPMmodule.getDatTimeFromMultipleTimezones(wishedTimezonesArray);
 
 // display the 'olsonArray_datetime' associative array which contains all returning timezones as key and their current datetime as values...
 console.log(olsonArray_datetime);
