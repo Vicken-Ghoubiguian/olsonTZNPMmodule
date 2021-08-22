@@ -242,7 +242,7 @@ var olsonArray_country_flag_url = olsonTZNPMmodule.getFlagFromMultipleTimezones(
 // display the 'olsonArray_country_flag_url' associative array which contains all returning timezones as key and their country flag URL as values...
 console.log(olsonArray_country_flag_url);
 
-//
+// break a line...
 console.log("\n");
 
 // ========================== display the country code ISO 3166 1 Numeric from all wished timezones in the 'wishedTimezonesArray' array... ==========================
@@ -256,7 +256,7 @@ var olsonArray_country_code_iso_3166_1_numeric = olsonTZNPMmodule.getCountryCode
 // display the 'olsonArray_country_code_iso_3166_1_numeric' associative array which contains all returning timezones as key and their country code iso 3166 1 numeric as values...
 console.log(olsonArray_country_code_iso_3166_1_numeric);
 
-//
+// break a line...
 console.log("\n");
 
 // ========================== display the country code ISO 3166 1 Alpha 3 from all wished timezones in the 'wishedTimezonesArray' array... ==========================
