@@ -215,6 +215,7 @@ var olsonArray_datetime = olsonTZNPMmodule.getDatTimeForMultipleTimezones(wished
 console.log(olsonArray_datetime);
 
 //
+console.log("\n");
 
 // ========================== display the country from all wished timezones in the 'wishedTimezonesArray' array... ==========================
 
@@ -228,6 +229,7 @@ var olsonArray_country = olsonTZNPMmodule.getCountryFromMultipleTimezones(wished
 console.log(olsonArray_country);
 
 //
+console.log("\n");
 
 // ========================== display the country flag URL from all wished timezones in the 'wishedTimezonesArray' array... ==========================
 
@@ -241,6 +243,7 @@ var olsonArray_country_flag_url = olsonTZNPMmodule.getFlagFromMultipleTimezones(
 console.log(olsonArray_country_flag_url);
 
 //
+console.log("\n");
 
 // ========================== display the country code ISO 3166 1 Numeric from all wished timezones in the 'wishedTimezonesArray' array... ==========================
 
@@ -254,6 +257,7 @@ var olsonArray_country_code_iso_3166_1_numeric = olsonTZNPMmodule.getCountryCode
 console.log(olsonArray_country_code_iso_3166_1_numeric);
 
 //
+console.log("\n");
 
 // ========================== display the country code ISO 3166 1 Alpha 3 from all wished timezones in the 'wishedTimezonesArray' array... ==========================
 
@@ -267,6 +271,7 @@ var olsonArray_country_code_iso_3166_1_alpha_3 = olsonTZNPMmodule.getCountryCode
 console.log(olsonArray_country_code_iso_3166_1_alpha_3);
 
 //
+console.log("\n");
 
 // ========================== display the country code ISO 3166 1 Alpha 2 from all wished timezones in the 'wishedTimezonesArray' array... ==========================
 
@@ -280,6 +285,7 @@ var olsonArray_country_code_iso_3166_1_alpha_2 = olsonTZNPMmodule.getCountryCode
 console.log(olsonArray_country_code_iso_3166_1_alpha_2);
 
 //
+console.log("\n");
 
 // ========================== display all datas from all wished timezones in the 'wishedTimezonesArray' array... ==========================
 
@@ -293,6 +299,7 @@ var olsonArray_all_datas = olsonTZNPMmodule.getAllDatasFromMultipleTimezones(wis
 console.log(olsonArray_all_datas);
 
 //
+console.log("\n");
 
 ```
 
