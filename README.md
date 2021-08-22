@@ -293,7 +293,7 @@ console.log("\n");
 console.log("==== display all datas from all wished timezones in the 'wishedTimezonesArray' array... ====\n");
 
 // getting all datas from all wished timezone...
-var olsonArray_all_datas = olsonTZNPMmodule.getAllDatasFromMultipleTimezones(wishedTimezone);
+var olsonArray_all_datas = olsonTZNPMmodule.getAllDatasFromMultipleTimezones(wishedTimezonesArray);
 
 // display the 'olsonArray_datetime' associative array which contains all returning timezones as key and all of their datas as values...
 console.log(olsonArray_all_datas);
