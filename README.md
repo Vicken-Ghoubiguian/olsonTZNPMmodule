@@ -57,7 +57,7 @@ This NPM module is composed of 1 array and 10 functions in total. They are prese
 
 * 1 function called `getCountryCodeISO3166_1Alpha3FromOneTimezone` and which return the corresponding country code ISO 3166-1 alpha-3 as 'String' type from only one whished timezone as 'String' type as a 'String' object;
 
-* 1 function called `getDatTimeFromMultipleTimezones` and which return the current date and time in the whiched format from all wished timezones in an array containing elements of 'String' type;
+* 1 function called `getDateTimeFromMultipleTimezones` and which return the current date and time in the whiched format from all wished timezones in an array containing elements of 'String' type;
 
 * 1 function called `getDateTimeFromOneTimezone` and which return the current date and time as 'String' type from only one whished timezone as 'String' type as a 'String' object.
 
@@ -209,7 +209,7 @@ var wishedTimezonesArray = ['Europe/Paris', 'Europe/Moscow'];
 console.log("==== display the datetime from all wished timezones in the 'wishedTimezonesArray' array... ====\n");
 
 // getting datetime from all wished timezones stocked in the 'wishedTimezonesArray' array...
-var olsonArray_datetime = olsonTZNPMmodule.getDatTimeFromMultipleTimezones(wishedTimezonesArray);
+var olsonArray_datetime = olsonTZNPMmodule.getDateTimeFromMultipleTimezones(wishedTimezonesArray);
 
 // display the 'olsonArray_datetime' associative array which contains all returning timezones as key and their current datetime as values...
 console.log(olsonArray_datetime);

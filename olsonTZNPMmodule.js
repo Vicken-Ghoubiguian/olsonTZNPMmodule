@@ -782,8 +782,8 @@ function getCountryCodeISO3166_1Alpha2FromOneTimezone(wishedTimezone) {
 	return wishedCountryCodeISO3166_1Alpha2JSON;
 }
 
-// Definition of the 'getDatTimeFromMultipleTimezones' function to return date and time (in a format specified by the 'dateAndTimeFormat' variable) from an array containing all wished timezones named 'wishedTimezonesArray' passed as an argument...
-function getDatTimeFromMultipleTimezones(wishedTimezonesArray, dateAndTimeFormat = "X") {
+// Definition of the 'getDateTimeFromMultipleTimezones' function to return date and time (in a format specified by the 'dateAndTimeFormat' variable) from an array containing all wished timezones named 'wishedTimezonesArray' passed as an argument...
+function getDateTimeFromMultipleTimezones(wishedTimezonesArray, dateAndTimeFormat = "X") {
 
 	// Definition of the 'wishedTimezonesMomentsJSON' variable which will contain all moments for every wished timezones...
 	var wishedTimezonesMomentsJSON = {};
@@ -849,6 +849,6 @@ module.exports = {
 	'getCountryCodeISO3166_1Alpha3FromOneTimezone': getCountryCodeISO3166_1Alpha3FromOneTimezone,
 	'getCountryCodeISO3166_1Alpha2FromMultipleTimezones': getCountryCodeISO3166_1Alpha2FromMultipleTimezones, 
 	'getCountryCodeISO3166_1Alpha2FromOneTimezone': getCountryCodeISO3166_1Alpha2FromOneTimezone,
-	'getDatTimeFromMultipleTimezones': getDatTimeFromMultipleTimezones,
+	'getDateTimeFromMultipleTimezones': getDateTimeFromMultipleTimezones,
 	'getDateTimeFromOneTimezone': getDateTimeFromOneTimezone
 }
