@@ -180,19 +180,19 @@ console.log(olsonArray_country_flag_url);
 
 // ========================== display the country code ISO 3166 1 Numeric from the wished timezone... ==========================
 
-//
+// getting the country code ISO 3166 1 Numeric from the wished timezone...
 
 //
 
 // ========================== display the country code ISO 3166 1 Alpha 3 from the wished timezone... ==========================
 
-//
+// getting the country code ISO 3166 1 Alpha 3 from the wished timezone...
 
 //
 
 // ========================== display the country code ISO 3166 1 Alpha 2 from the wished timezone... ==========================
 
-//
+// getting the country code ISO 3166 1 Alpha 2 from the wished timezone...
 
 //
 
