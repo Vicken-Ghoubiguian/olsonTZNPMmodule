@@ -178,11 +178,11 @@ var olsonArray_country_flag_url = olsonTZNPMmodule.getFlagFromOneTimezone(wished
 // display the 'olsonArray_country_flag_url' associative array which contains the wished timezone as key and its country flag URL as value...
 console.log(olsonArray_country_flag_url);
 
-// ========================== ... ==========================
+// ========================== display the country code ISO 3166 1 Numeric from the wished timezone... ==========================
 
-// ========================== ... ==========================
+// ========================== display the country code ISO 3166 1 Alpha 3 from the wished timezone... ==========================
 
-// ========================== ... ==========================
+// ========================== display the country code ISO 3166 1 Alpha 2 from the wished timezone... ==========================
 
 // ========================== display all datas from the wished timezone... ==========================
 
