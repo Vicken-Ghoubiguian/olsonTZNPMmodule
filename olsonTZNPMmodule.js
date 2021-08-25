@@ -834,6 +834,16 @@ function getDateTimeFromOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 	return wishedTimezoneMomentJSON;
 }
 
+//
+function getGeographicRegionFromMultipleTimezones(wishedTimezonesArray) {
+	
+}
+
+//
+function getGeographicRegionFromOneTimezone(wishedTimezone) {
+	
+}
+
 // Export all defined functions to extract datas from timezones...
 module.exports = {
 
@@ -850,5 +860,7 @@ module.exports = {
 	'getCountryCodeISO3166_1Alpha2FromMultipleTimezones': getCountryCodeISO3166_1Alpha2FromMultipleTimezones, 
 	'getCountryCodeISO3166_1Alpha2FromOneTimezone': getCountryCodeISO3166_1Alpha2FromOneTimezone,
 	'getDateTimeFromMultipleTimezones': getDateTimeFromMultipleTimezones,
-	'getDateTimeFromOneTimezone': getDateTimeFromOneTimezone
+	'getDateTimeFromOneTimezone': getDateTimeFromOneTimezone,
+	'getGeographicRegionFromMultipleTimezones': getGeographicRegionFromMultipleTimezones,
+	'getGeographicRegionFromOneTimezone': getGeographicRegionFromOneTimezone
 }
