@@ -185,18 +185,21 @@ console.log(olsonArray_country_flag_url);
 // ========================== display the country code ISO 3166 1 Numeric from the wished timezone... ==========================
 
 // getting the country code ISO 3166 1 Numeric from the wished timezone...
+var olsonArray_country_code_iso_3166_1_numeric = olsonTZNPMmodule.getCountryCodeISO3166_1NumericFromOneTimezone(wishedTimezone);
 
 //
 
 // ========================== display the country code ISO 3166 1 Alpha 3 from the wished timezone... ==========================
 
 // getting the country code ISO 3166 1 Alpha 3 from the wished timezone...
+var olsonArray_country_code_iso_3166_1_3 = olsonTZNPMmodule.getCountryCodeISO3166_1Alpha3FromOneTimezone(wishedTimezone);
 
 //
 
 // ========================== display the country code ISO 3166 1 Alpha 2 from the wished timezone... ==========================
 
 // getting the country code ISO 3166 1 Alpha 2 from the wished timezone...
+var olsonArray_country_code_iso_3166_1_2 = olsonTZNPMmodule.getCountryCodeISO3166_1Alpha2FromOneTimezone(wishedTimezone);
 
 //
 
