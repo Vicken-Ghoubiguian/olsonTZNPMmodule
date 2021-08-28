@@ -860,13 +860,13 @@ function getGeographicRegionFromOneTimezone(wishedTimezone) {
 			if(treatmentArray.length === 0) {
 
 				// Add the geographic region to the 'wishedGeographicRegionJSON' JSON variable...
-				//wishedGeographicRegionJSON[timezones[i].timezone] = treatmentArray[0];
+				//wishedGeographicRegionJSON[timezones[i].timezone] = wishedTimezone;
 
 			// In the other case...
 			} else {
 
 				// Add the timezone to the 'wishedGeographicRegionJSON' JSON variable...
-				//wishedGeographicRegionJSON[timezones[i].timezone] = wishedTimezone;
+				//wishedGeographicRegionJSON[timezones[i].timezone] = treatmentArray[0];
 
 			}
 
