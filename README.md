@@ -164,7 +164,7 @@ var wishedTimezone = 'Europe/Paris';
 console.log("==== display the datetime from the wished timezone... ====\n");
 
 // getting datetime from the wished timezone...
-var olsonArray_datetime = olsonTZNPMmodule.getDateTimeForOneTimezone(wishedTimezone);
+var olsonArray_datetime = olsonTZNPMmodule.getDateTimeFromOneTimezone(wishedTimezone);
 
 // display the 'olsonArray_datetime' associative array which contains the wished timezone as key and its current datetime as value...
 console.log(olsonArray_datetime);
