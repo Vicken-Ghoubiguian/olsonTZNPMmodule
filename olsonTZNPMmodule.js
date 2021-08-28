@@ -845,7 +845,18 @@ function getGeographicRegionFromOneTimezone(wishedTimezone) {
 	// Definition of the 'wishedGeographicRegionJSON' variable which will contain the geographic region from a wished timezone...
 	var wishedGeographicRegionJSON = {};
 
-	
+	// Browse for each element contained in the 'timezones' array...
+	for(var i = 0; i < timezones.length; i++)
+	{
+		// If the desired timezone (named 'wishedTimezone') corresponds to the current element (timezone) in the 'wishedTimezonesArray' array...
+		if(timezones[i].timezone === wishedTimezone) {
+
+			
+
+			// Leaving the loop...
+			break;
+		}
+	}
 
 	// Return the geographic region for the wished timezone in the completed 'wishedGeographicRegionJSON' JSON variable...
 	return wishedGeographicRegionJSON;
