@@ -237,6 +237,12 @@ console.log("\n");
 
 // ========================== display the geographic region from the wished timezone... ==========================
 
+//
+var olsonArray_geographic_region = olsonTZNPMmodule.getGeographicRegionFromOneTimezone(wishedTimezone);
+
+//
+console.log(olsonArray_geographic_region);
+
 // break a line...
 console.log("\n");
 
