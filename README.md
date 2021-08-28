@@ -63,7 +63,7 @@ This NPM module is composed of 1 array and 10 functions in total. They are prese
 
 * 1 function called `getGeographicRegionFromMultipleTimezones`
 
-* 1 function called `getGeographicRegionFromOneTimezone`
+* 1 function called `getGeographicRegionFromOneTimezone` and which return the geographic region as 'String' type from only one whished timezone as 'String' type as a 'String' object.
 
 <a name="how_is_structured_an_npm_module"></a>
 ## How is an NPM module structured ?
