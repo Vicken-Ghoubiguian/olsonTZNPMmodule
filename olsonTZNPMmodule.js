@@ -853,8 +853,6 @@ function getGeographicRegionFromOneTimezone(wishedTimezone) {
 
 			// Split the 'wishedTimezone' timezone from 'String' into an array of 'Strings' named 'treatmentArray'...
 			var treatmentArray = wishedTimezone.split("/");
-
-			console.log(treatmentArray);
 			
 			// In the case where the 'treatmentArray' array contains only one element...
 			if(treatmentArray.length === 0) {
