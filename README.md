@@ -160,7 +160,8 @@ var wishedTimezone = 'Europe/Paris';
 
 // ========================== display the datetime from the wished timezone... ==========================
 
-//
+// display the '==== display the datetime from the wished timezone... ====' string in console...
+console.log("==== display the datetime from the wished timezone... ====\n");
 
 // getting datetime from the wished timezone...
 var olsonArray_datetime = olsonTZNPMmodule.getDateTimeForOneTimezone(wishedTimezone);
@@ -173,7 +174,8 @@ console.log("\n");
 
 // ========================== display the country from the wished timezone... ==========================
 
-//
+// display the '==== display the country from the wished timezone... ====' string in console...
+console.log("==== display the country from the wished timezone... ====\n");
 
 // getting the country from the wished timezone...
 var olsonArray_country = olsonTZNPMmodule.getCountryFromOneTimezone(wishedTimezone);
@@ -186,7 +188,8 @@ console.log("\n");
 
 // ========================== display the country flag URL from the wished timezone... ==========================
 
-//
+// display the '==== display the country flag URL from the wished timezone... ====' string in console...
+console.log("==== display the country flag URL from the wished timezone... ====\n");
 
 // getting the country flag URL from the wished timezone...
 var olsonArray_country_flag_url = olsonTZNPMmodule.getFlagFromOneTimezone(wishedTimezone);
@@ -199,7 +202,8 @@ console.log("\n");
 
 // ========================== display the country code ISO 3166 1 Numeric from the wished timezone... ==========================
 
-//
+// display the '==== display the country code ISO 3166 1 Numeric from the wished timezone... ====' string in console...
+console.log("==== display the country code ISO 3166 1 Numeric from the wished timezone... ====\n");
 
 // getting the country code ISO 3166 1 Numeric from the wished timezone...
 var olsonArray_country_code_iso_3166_1_numeric = olsonTZNPMmodule.getCountryCodeISO3166_1NumericFromOneTimezone(wishedTimezone);
@@ -212,7 +216,8 @@ console.log("\n");
 
 // ========================== display the country code ISO 3166 1 Alpha 3 from the wished timezone... ==========================
 
-//
+// display the '==== display the country code ISO 3166 1 Alpha 3 from the wished timezone... ====' string in console...
+console.log("==== display the country code ISO 3166 1 Alpha 3 from the wished timezone... ====\n");
 
 // getting the country code ISO 3166 1 Alpha 3 from the wished timezone...
 var olsonArray_country_code_iso_3166_1_3 = olsonTZNPMmodule.getCountryCodeISO3166_1Alpha3FromOneTimezone(wishedTimezone);
@@ -225,7 +230,8 @@ console.log("\n");
 
 // ========================== display the country code ISO 3166 1 Alpha 2 from the wished timezone... ==========================
 
-//
+// display the '==== display the country code ISO 3166 1 Alpha 2 from the wished timezone... ====' string in console...
+console.log("==== display the country code ISO 3166 1 Alpha 2 from the wished timezone... ====\n");
 
 // getting the country code ISO 3166 1 Alpha 2 from the wished timezone...
 var olsonArray_country_code_iso_3166_1_2 = olsonTZNPMmodule.getCountryCodeISO3166_1Alpha2FromOneTimezone(wishedTimezone);
@@ -238,7 +244,8 @@ console.log("\n");
 
 // ========================== display all datas from the wished timezone... ==========================
 
-//
+// display the '==== display all datas from the wished timezone... ====' string in console...
+console.log("==== display all datas from the wished timezone... ====\n");
 
 // getting all datas from the wished timezone...
 var olsonArray_all_datas = olsonTZNPMmodule.getAllDatasFromOneTimezone(wishedTimezone);
@@ -251,7 +258,8 @@ console.log("\n");
 
 // ========================== display the geographic region from the wished timezone... ==========================
 
-//
+// display the '==== display the geographic region from the wished timezone... ====' string in console...
+console.log("==== display the geographic region from the wished timezone... ====\n");
 
 // getting the geographic region from the wished timezone...
 var olsonArray_geographic_region = olsonTZNPMmodule.getGeographicRegionFromOneTimezone(wishedTimezone);
