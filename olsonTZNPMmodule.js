@@ -839,9 +839,16 @@ function getGeographicRegionFromMultipleTimezones(wishedTimezonesArray) {
 	
 }
 
-//
+// Definition of the 'getGeographicRegionFromOneTimezone' function to return the geographic region from string containing the wished timezone named 'wishedTimezone' passed as an argument...
 function getGeographicRegionFromOneTimezone(wishedTimezone) {
 	
+	// Definition of the 'wishedGeographicRegionJSON' variable which will contain the geographic region from a wished timezone...
+	var wishedGeographicRegionJSON = {};
+
+	
+
+	// Return the geographic region for the wished timezone in the completed 'wishedGeographicRegionJSON' JSON variable...
+	return wishedGeographicRegionJSON;
 }
 
 // Export all defined functions to extract datas from timezones...
