@@ -854,6 +854,16 @@ function getGeographicRegionFromOneTimezone(wishedTimezone) {
 			// Split the 'wishedTimezone' timezone from 'String' into an array of 'Strings'...
 			var treatmentArray = wishedTimezone.split("/");
 
+			// In the case where ...
+			if(treatmentArray.length === 0) {
+
+
+			// In the other case...
+			} else {
+
+
+			}
+
 			// Leaving the loop...
 			break;
 		}
