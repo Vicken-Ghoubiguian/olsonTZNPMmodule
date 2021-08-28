@@ -851,7 +851,8 @@ function getGeographicRegionFromOneTimezone(wishedTimezone) {
 		// If the desired timezone (named 'wishedTimezone') corresponds to the current element (timezone) in the 'wishedTimezonesArray' array...
 		if(timezones[i].timezone === wishedTimezone) {
 
-			
+			// Split the 'wishedTimezone' timezone from 'String' into an array of 'Strings'...
+			var treatmentArray = wishedTimezone.split("/");
 
 			// Leaving the loop...
 			break;
