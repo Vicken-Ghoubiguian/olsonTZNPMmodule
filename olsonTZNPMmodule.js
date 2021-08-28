@@ -857,10 +857,14 @@ function getGeographicRegionFromOneTimezone(wishedTimezone) {
 			// In the case where the 'treatmentArray' array contains only one element...
 			if(treatmentArray.length === 0) {
 
+				//
+				wishedGeographicRegionJSON[timezones[i].timezone] = treatmentArray[0];
 
 			// In the other case...
 			} else {
 
+				//
+				wishedGeographicRegionJSON[timezones[i].timezone] = wishedTimezone;
 
 			}
 
