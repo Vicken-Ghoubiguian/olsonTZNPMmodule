@@ -242,20 +242,6 @@ console.log(olsonArray_country_code_iso_3166_1_2);
 // break a line...
 console.log("\n");
 
-// ========================== display all datas from the wished timezone... ==========================
-
-// display the '==== display all datas from the wished timezone... ====' string in console...
-console.log("==== display all datas from the wished timezone... ====\n");
-
-// getting all datas from the wished timezone...
-var olsonArray_all_datas = olsonTZNPMmodule.getAllDatasFromOneTimezone(wishedTimezone);
-
-// display the 'olsonArray_all_datas' associative array which contains the wished timezone as key and all of its datas as values...
-console.log(olsonArray_all_datas);
-
-// break a line...
-console.log("\n");
-
 // ========================== display the geographic region from the wished timezone... ==========================
 
 // display the '==== display the geographic region from the wished timezone... ====' string in console...
@@ -266,6 +252,20 @@ var olsonArray_geographic_region = olsonTZNPMmodule.getGeographicRegionFromOneTi
 
 // display the 'olsonArray_geographic_region' associative array which contains the wished timezone as key and its geographic region as values...
 console.log(olsonArray_geographic_region);
+
+// break a line...
+console.log("\n");
+
+// ========================== display all datas from the wished timezone... ==========================
+
+// display the '==== display all datas from the wished timezone... ====' string in console...
+console.log("==== display all datas from the wished timezone... ====\n");
+
+// getting all datas from the wished timezone...
+var olsonArray_all_datas = olsonTZNPMmodule.getAllDatasFromOneTimezone(wishedTimezone);
+
+// display the 'olsonArray_all_datas' associative array which contains the wished timezone as key and all of its datas as values...
+console.log(olsonArray_all_datas);
 
 // break a line...
 console.log("\n");
@@ -365,6 +365,8 @@ console.log(olsonArray_country_code_iso_3166_1_alpha_2);
 // break a line...
 console.log("\n");
 
+// ========================== display the geographic region from all wished timezones in the 'wishedTimezonesArray' array... ==========================
+
 // ========================== display all datas from all wished timezones in the 'wishedTimezonesArray' array... ==========================
 
 // display the '==== display all datas from all wished timezones in the 'wishedTimezonesArray' array... ====' string in console...
@@ -378,8 +380,6 @@ console.log(olsonArray_all_datas);
 
 // break a line...
 console.log("\n");
-
-// ========================== display the geographic region from all wished timezones in the 'wishedTimezonesArray' array... ==========================
 
 ```
 
