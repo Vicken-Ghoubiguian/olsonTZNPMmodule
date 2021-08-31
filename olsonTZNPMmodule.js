@@ -473,6 +473,7 @@ function getAllDatasFromMultipleTimezones(wishedTimezonesArray, dateAndTimeForma
 
 				//
 
+
 				// Definition of the 'allDatasFromTimezoneJSON' variable which will contain all datas from the current timezone in the wished ones...
 				var allDatasFromTimezoneJSON = {};
 
@@ -511,8 +512,24 @@ function getAllDatasFromOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 		// If the current element of the 'timezones' array corresponds to the desired timezone...
 		if(timezones[i].timezone === wishedTimezone) {
 
-			//
+			// Definition of the 'geographicRegion' variable to contain the corresponding geographic region of the timezone...
+			var geographicRegion = "";
 
+			// Split the 'wishedTimezone' timezone from 'String' into an array of 'Strings' named 'treatmentArray'...
+			var treatmentArray = wishedTimezone.split("/");
+			
+			// In the case where the 'treatmentArray' array contains only one element...
+			if(treatmentArray.length === 0) {
+
+				// Add the timezone to the 'geographicRegion' String variable...
+				geographicRegion = wishedTimezone;
+
+			// In the other case...
+			} else {
+				
+				// Add the geographic region to the 'geographicRegion' String variable...
+				geographicRegion = treatmentArray[0];
+			}
 
 			// Affectation of all datas from the wished timezone in the 'allDatasFromTimezoneJSON' variable...
 			allDatasFromTimezoneJSON['timezone'] = timezones[i].timezone;
@@ -520,7 +537,7 @@ function getAllDatasFromOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 			allDatasFromTimezoneJSON['country_code_ISO_3166_1_alpha_3'] = timezones[i].country_code_ISO_3166_1_alpha_3;
 			allDatasFromTimezoneJSON['country_code_ISO_3166_1_numeric'] = timezones[i].country_code_ISO_3166_1_numeric;
 			allDatasFromTimezoneJSON['country'] = timezones[i].country;
-			allDatasFromTimezoneJSON['geographic_region'] = "";
+			allDatasFromTimezoneJSON['geographic_region'] = geographicRegion;
 			allDatasFromTimezoneJSON['flag'] = timezones[i].flag;
 			allDatasFromTimezoneJSON['datetime'] = timezones[i].moment.format(dateAndTimeFormat);
 
@@ -876,7 +893,6 @@ function getGeographicRegionFromOneTimezone(wishedTimezone) {
 				
 				// Add the geographic region to the 'wishedGeographicRegionJSON' JSON variable...
 				wishedGeographicRegionJSON[timezones[i].timezone] = treatmentArray[0];
-
 			}
 
 			// Leaving the loop...
