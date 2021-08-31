@@ -884,6 +884,8 @@ function getGeographicRegionFromMultipleTimezones(wishedTimezonesArray) {
 	// Definition of the 'wishedTimezonesGeographicRegionsJSON' variable which will contain all geographic region for every wished timezones...
 	var wishedTimezonesGeographicRegionsJSON = {};
 
+	
+
 	// Return all geographic regions for all wished timezones in the completed 'wishedTimezonesGeographicRegionsJSON' JSON variable...
 	return wishedTimezonesGeographicRegionsJSON;
 }
