@@ -471,6 +471,8 @@ function getAllDatasFromMultipleTimezones(wishedTimezonesArray, dateAndTimeForma
 			//  If the current element of the 'timezones' array corresponds to one of the desired timezones (current element of the 'wishedTimezonesArray' array)...
 			if(wishedTimezonesArray[i] === timezones[j].timezone) {
 
+				//
+
 				// Definition of the 'allDatasFromTimezoneJSON' variable which will contain all datas from the current timezone in the wished ones...
 				var allDatasFromTimezoneJSON = {};
 
@@ -508,9 +510,11 @@ function getAllDatasFromOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 		// If the current element of the 'timezones' array corresponds to the desired timezone...
 		if(timezones[i].timezone === wishedTimezone) {
 
+			//
+			
+
 			// Affectation of all datas from the wished timezone in the 'allDatasFromTimezoneJSON' variable...
 			allDatasFromTimezoneJSON['timezone'] = timezones[i].timezone;
-			allDatasFromTimezoneJSON['country_code_ISO_3166_1_alpha_2'] = timezones[i].country_code_ISO_3166_1_alpha_2;
 			allDatasFromTimezoneJSON['country_code_ISO_3166_1_alpha_2'] = timezones[i].country_code_ISO_3166_1_alpha_2;
 			allDatasFromTimezoneJSON['country_code_ISO_3166_1_alpha_3'] = timezones[i].country_code_ISO_3166_1_alpha_3;
 			allDatasFromTimezoneJSON['country_code_ISO_3166_1_numeric'] = timezones[i].country_code_ISO_3166_1_numeric;
