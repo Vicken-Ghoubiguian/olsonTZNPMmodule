@@ -471,8 +471,24 @@ function getAllDatasFromMultipleTimezones(wishedTimezonesArray, dateAndTimeForma
 			//  If the current element of the 'timezones' array corresponds to one of the desired timezones (current element of the 'wishedTimezonesArray' array)...
 			if(wishedTimezonesArray[i] === timezones[j].timezone) {
 
-				//
+				// Definition of the 'geographicRegion' variable to contain the corresponding geographic region of the timezone...
+				var geographicRegion = "";
 
+				// Split the 'wishedTimezone' timezone from 'String' into an array of 'Strings' named 'treatmentArray'...
+				var treatmentArray = wishedTimezone.split("/");
+				
+				// In the case where the 'treatmentArray' array contains only one element...
+				if(treatmentArray.length === 0) {
+
+					// Add the timezone to the 'geographicRegion' String variable...
+					geographicRegion = wishedTimezone;
+
+				// In the other case...
+				} else {
+					
+					// Add the geographic region to the 'geographicRegion' String variable...
+					geographicRegion = treatmentArray[0];
+				}
 
 				// Definition of the 'allDatasFromTimezoneJSON' variable which will contain all datas from the current timezone in the wished ones...
 				var allDatasFromTimezoneJSON = {};
@@ -483,7 +499,7 @@ function getAllDatasFromMultipleTimezones(wishedTimezonesArray, dateAndTimeForma
 				allDatasFromTimezoneJSON['country_code_ISO_3166_1_alpha_3'] = timezones[j].country_code_ISO_3166_1_alpha_3;
 				allDatasFromTimezoneJSON['country_code_ISO_3166_1_numeric'] = timezones[j].country_code_ISO_3166_1_numeric;
 				allDatasFromTimezoneJSON['country'] = timezones[j].country;
-				allDatasFromTimezoneJSON['geographic_region'] = "";
+				allDatasFromTimezoneJSON['geographic_region'] = geographicRegion;
 				allDatasFromTimezoneJSON['flag'] = timezones[j].flag;
 				allDatasFromTimezoneJSON['datetime'] = timezones[j].moment.format(dateAndTimeFormat);
 
