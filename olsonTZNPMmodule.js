@@ -482,6 +482,7 @@ function getAllDatasFromMultipleTimezones(wishedTimezonesArray, dateAndTimeForma
 				allDatasFromTimezoneJSON['country_code_ISO_3166_1_alpha_3'] = timezones[j].country_code_ISO_3166_1_alpha_3;
 				allDatasFromTimezoneJSON['country_code_ISO_3166_1_numeric'] = timezones[j].country_code_ISO_3166_1_numeric;
 				allDatasFromTimezoneJSON['country'] = timezones[j].country;
+				allDatasFromTimezoneJSON['geographic_region'] = "";
 				allDatasFromTimezoneJSON['flag'] = timezones[j].flag;
 				allDatasFromTimezoneJSON['datetime'] = timezones[j].moment.format(dateAndTimeFormat);
 
@@ -511,7 +512,7 @@ function getAllDatasFromOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 		if(timezones[i].timezone === wishedTimezone) {
 
 			//
-			
+
 
 			// Affectation of all datas from the wished timezone in the 'allDatasFromTimezoneJSON' variable...
 			allDatasFromTimezoneJSON['timezone'] = timezones[i].timezone;
@@ -519,6 +520,7 @@ function getAllDatasFromOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 			allDatasFromTimezoneJSON['country_code_ISO_3166_1_alpha_3'] = timezones[i].country_code_ISO_3166_1_alpha_3;
 			allDatasFromTimezoneJSON['country_code_ISO_3166_1_numeric'] = timezones[i].country_code_ISO_3166_1_numeric;
 			allDatasFromTimezoneJSON['country'] = timezones[i].country;
+			allDatasFromTimezoneJSON['geographic_region'] = "";
 			allDatasFromTimezoneJSON['flag'] = timezones[i].flag;
 			allDatasFromTimezoneJSON['datetime'] = timezones[i].moment.format(dateAndTimeFormat);
 
