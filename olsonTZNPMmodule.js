@@ -878,7 +878,7 @@ function getDateTimeFromOneTimezone(wishedTimezone, dateAndTimeFormat = "X") {
 	return wishedTimezoneMomentJSON;
 }
 
-//
+// Definition of the 'getGeographicRegionFromMultipleTimezones' function to return the geographic region from an array containing all wished timezones named 'wishedTimezonesArray' passed as an argument...
 function getGeographicRegionFromMultipleTimezones(wishedTimezonesArray) {
 	
 }
