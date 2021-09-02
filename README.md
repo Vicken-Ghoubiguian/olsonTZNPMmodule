@@ -395,3 +395,5 @@ console.log("\n");
 
 <a name="conclusion"></a>
 ## Conclusion
+
+It is an interesting NPM module and can be used in many ways in many areas.
