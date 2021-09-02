@@ -385,6 +385,9 @@ console.log("\n");
 
 ```
 
+<a name="where_use_it"></a>
+## Where use it ?
+
 <a name="a_few_links"></a>
 ## A few usefull links
 
