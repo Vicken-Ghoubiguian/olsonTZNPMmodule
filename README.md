@@ -369,6 +369,11 @@ console.log("\n");
 
 // ========================== display the geographic region from all wished timezones in the 'wishedTimezonesArray' array... ==========================
 
+// display the '==== display the geographic region from all wished timezones in the 'wishedTimezonesArray' array... ====' string in console...
+console.log("==== display the geographic region from all wished timezones in the 'wishedTimezonesArray' array... ====\n");
+
+
+
 // ========================== display all datas from all wished timezones in the 'wishedTimezonesArray' array... ==========================
 
 // display the '==== display all datas from all wished timezones in the 'wishedTimezonesArray' array... ====' string in console...
