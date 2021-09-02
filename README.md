@@ -18,9 +18,11 @@ This is an NPM module written in JavaScript to get, treat and return datetime fo
 
 4. [Little examples](#little_examples)
 
-5. [A few usefull links](#a_few_links)
+5. [Where use it ?](#where_use_it)
 
-6. [Conclusion](#conclusion)
+6. [A few usefull links](#a_few_links)
+
+7. [Conclusion](#conclusion)
 
 __Cultural precision__:
 
