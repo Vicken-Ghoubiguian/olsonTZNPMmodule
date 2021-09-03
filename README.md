@@ -372,7 +372,11 @@ console.log("\n");
 // display the '==== display the geographic region from all wished timezones in the 'wishedTimezonesArray' array... ====' string in console...
 console.log("==== display the geographic region from all wished timezones in the 'wishedTimezonesArray' array... ====\n");
 
+//
+var olsonArray_geographic_region = olsonTZNPMmodule.getGeographicRegionFromMultipleTimezones(wishedTimezonesArray);
 
+//
+console.log(olsonArray_geographic_region);
 
 // break a line...
 console.log("\n");
