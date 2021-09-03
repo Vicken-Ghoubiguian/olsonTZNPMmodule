@@ -374,6 +374,9 @@ console.log("==== display the geographic region from all wished timezones in the
 
 
 
+// break a line...
+console.log("\n");
+
 // ========================== display all datas from all wished timezones in the 'wishedTimezonesArray' array... ==========================
 
 // display the '==== display all datas from all wished timezones in the 'wishedTimezonesArray' array... ====' string in console...
