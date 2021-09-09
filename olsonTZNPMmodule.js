@@ -909,9 +909,6 @@ function getGeographicRegionFromMultipleTimezones(wishedTimezonesArray) {
 					wishedTimezonesGeographicRegionsJSON[timezones[j].timezone] = treatmentArray[0];
 				}
 
-				// Add the geographic region to the 'wishedTimezonesGeographicRegionsJSON' JSON variable...
-				//wishedTimezonesMomentsJSON[timezones[j].timezone] = "";
-
 				// Leaving the second loop...
 				break;
 			}
