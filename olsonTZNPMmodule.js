@@ -884,6 +884,9 @@ function getGeographicRegionFromMultipleTimezones(wishedTimezonesArray) {
 	// Definition of the 'wishedTimezonesGeographicRegionsJSON' variable which will contain all geographic region for every wished timezones...
 	var wishedTimezonesGeographicRegionsJSON = {};
 
+	//
+	var treatmentArray = null;
+
 	// Browse for each element contained in the 'wishedTimezonesArray' array...
 	for(var i = 0; i < wishedTimezonesArray.length; i++)
 	{
@@ -894,7 +897,7 @@ function getGeographicRegionFromMultipleTimezones(wishedTimezonesArray) {
 			if(wishedTimezonesArray[i] === timezones[j].timezone) {
 
 				// Split the current timezone into an array of 'Strings' named 'treatmentArray'...
-				var treatmentArray = wishedTimezone.split("/");
+				treatmentArray = wishedTimezone.split("/");
 			
 				// In the case where the 'treatmentArray' array contains only one element...
 				if(treatmentArray.length === 0) {
