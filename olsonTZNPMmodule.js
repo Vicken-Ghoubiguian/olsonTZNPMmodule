@@ -894,7 +894,7 @@ function getGeographicRegionFromMultipleTimezones(wishedTimezonesArray) {
 			if(wishedTimezonesArray[i] === timezones[j].timezone) {
 
 				// Add the geographic region to the 'wishedTimezonesGeographicRegionsJSON' JSON variable...
-				
+				wishedTimezonesMomentsJSON[timezones[j].timezone] = "";
 
 				// Leaving the second loop...
 				break;
