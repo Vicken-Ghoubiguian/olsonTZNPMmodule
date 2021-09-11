@@ -400,6 +400,8 @@ console.log("\n");
 <a name="where_use_it"></a>
 ## Where use it ?
 
+This NPM module can be used in different types of JavaScript or TypeScript projects, although use for educational purposes and for the development of amateur maker projects is mainly conceivable.
+
 <a name="a_few_links"></a>
 ## A few usefull links
 
