@@ -105,7 +105,7 @@ nano index.js
 __Clarification__: the empty file created is named index.js and will be the case for the rest of the demonstration, however you can name it whatever you like.
 
 In the newly created file ```index.js```, it is now time to import the module ```olsonTZNPMmodule```. To do this, copy then paste the following line into the file ```index.js```:
-```bash
+```js
 var olsonTZNPMmodule = require('./olsonTZNPMmodule');
 ```
 Now it's your turn to have fun. So...Get ready, get set and code.
@@ -136,7 +136,7 @@ nano index.js
 __Clarification__: the empty file created is named index.js and will be the case for the rest of the demonstration, however you can name it whatever you like.
 
 In the newly created file ```index.js```, it is now time to import the module ```olsonTZNPMmodule```. To do this, copy then paste the following line into the file ```index.js```:
-```bash
+```js
 var olsonTZNPMmodule = require('@wicken/olsonTZNPMmodule');
 ```
 Now it's your turn to have fun. So...Get ready, get set and code.
